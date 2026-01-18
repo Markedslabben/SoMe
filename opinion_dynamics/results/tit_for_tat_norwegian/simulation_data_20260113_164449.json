@@ -1,0 +1,533 @@
+{
+  "experiment": "tit_for_tat_norwegian",
+  "config": {
+    "num_contrarians": 1,
+    "num_consensus": 4,
+    "num_neutrals": 20,
+    "num_rounds": 50,
+    "reply_to_contrarian_probability": 0.6
+  },
+  "results": {
+    "total_posts": 235,
+    "total_conversions": 0,
+    "to_contrarian": 0,
+    "to_consensus": 0,
+    "final_distribution": {
+      "contrarian": 1,
+      "consensus": 4,
+      "neutral": 20
+    }
+  },
+  "amplification_analysis": {
+    "contrarian_posts_count": 0,
+    "consensus_posts_count": 0,
+    "neutral_posts_count": 235,
+    "contrarian_avg_visibility": 0.0,
+    "consensus_avg_visibility": 0.0,
+    "neutral_avg_visibility": 0.20122562743772207,
+    "bias_ratio": 1.0,
+    "interpretation": "Roughly balanced"
+  },
+  "round_summaries": [
+    {
+      "round": 1,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06202000183205576,
+      "average_arousal": 0.5057407999999998
+    },
+    {
+      "round": 2,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06317112502860808,
+      "average_arousal": 0.655253504
+    },
+    {
+      "round": 3,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06438079810585434,
+      "average_arousal": 0.9195080704000003
+    },
+    {
+      "round": 4,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06545423808672916,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 5,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06635187310352204,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 6,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06724171935811946,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 7,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06798996617596599,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 8,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.0685774678644293,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 9,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06904722099247969,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 10,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06943592362335144,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 11,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06961320286567052,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 12,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.06985130029002859,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 13,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07001735198310094,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 14,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07014186288043812,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 15,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07026895208290468,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 16,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07037061841986207,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 17,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07045053467538166,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 18,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07051233770598435,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 19,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.0705535941232554,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 20,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07058403508536866,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 21,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07061633979507692,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 22,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07063977638463594,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 23,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07065866654480216,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 24,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07067153364268602,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 25,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07068328849604562,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 26,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07069674299783107,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 27,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07070427292001066,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 28,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07071223048543653,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 29,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07071726359613775,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 30,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07072102582959303,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 31,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.0707234439352325,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 32,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07072699611534551,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 33,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07072901907832996,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 34,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073084079930939,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 35,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073229271050176,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 36,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.0707335892290688,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 37,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073474959563994,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 38,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073564362183743,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 39,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073614927639559,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 40,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073654318387468,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 41,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073693855534947,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 42,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073723113850114,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 43,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073751283643483,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 44,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073774345032427,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 45,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073791118178761,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 46,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.0707380987728272,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 47,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.0707382032010875,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 48,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073829855588062,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 49,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073839604239382,
+      "average_arousal": 0.9280000000000005
+    },
+    {
+      "round": 50,
+      "opinion_distribution": {
+        "contrarian": 1,
+        "consensus": 4,
+        "neutral": 20
+      },
+      "average_opinion": 0.07073847448979746,
+      "average_arousal": 0.9280000000000005
+    }
+  ]
+}

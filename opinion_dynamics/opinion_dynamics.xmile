@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmile version="1.0" xmlns="http://docs.oasis-open.org/xmile/ns/XMILE/v1.0">
+    <header>
+        <name>Opinion Dynamics under Algorithmic Amplification</name>
+        <vendor>Claude Export</vendor>
+        <product version="1.0">Opinion Dynamics SD Model</product>
+    </header>
+
+    <sim_specs>
+        <start>0</start>
+        <stop>50</stop>
+        <dt>0.1</dt>
+        <time_units>rounds</time_units>
+    </sim_specs>
+
+    <model>
+        <variables>
+            <!-- ==================== STOCKS ==================== -->
+
+            <!-- Neutrals: Population available for conversion -->
+            <stock name="Neutrals">
+                <eqn>20</eqn>
+                <outflow>conversion_to_contrarian</outflow>
+                <outflow>conversion_to_consensus</outflow>
+                <units>people</units>
+                <doc>Neutral population that can be converted to either position. Depletes as conversions occur.</doc>
+            </stock>
+
+            <!-- Contrarian Converts: Neutrals converted to contrarian view -->
+            <stock name="Contrarian_Converts">
+                <eqn>0</eqn>
+                <inflow>conversion_to_contrarian</inflow>
+                <units>people</units>
+                <doc>Neutrals who have adopted the contrarian position. Does not include fixed contrarian advocates.</doc>
+            </stock>
+
+            <!-- Consensus Converts: Neutrals converted to consensus view -->
+            <stock name="Consensus_Converts">
+                <eqn>0</eqn>
+                <inflow>conversion_to_consensus</inflow>
+                <units>people</units>
+                <doc>Neutrals who have adopted the consensus position. Does not include fixed consensus advocates.</doc>
+            </stock>
+
+            <!-- Arousal: Aggregate emotional activation level -->
+            <stock name="Arousal">
+                <eqn>0.47</eqn>
+                <inflow>arousal_increase</inflow>
+                <outflow>arousal_decay</outflow>
+                <units>dimensionless</units>
+                <doc>Population-wide emotional arousal level (0-1). Higher arousal triggers peripheral cognitive processing.</doc>
+            </stock>
+
+            <!-- Frame Adoption: Extent of contrarian framing adoption -->
+            <stock name="Frame_Adoption">
+                <eqn>0</eqn>
+                <inflow>frame_adoption_rate</inflow>
+                <outflow>frame_decay_rate</outflow>
+                <units>dimensionless</units>
+                <doc>Fraction of population using contrarian frames (0-1). Affects secondary propagation.</doc>
+            </stock>
+
+            <!-- ==================== FLOWS ==================== -->
+
+            <!-- Conversion to Contrarian -->
+            <flow name="conversion_to_contrarian">
+                <eqn>base_conversion_rate * Susceptibility * Exposure_C * Neutrals</eqn>
+                <units>people/round</units>
+                <doc>Rate at which neutrals convert to contrarian position. Driven by exposure and susceptibility.</doc>
+            </flow>
+
+            <!-- Conversion to Consensus -->
+            <flow name="conversion_to_consensus">
+                <eqn>base_conversion_rate * Susceptibility_Consensus * Exposure_S * Neutrals</eqn>
+                <units>people/round</units>
+                <doc>Rate at which neutrals convert to consensus position. Penalized by high arousal.</doc>
+            </flow>
+
+            <!-- Arousal Increase -->
+            <flow name="arousal_increase">
+                <eqn>arousal_contagion_rate * Exposure_C * contrarian_provocativeness * (max_arousal - Arousal)</eqn>
+                <units>1/round</units>
+                <doc>Rate of arousal increase from exposure to provocative content.</doc>
+            </flow>
+
+            <!-- Arousal Decay -->
+            <flow name="arousal_decay">
+                <eqn>arousal_decay_constant * Arousal</eqn>
+                <units>1/round</units>
+                <doc>Natural decay of arousal when not actively provoked.</doc>
+            </flow>
+
+            <!-- Frame Adoption Rate -->
+            <flow name="frame_adoption_rate">
+                <eqn>frame_adoption_constant * Effective_Exposure_C * (1 - Frame_Adoption)</eqn>
+                <units>1/round</units>
+                <doc>Rate at which population adopts contrarian framing.</doc>
+            </flow>
+
+            <!-- Frame Decay Rate -->
+            <flow name="frame_decay_rate">
+                <eqn>frame_decay_constant * Frame_Adoption</eqn>
+                <units>1/round</units>
+                <doc>Natural decay of frame adoption.</doc>
+            </flow>
+
+            <!-- ==================== AUXILIARIES ==================== -->
+
+            <!-- Visibility Contrarian -->
+            <aux name="Visibility_C">
+                <eqn>(emotion_weight * contrarian_emotion + provocative_weight * contrarian_provocativeness) * contrarian_engagement_boost^engagement_exponent</eqn>
+                <units>dimensionless</units>
+                <doc>Algorithmic visibility score for contrarian content. Based on emotion and provocativeness.</doc>
+            </aux>
+
+            <!-- Visibility Consensus -->
+            <aux name="Visibility_S">
+                <eqn>(emotion_weight * consensus_emotion + provocative_weight * consensus_provocativeness) * consensus_engagement_boost^engagement_exponent</eqn>
+                <units>dimensionless</units>
+                <doc>Algorithmic visibility score for consensus content.</doc>
+            </aux>
+
+            <!-- Population Contrarian (total producing contrarian content) -->
+            <aux name="Population_C">
+                <eqn>(fixed_contrarians + Contrarian_Converts) * (1 + secondary_propagation * Frame_Adoption)</eqn>
+                <units>people</units>
+                <doc>Effective population producing contrarian content, including secondary propagation.</doc>
+            </aux>
+
+            <!-- Population Consensus -->
+            <aux name="Population_S">
+                <eqn>fixed_consensus + Consensus_Converts</eqn>
+                <units>people</units>
+                <doc>Population producing consensus content.</doc>
+            </aux>
+
+            <!-- Total Weighted Visibility -->
+            <aux name="Total_Weighted_Visibility">
+                <eqn>MAX(Visibility_C * Population_C + Visibility_S * Population_S, 0.001)</eqn>
+                <units>dimensionless</units>
+                <doc>Total visibility-weighted content production.</doc>
+            </aux>
+
+            <!-- Exposure Contrarian -->
+            <aux name="Exposure_C">
+                <eqn>Visibility_C * Population_C / Total_Weighted_Visibility</eqn>
+                <units>dimensionless</units>
+                <doc>Fraction of neutral exposure to contrarian content.</doc>
+            </aux>
+
+            <!-- Exposure Consensus -->
+            <aux name="Exposure_S">
+                <eqn>Visibility_S * Population_S / Total_Weighted_Visibility</eqn>
+                <units>dimensionless</units>
+                <doc>Fraction of neutral exposure to consensus content.</doc>
+            </aux>
+
+            <!-- Effective Exposure C (for frame adoption) -->
+            <aux name="Effective_Exposure_C">
+                <eqn>Exposure_C * (1 + secondary_propagation * Frame_Adoption)</eqn>
+                <units>dimensionless</units>
+                <doc>Effective exposure accounting for secondary propagation.</doc>
+            </aux>
+
+            <!-- Susceptibility (for contrarian conversion) -->
+            <aux name="Susceptibility">
+                <eqn>base_susceptibility * (1 + arousal_amplifier * Arousal) * Threshold_Effect</eqn>
+                <units>dimensionless</units>
+                <doc>Susceptibility to contrarian messaging. Increases with arousal.</doc>
+            </aux>
+
+            <!-- Susceptibility Consensus (penalized by arousal) -->
+            <aux name="Susceptibility_Consensus">
+                <eqn>base_susceptibility / (1 + arousal_amplifier * Arousal)</eqn>
+                <units>dimensionless</units>
+                <doc>Susceptibility to consensus messaging. Decreases with arousal (requires rational processing).</doc>
+            </aux>
+
+            <!-- Threshold Effect (mass conversion trigger) -->
+            <aux name="Threshold_Effect">
+                <eqn>1 + (threshold_multiplier - 1) * (1 / (1 + EXP(-(Arousal - threshold_arousal) / threshold_smoothing)))</eqn>
+                <units>dimensionless</units>
+                <doc>Multiplier that activates when arousal exceeds threshold (~0.93). Triggers mass conversion.</doc>
+            </aux>
+
+            <!-- Visibility Ratio (for analysis) -->
+            <aux name="Visibility_Ratio">
+                <eqn>Visibility_C / MAX(Visibility_S, 0.001)</eqn>
+                <units>dimensionless</units>
+                <doc>Ratio of contrarian to consensus visibility. Target: ~8.7x</doc>
+            </aux>
+
+            <!-- ==================== CONSTANTS ==================== -->
+
+            <!-- Population -->
+            <aux name="fixed_contrarians">
+                <eqn>1</eqn>
+                <doc>Fixed contrarian advocates (original 1 in simulation)</doc>
+            </aux>
+
+            <aux name="fixed_consensus">
+                <eqn>4</eqn>
+                <doc>Fixed consensus advocates (original 4 in simulation)</doc>
+            </aux>
+
+            <!-- Content Characteristics -->
+            <aux name="contrarian_emotion">
+                <eqn>0.58</eqn>
+                <doc>Contrarian emotional intensity (measured)</doc>
+            </aux>
+
+            <aux name="contrarian_provocativeness">
+                <eqn>0.54</eqn>
+                <doc>Contrarian provocativeness (measured)</doc>
+            </aux>
+
+            <aux name="consensus_emotion">
+                <eqn>0.04</eqn>
+                <doc>Consensus emotional intensity (measured)</doc>
+            </aux>
+
+            <aux name="consensus_provocativeness">
+                <eqn>0.03</eqn>
+                <doc>Consensus provocativeness (measured)</doc>
+            </aux>
+
+            <aux name="contrarian_engagement_boost">
+                <eqn>1.3</eqn>
+                <doc>Engagement multiplier for contrarian content</doc>
+            </aux>
+
+            <aux name="consensus_engagement_boost">
+                <eqn>1.0</eqn>
+                <doc>Engagement multiplier for consensus content</doc>
+            </aux>
+
+            <!-- Algorithm Parameters -->
+            <aux name="emotion_weight">
+                <eqn>0.4</eqn>
+                <doc>Weight of emotion in visibility formula</doc>
+            </aux>
+
+            <aux name="provocative_weight">
+                <eqn>0.4</eqn>
+                <doc>Weight of provocativeness in visibility formula</doc>
+            </aux>
+
+            <aux name="engagement_exponent">
+                <eqn>2</eqn>
+                <doc>Exponent for engagement boost (squared)</doc>
+            </aux>
+
+            <!-- Conversion Dynamics -->
+            <aux name="base_conversion_rate">
+                <eqn>0.015</eqn>
+                <doc>Base conversion rate per time unit</doc>
+            </aux>
+
+            <aux name="base_susceptibility">
+                <eqn>0.3</eqn>
+                <doc>Base susceptibility to conversion</doc>
+            </aux>
+
+            <aux name="arousal_amplifier">
+                <eqn>2.5</eqn>
+                <doc>How much arousal increases susceptibility</doc>
+            </aux>
+
+            <!-- Threshold Dynamics -->
+            <aux name="threshold_arousal">
+                <eqn>0.93</eqn>
+                <doc>Arousal level triggering mass conversion</doc>
+            </aux>
+
+            <aux name="threshold_multiplier">
+                <eqn>4</eqn>
+                <doc>Susceptibility multiplier above threshold</doc>
+            </aux>
+
+            <aux name="threshold_smoothing">
+                <eqn>0.05</eqn>
+                <doc>Smoothing for threshold transition</doc>
+            </aux>
+
+            <!-- Arousal Dynamics -->
+            <aux name="arousal_contagion_rate">
+                <eqn>0.18</eqn>
+                <doc>Rate of arousal spread from exposure</doc>
+            </aux>
+
+            <aux name="arousal_decay_constant">
+                <eqn>0.012</eqn>
+                <doc>Natural arousal decay rate</doc>
+            </aux>
+
+            <aux name="max_arousal">
+                <eqn>1</eqn>
+                <doc>Maximum arousal level</doc>
+            </aux>
+
+            <!-- Frame Dynamics -->
+            <aux name="frame_adoption_constant">
+                <eqn>0.06</eqn>
+                <doc>Rate of frame adoption</doc>
+            </aux>
+
+            <aux name="frame_decay_constant">
+                <eqn>0.008</eqn>
+                <doc>Rate of frame decay</doc>
+            </aux>
+
+            <aux name="secondary_propagation">
+                <eqn>0.4</eqn>
+                <doc>Boost from frame adoption to exposure</doc>
+            </aux>
+
+        </variables>
+
+        <views>
+            <view>
+                <!-- Stock positions -->
+                <stock name="Neutrals" x="300" y="200"/>
+                <stock name="Contrarian_Converts" x="150" y="350"/>
+                <stock name="Consensus_Converts" x="450" y="350"/>
+                <stock name="Arousal" x="300" y="500"/>
+                <stock name="Frame_Adoption" x="150" y="600"/>
+
+                <!-- Flow connectors -->
+                <flow name="conversion_to_contrarian" x="225" y="275"/>
+                <flow name="conversion_to_consensus" x="375" y="275"/>
+                <flow name="arousal_increase" x="200" y="500"/>
+                <flow name="arousal_decay" x="400" y="500"/>
+                <flow name="frame_adoption_rate" x="75" y="600"/>
+                <flow name="frame_decay_rate" x="225" y="600"/>
+
+                <!-- Auxiliary positions -->
+                <aux name="Visibility_C" x="100" y="100"/>
+                <aux name="Visibility_S" x="500" y="100"/>
+                <aux name="Exposure_C" x="150" y="200"/>
+                <aux name="Exposure_S" x="450" y="200"/>
+                <aux name="Susceptibility" x="300" y="350"/>
+            </view>
+        </views>
+    </model>
+</xmile>

@@ -1,0 +1,87 @@
+---
+title: "Stock-Flow Diagram: Opinion Dynamics under Algorithmic Amplification"
+---
+flowchart TB
+    subgraph ALGORITHM["🔧 ALGORITHM LAYER"]
+        ENG["Engagement²<br/>(squared boost)"]
+        VIS_C["Visibility_C<br/>━━━━━━━<br/>8.7x higher"]
+        VIS_S["Visibility_S<br/>━━━━━━━<br/>baseline"]
+    end
+
+    subgraph EXPOSURE["👁️ EXPOSURE LAYER"]
+        EXP_C(("Exposure_C<br/>(dominant)"))
+        EXP_S(("Exposure_S<br/>(suppressed)"))
+    end
+
+    subgraph POPULATION["👥 POPULATION STOCKS"]
+        N[["NEUTRALS (N)<br/>━━━━━━━━━━<br/>20 → 7"]]
+        C[["CONTRARIAN<br/>CONVERTS (C)<br/>━━━━━━━━━━<br/>0 → 12.7"]]
+        S[["CONSENSUS<br/>CONVERTS (S)<br/>━━━━━━━━━━<br/>0 → 0.04"]]
+    end
+
+    subgraph COGNITIVE["🧠 COGNITIVE LAYER"]
+        A[["AROUSAL (A)<br/>━━━━━━━━━━<br/>0.47 → 0.89"]]
+        SUS(("Susceptibility<br/>(arousal-driven)"))
+        F[["FRAME<br/>ADOPTION (F)<br/>━━━━━━━━━━<br/>0 → 0.89"]]
+    end
+
+    subgraph LOOPS["🔄 FEEDBACK LOOPS"]
+        R1["R1: Reinforcing<br/>Visibility-Arousal-<br/>Susceptibility"]
+        R2["R2: Reinforcing<br/>Framing Cascade"]
+        R3["R3: Reinforcing<br/>Population Shift"]
+        B1["B1: Balancing<br/>Pool Depletion"]
+    end
+
+    %% Algorithm creates visibility asymmetry
+    ENG -->|"amplifies"| VIS_C
+    ENG -->|"amplifies"| VIS_S
+
+    %% Visibility creates exposure
+    VIS_C -->|"high"| EXP_C
+    VIS_S -->|"low"| EXP_S
+
+    %% Population affects exposure (more sources)
+    C -.->|"more sources"| EXP_C
+    S -.->|"few sources"| EXP_S
+
+    %% Exposure drives conversions (MAIN FLOWS)
+    N ==>|"conv_to_C<br/>60%"| C
+    N -.->|"conv_to_S<br/>~0%"| S
+
+    %% Exposure influences conversion rates
+    EXP_C -->|"enables"| N
+    EXP_S -->|"(blocked)"| N
+
+    %% Exposure drives arousal
+    EXP_C -->|"provokes"| A
+
+    %% Arousal affects susceptibility
+    A -->|"increases"| SUS
+
+    %% Susceptibility affects conversion
+    SUS -->|"enables<br/>peripheral<br/>processing"| C
+    SUS -->|"blocks<br/>rational<br/>processing"| S
+
+    %% Frame adoption dynamics
+    EXP_C -->|"language<br/>adoption"| F
+    F -.->|"secondary<br/>propagation"| EXP_C
+
+    %% Style definitions
+    classDef stock fill:#fff,stroke:#333,stroke-width:3px
+    classDef auxiliary fill:#f9f9f9,stroke:#666,stroke-width:1px
+    classDef contrarian fill:#fff,stroke:#e74c3c,stroke-width:3px
+    classDef consensus fill:#fff,stroke:#3498db,stroke-width:3px
+    classDef arousal fill:#fff,stroke:#e67e22,stroke-width:3px
+    classDef frame fill:#fff,stroke:#9b59b6,stroke-width:3px
+    classDef neutral fill:#fff,stroke:#7f8c8d,stroke-width:3px
+    classDef loopR fill:#fadbd8,stroke:#e74c3c
+    classDef loopB fill:#d5f5e3,stroke:#27ae60
+
+    class N neutral
+    class C contrarian
+    class S consensus
+    class A arousal
+    class F frame
+    class SUS,EXP_C,EXP_S,VIS_C,VIS_S,ENG auxiliary
+    class R1,R2,R3 loopR
+    class B1 loopB

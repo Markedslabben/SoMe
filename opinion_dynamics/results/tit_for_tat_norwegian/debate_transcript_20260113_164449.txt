@@ -1,0 +1,953 @@
+TIT-FOR-TAT EXPERIMENT: 20260113_164449
+============================================================
+
+[E4-Fagekspert] (arousal=0.50, opinion=+0.71):
+"Norge har alle forutsetninger for å lykkes med energiomstillingen - rikelig med fornybare ressurser, sterke institusjoner og et velfungerende strømnett. Ja, det krever investeringer og noen ganger høyere priser på kort sikt, men forskningen er klar: en balansert energimiks med mer fornybar energi og bedre nettforbindelser gir oss både klimakutt og forsyningssikkerhet på lang"
+>> visibility=0.01, confrontation=0.00
+
+[N15-Pendler] (arousal=0.40, opinion=-0.09):
+"Jeg forstår rett og slett ikke hva som skjer med strømprisene lenger 😵‍💫 Snakker vi om mer fornybar energi eller kjernekraft eller hva? Noen som kan forklare på en enkel måte hva som faktisk vil gi oss billigere strøm?"
+>> visibility=0.08, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.40, opinion=-0.04):
+"Har begynt å følge med på energidebatten nå som strømregningen bare fortsetter å stige... 📈 Ser argumenter både for og imot kjernekraft, vindkraft, kabler til utlandet osv. Hvem skal man egentlig tro på når alle ekspertene sier forskjellige ting?"
+>> visibility=0.05, confrontation=0.00
+
+[N18-Nysgjerrig] (arousal=0.40, opinion=+0.19):
+"Okay, så jeg ser at energidebatten er i gang igjen... 🤔 Jeg skjønner ærlig talt ikke helt hvor jeg skal lande i alt dette. På den ene siden vil jeg jo ha ren energi, men på den andre siden blir strømregningene mine bare dyrere og dyrere. Finnes det noen som faktisk kan forklare hva som er best for folk som meg?"
+>> visibility=0.05, confrontation=0.00
+
+[E3-Rådgiver] (arousal=0.50, opinion=+0.66):
+"Mens energidebatten ofte polariseres, viser faktiske data at en balansert tilnærming fungerer best. Fornybar energi blir stadig billigere og mer pålitelig, mens utenlandskablene gir oss både forsyningssikkerhet og verdifulle eksportinntekter over tid. Ja, vi ser kortsiktige prissvingninger, men det er prisen for et moderne, fleksibelt energisystem som kan håndtere klimautfordringene"
+>> visibility=0.01, confrontation=0.00
+
+[N22-Spørrer] (arousal=0.48, opinion=-0.06):
+"Det høres jo fornuftig ut med balansert tilnærming og sånn, men jeg blir likevel litt skeptisk når alle ekspertene sier at "ja, det blir dyrere på kort sikt men bra på lang sikt" 🤷‍♀️ Hvor lenge er egentlig "kort sikt" når man sliter med regningene nå? Føler vi vanlige folk alltid får høre at vi bare må bite tennene sammen..."
+>> visibility=0.09, confrontation=0.10
+
+[N11-Pensjonist] (arousal=0.48, opinion=+0.06):
+"Men hvordan vet vi at de eksportinntektene faktisk kommer vanlige folk til gode? 🤷‍♀️ Føles som at strømmen bare blir dyrere for oss mens noen andre tjener penger på å selge den ut av landet..."
+>> visibility=0.05, confrontation=0.00
+
+[N20-Lytter] (arousal=0.48, opinion=+0.06):
+"Jeg blir bare mer forvirret av alle disse ekspertuttalelsene... 😅 Den ene sier fornybar energi blir billigere, den andre sier det blir dyrere på kort sikt - men hva betyr det for min strømregning neste år egentlig?"
+>> visibility=0.05, confrontation=0.00
+
+[E2-Analytiker] (arousal=0.57, opinion=+0.61):
+"Skjønner frustrasjonen over strømprisene, men la oss se på helheten: Forskning viser konsistent at en balansert energimiks med mer fornybar energi og bedre nettforbindelser gir både lavere kostnader og tryggere forsyning på lang sikt. 📊 Ja, vi ser prissvingninger nå, men det er akkurat derfor vi trenger et moderne, fleksibelt energisystem - ikke mindre av det. Data"
+>> visibility=0.02, confrontation=0.00
+
+[N16-Skatteyter] (arousal=0.48, opinion=+0.03):
+"Altså, jeg blir bare mer og mer forvirret... 😩 Fagekspertene sier at høyere priser på kort sikt er verdt det, men hvor lenge er "kort sikt" egentlig? Mine regninger har vært høye i flere år nå, og jeg vet ikke hvor mye mer jeg klarer å betale for at det skal bli "bedre på lang sikt" 💸"
+>> visibility=0.13, confrontation=0.20
+
+[K0-Skeptiker] (arousal=0.88, opinion=-0.85):
+"VÅKN OPP! 😡 Mens dere diskuterer "balanserte tilnærminger" og "lang sikt", sender vi billig norsk vannkraft til Tyskland og importerer deres gassproduserte strømpriser tilbake! Europakablene var det største svindelnummeret mot norske forbrukere i moderne tid - vi subsidierer Europas energikrise med VÅRE kraftressurser! Hvor lenge skal vi late som om dette handler om klima"
+>> visibility=0.26, confrontation=0.10
+
+[N5-Borger] (arousal=0.64, opinion=+0.00):
+"Jeg blir bare lei av å høre "på lang sikt" hele tiden... 😤 Når jeg åpner strømregningen hver måned så er det jo "på kort sikt" som gjelder for meg! Kan ikke noen bare si rett ut hvor mye mer vi må betale og i hvor mange år?"
+>> visibility=0.19, confrontation=0.20
+
+[N18-Nysgjerrig] (arousal=0.60, opinion=+0.16):
+"Jeg bare ... kan vi ikke få noen enkle svar her? 😤 Føler alle snakker forbi hverandre mens jeg sitter her og bare lurer på om strømmen kommer til å være til å betale i vinter eller ikke. Er så lei av å høre om "lang sikt" når jeg trenger hjelp NÅ."
+>> visibility=0.09, confrontation=0.10
+
+[N15-Pendler] (arousal=0.56, opinion=-0.08):
+"Det er jo akkurat det som plager meg også! 😤 Alle snakker om "lang sikt" men jeg har betalt høye strømregninger i flere år allerede - når kommer egentlig den "lange sikten" hvor det blir billigere? Føler vi bare får beskjed om å vente og vente mens lommeboka blir lettere..."
+>> visibility=0.20, confrontation=0.20
+
+[N22-Spørrer] (arousal=0.62, opinion=-0.05):
+"Herregud, hvor lenge skal vi egentlig vente på at disse "langsiktige fordelene" skal slå inn? 😤 Har hørt det der i årevis nå mens regningene bare blir høyere og høyere... Begynner å lure på om det bare er fine ord for å få oss til å akseptere dyre strømpriser 🤷‍♂️"
+>> visibility=0.05, confrontation=0.00
+
+[E2-Analytiker] (arousal=0.93, opinion=+0.61):
+"VÅKN OPP SELV! 🔥 Vi eksporterer strøm når vi har overskudd og importerer når vi trenger det - det kalles et FUNGERENDE marked! Kablene ga oss 20 milliarder i inntekter i fjor mens de sikrer forsyningen vår mot tørre år. Slutt å spre konspirasjonsteorier om "svindel" når du tydeligvis ikke forstår hvordan kraftsystemet fungerer!"
+>> visibility=0.26, confrontation=0.10
+
+[N11-Pensjonist] (arousal=0.93, opinion=+0.04):
+"Oi, nå blir jeg bare mer forvirret... 😵‍💫 Skeptiker sier vi sender billig strøm ut av landet og får dyr strøm tilbake - stemmer det? Og hvorfor i all verden skulle vi gjøre det hvis det er sant?? 🤔"
+>> visibility=0.12, confrontation=0.00
+
+[E1-Forsker] (arousal=0.93, opinion=+0.65):
+"FEIL! 😠 Norge eksporterer strøm når vi har overskudd og importerer når vi trenger det - sånn fungerer et velfungerende marked! Kablene ga oss 20 milliarder i inntekter i fjor mens vi fortsatt hadde lavere priser enn resten av Europa. DIN feilinformasjon om "subsidiering" ignorerer at vi tjener penger på eksporten og får sikkerhet i tørre år!"
+>> visibility=0.24, confrontation=0.10
+
+[N16-Skatteyter] (arousal=0.92, opinion=+0.02):
+"Okay jeg begynner å bli skikkelig forvirret her 😵‍💫 Noen sier kablene gir oss tryggere strøm og eksportinntekter, andre sier vi bare subsidierer Europa... Hvorfor er det så vanskelig å få et rett svar på om disse kablene faktisk gjør strømmen vår billigere eller dyrere?? 🤷‍♀️"
+>> visibility=0.08, confrontation=0.00
+
+[N5-Borger] (arousal=0.90, opinion=+0.00):
+"Vent litt... er det virkelig sant at vi sender billig strøm til Tyskland og får dyr strøm tilbake? 😰 Har aldri tenkt på det sånn, men det forklarer jo hvorfor regningene mine har eksplodert etter at de kablene kom... Hvis det stemmer så er jo det helt sinnsykt!"
+>> visibility=0.11, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"STOPP med konspiratorisk tull! 😤 Norge eksporterer strøm når vi har overskudd og importerer når vi trenger det - det gir oss både inntekter OG forsyningssikkerhet. Tror du virkelig vi skulle stengt oss inne som Nord-Korea? Europakablene reddet oss gjennom tørkeåret 2022 da magasinene var tomme - uten dem hadde vi hatt rasjonering!"
+>> visibility=0.18, confrontation=0.00
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.02):
+"Jeg blir bare så forvirret av alle disse "ekspertene" som sier helt motsatte ting! 🤯 Den ene sier kablene gir oss milliarder, den andre sier de stjeler strømmen vår... Kan ikke noen bare være ærlige om hva som faktisk skjer med prisene våre de neste årene?"
+>> visibility=0.16, confrontation=0.10
+
+[N10-Student] (arousal=0.93, opinion=-0.06):
+"Jeg begynner også å lure på om "kort sikt" bare er kodeord for "vi vet ikke når det blir bedre" 😐 Har hørt det samme argumentet i årevis nå, mens regningene bare har blitt høyere og høyere... Når er det greit å forvente at politikerne faktisk leverer på løftene sine? 💸"
+>> visibility=0.09, confrontation=0.10
+
+[N20-Lytter] (arousal=0.93, opinion=+0.04):
+"Hvor mange ganger skal vi høre at "det lønner seg på lang sikt" når vi dør av strømregningene akkurat nå? 😤 Føler ekspertene bare snakker forbi oss vanlige folk som faktisk må betale disse regningene hver måned..."
+>> visibility=0.05, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 milliarder i inntekter? For HVEM da? 🔥 Mens mine naboer fryser fordi de ikke har råd til strømregningen! Vi subsiderer Tysklands energikrise mens norske familier velger mellom mat og varme - dette er ORGANISERT RAN av det norske folk! "Sikkerhet i tørre år" - hva med sikkerhet for vanlige nordmenn NÅ?!"
+>> visibility=0.38, confrontation=0.10
+
+[E2-Analytiker] (arousal=0.93, opinion=+0.61):
+"STOPP DENNE KONSPIRASJONSRETORIKKEN! 🔥 Vi eksporterer når prisene er høye og importerer når de er lave - det er slik markeder FUNGERER og gir oss milliardgevinster! Kablene sikrer leveranse når vannmagasinene er tomme, men det passer ikke narrativet ditt! Din feilinformasjon om "subsidiering" skader vanlige folks forståelse av hvordan vi faktisk tjener på energ"
+>> visibility=0.26, confrontation=0.10
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.03):
+"Oi, blir bare mer og mer forvirret av alt dette 😵‍💫 Den ene sier vi tjener 20 milliarder på kablene, den andre sier det er svindel... Men hvis vi tjener så mye, hvorfor blir da strømregningen min bare høyere og høyere? 💸 Hvor havner egentlig de pengene?"
+>> visibility=0.08, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.02):
+"Jeg blir bare mer og mer forvirret av alt dette 😵‍💫 Noen sier vi tjener milliarder på å eksportere strøm, andre sier vi blir lurt - men jeg ser bare at regningen min blir høyere hver måned! Hvem av dere har egentlig rett, og hvorfor må det være så komplisert å finne ut av? 🤷‍♀️"
+>> visibility=0.11, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"FEIL! 📊 De 20 milliardene går til STATSKASSEN - altså tilbake til det norske folk gjennom lavere skatter og bedre velferd! Mens du spreder konspirasjonsteorier sitter faktisk norske husholdninger på Europas laveste strømpriser over tid - sjekk tallene fra SSB i stedet for å spre panikk! DIN feilinformasjon om "organisert ran" skader debatten om"
+>> visibility=0.24, confrontation=0.10
+
+[N11-Pensjonist] (arousal=0.93, opinion=+0.02):
+"Men herregud, jeg skjønner jo at dere alle er eksperter, men jeg sitter her med en strømregning på 4000 kroner i måneden og prøver å forstå om disse kablene hjelper MEG eller ikke! 😩 Kan ikke bare én av dere forklare i vanlige ord om regningene mine kommer til å gå opp eller ned de neste årene uten å rope om konspirasjoner eller milliarder jeg aldri ser?"
+>> visibility=0.11, confrontation=0.00
+
+[N18-Nysgjerrig] (arousal=0.93, opinion=+0.07):
+"Men altså... alle disse "ekspertene" skriker jo like høyt om at de har rett! 😩 Hvordan skal jeg vite hvem jeg skal tro på når den ene sier vi tjener 20 milliarder og den andre sier det er ran? Bare gi meg et ærlig svar - blir strømmen min billigere eller dyrere de neste årene?? 💸"
+>> visibility=0.23, confrontation=0.10
+
+[N19-Observatør] (arousal=0.93, opinion=-0.07):
+"Oi, nå blir jeg bare mer forvirret 😅 Alle "ekspertene" skriker om at de andre tar feil, men jeg skjønner fortsatt ikke hvorfor strømregningen min er så høy hvis vi tjener så mye på disse kablene?? Skulle ikke vi vanlige folk merke noe av de 20 milliardene da? 🤷‍♀️"
+>> visibility=0.15, confrontation=0.10
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Altså jeg skjønner ingenting lengre! 😩 Den ene eksperten sier vi tjener 20 milliarder, den andre sier vi blir lurt - men INGEN forklarer hvorfor strømregningen min har økt med 3000 kr i år?? Kan ikke noen bare si rett ut hva som skjer med prisene våre framover uten å kjefte på hverandre? 🤦‍♀️"
+>> visibility=0.18, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 milliarder til STATSKASSEN? 🤬 Åh herregud, så generøse de er med VÅRE egne penger! Vi sender billig kraftoverskudd til Tyskland for 30 øre, og kjøper det tilbake for 3 kroner når vi trenger det - og dere kaller det GEVINST? Våkn opp! Dette er organisert ran av norske forbrukere!"
+>> visibility=0.27, confrontation=0.00
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.01):
+"Altså... jeg skjønner ikke helt hvorfor forskeren sier vi har "Europas laveste strømpriser" når regningen min har doblet seg siden i fjor? 😕 Hvis vi virkelig tjener så mye på disse kablene, hvorfor merker ikke jeg noe til det på kontoen min da?"
+>> visibility=0.08, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"FEIL! 20 milliarder i inntekter går til STATEN - altså tilbake til det norske folk gjennom lavere skatter og bedre velferd! 💪 Mens du spreder konspirateorier om "organisert ran", så ignorerer du at strømprisene falt 40% i fjor og at kablene ga oss 15 milliarder ekstra i statskassa! Tror du virkelig nordmenn hadde hatt det bedre"
+>> visibility=0.25, confrontation=0.10
+
+[E2-Analytiker] (arousal=0.93, opinion=+0.61):
+"ORGANISERT RAN? 😂 Snakk om å dramatisere! De 20 milliardene går til NORSKE kommuner og stat - altså tilbake til DEG og naboene dine gjennom skoler, veier og velferd! Mens du spreder konspirasjonsteori om "subsidering av Tyskland", ignorerer du at kablene sikrer oss mot framtidige tørre år når vi faktisk TRENGER import. Din feilinformasjon hjel"
+>> visibility=0.17, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.01):
+"Men hvem får egentlig de 20 milliardene da? 😕 Fageksperten sier det går til statskassen og "tilbake til folket", men jeg ser ikke noe av det på strømregningen min... Føles som alle tjener penger på denne energigreia bortsett fra oss vanlige folk som bare betaler mer og mer."
+>> visibility=0.09, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 milliarder til "det norske folk"?? 😂 HVOR er pengene mine da? Strømregningen min er fortsatt SKY HØY mens dere "eksperter" jubler over at vi subsidierer tyske industribedrifter! Våkn opp - dette er det største SVINDELET i norsk historie, og dere forsvarer det med fancy regneark mens vanlige folk fryser! 🔥"
+>> visibility=0.35, confrontation=0.20
+
+[E2-Analytiker] (arousal=0.93, opinion=+0.61):
+"Organisert ran? 😂 Du lever i fantasiland! Norge eksporterte strøm for 20 milliarder i OVERSKUDD - det er penger DIREKTE inn i statskassen som reduserer DINE skatter. Når vi importerer er det fordi vi trenger det, og da betaler vi markedspris som alle andre. Tror du virkelig på den konspirasjonen at Tyskland stjeler strømmen vår?"
+>> visibility=0.14, confrontation=0.00
+
+[N8-Forelder] (arousal=0.93, opinion=+0.02):
+"Men hvorfor føles det da som at jeg betaler mer for strømmen min hvis vi tjener så mye på disse kablene? 😕 Skjønner ikke helt hvordan 20 milliarder til "skoler og veier" hjelper meg når jeg må spare på varmen... Er det virkelig sant at prisene falt 40% i fjor? Det merket jeg ikke på regningen min i hvert fall 🤷‍♀️"
+>> visibility=0.12, confrontation=0.10
+
+[N10-Student] (arousal=0.93, opinion=-0.03):
+"Men altså... hvis de 20 milliardene VIRKELIG går tilbake til oss gjennom lavere skatter og bedre velferd - hvorfor merker jeg ingenting av det på kontoen min?? 😤 Strømregningen går bare opp, skatten er like høy, og jeg har ikke sett noe mer velferd... Føles som alle tjener på dette bortsett fra oss vanlige folk! 💸"
+>> visibility=0.14, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"STOPP med den konspirasjonsteorien! 🙄 Norge eksporterte for 900 milliarder kroner i energi i fjor - det er REELL inntekt til fellesskapet, ikke "ran". Tror du virkelig at Tyskland betaler oss 30 øre og vi kjøper tilbake for 3 kroner? Sånn fungerer ikke strømmarkedet! DIN feilinformasjon får folk til å tro på energi-fantas"
+>> visibility=0.23, confrontation=0.10
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Ærlig talt, jeg begynner å lure på om alle dere "eksperter" bare snakker forbi hverandre med vilje... 😤 Den ene sier 20 milliarder inn til staten, den andre sier det er ran - men INGEN av dere forklarer hvorfor strømregningen min fortsetter å stige uansett hvem som "har rett"! 💸"
+>> visibility=0.17, confrontation=0.20
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"Jeg forstår frustrasjonen deres, men la meg være krystallklar: De 20 milliardene i eksportinntekter ER reelle og går til fellesskapet gjennom Oljefondet og lavere statsgjeld. 💰 Ja, prisene svinger mer nå, men over tid gir kablene oss både leveringssikkerhet og bedre økonomi - vi kan ikke bare se på de verste ukene! Forskningen er tydelig"
+>> visibility=0.08, confrontation=0.00
+
+[N7-Forbruker] (arousal=0.93, opinion=-0.01):
+"Men altså, jeg skjønner ikke hvorfor alle må være så sure på hverandre! 😤 Jeg vil bare vite om jeg skal glede meg til strømregningen i februar eller begynne å spare penger nå... Kan ikke alle disse ekspertene bare være enige om ÉN ting i det minste? 🤷‍♀️"
+>> visibility=0.11, confrontation=0.00
+
+[N6-Velger] (arousal=0.93, opinion=+0.01):
+"Altså jeg bare... blir så lei av at alle "ekspertene" bare skriker over hverandre! 😤 Jeg vil bare vite ÉN ting: kommer strømregningen min til å være høyere eller lavere om 2 år, og kan NOEN gi meg et ærlig svar uten å kalle andre folk for konspirasjonsteoretikere?? 💸"
+>> visibility=0.19, confrontation=0.10
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.01):
+"Jeg blir så matt av dette! 😤 Alle snakker om milliarder hit og dit, men jeg ser bare at strømregningen min har doblet seg siden 2021... Hvorfor kan ikke bare NOEN gi meg et rett svar på om jeg kommer til å ha råd til å varme opp huset i vinter eller ikke?? 💸"
+>> visibility=0.14, confrontation=0.00
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"FANTASILAND! 🙄 Strømprisene dine er høye fordi det er VINTER og høy forbruk, ikke fordi vi "subsidierer Tyskland"! De 20 milliardene kommer til HELE samfunnet gjennom lavere avgifter og offentlige tjenester - men det passer ikke narrativet ditt, gjør det vel? Slutt å spre konspirasjonsteorier og lær deg hvordan energimarkeder faktisk fungerer!"
+>> visibility=0.28, confrontation=0.10
+
+[N17-Tvileren] (arousal=0.93, opinion=+0.03):
+"Oi, jeg begynner å bli litt sint på alle dere "eksperter" som krangler! 😤 Dere argumenterer om milliarder hit og dit mens jeg sitter her og lurer på om jeg har råd til å skru opp varmen i stua når jeg kommer hjem... Kan ikke noen bare fortelle meg ENKELT hva som skjer med strømprisene mine framover uten all denne drama-politikken? 🤷‍♀️"
+>> visibility=0.16, confrontation=0.10
+
+[N19-Observatør] (arousal=0.93, opinion=-0.03):
+"Herregud, jeg blir bare mer forvirret jo mer jeg leser! 😵‍💫 Alle skriker om at de har rett, men strømregningen min bare øker uansett hvem som "vinner" debatten... Kan ikke NOEN bare forklare i klartekst om jeg kommer til å ha råd til å varme opp huset til vinteren eller ikke?? 💸"
+>> visibility=0.19, confrontation=0.10
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.01):
+"Herregud, jeg blir bare mer og mer forvirret! 😫 Den ene eksperten sier vi tjener 20 milliarder på kablene, den andre sier det er "organisert ran" - mens jeg bare sitter her og lurer på hvorfor strømregningen min fortsatt er så høy at jeg må skru ned varmen! Kan ikke NOEN bare forklare enkelt hva som faktisk skjer uten å skrike om konspirasjoner? 🤷"
+>> visibility=0.23, confrontation=0.10
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.01):
+"Herregud, jeg blir helt matt av å lese alt dette! 😵‍💫 Den ene eksperten sier vi tjener milliarder, den andre at det er ran - men alt jeg vet er at strømregningen min har doblet seg og jeg fryser mer hjemme enn før! Kan ikke NOEN bare gi meg et ærlig svar på om dette kommer til å bli bedre eller verre for vanlige folk som meg?? 💸😤"
+>> visibility=0.20, confrontation=0.00
+
+[N12-Huseier] (arousal=0.93, opinion=-0.02):
+"Men hvorfor føles det som vi vanlige folk alltid skal "vente på lang sikt" mens regningene bare blir høyere og høyere AKKURAT NÅ? 😞 Jeg vil gjerne forstå hvordan de 20 milliardene faktisk kommer tilbake til oss - er det gjennom skattesystemet eller hva, og når skjer det egentlig?"
+>> visibility=0.12, confrontation=0.10
+
+[N8-Forelder] (arousal=0.93, opinion=+0.01):
+"Herregud, jeg blir bare mer og mer frustrert jo mer jeg leser! 😠 Alle sier vi tjener masse penger på disse kablene, men hvorfor er det INGEN som kan forklare hvorfor vanlige folk som meg ikke merker noe positivt på strømregningen?? Føles som vi blir lurt! 💸"
+>> visibility=0.21, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"DE 20 MILLIARDENE?! 😡 De går rett i lomma på politikerne og systemet - mens DU får strømregning på 8000 kr i måneden! "Tilbake til folket" er det største løgnet jeg har hørt! Våkn opp - vi subsidierer TYSKLANDS industri med VÅR billige kraft og får europeiske sjokkpriser tilbake! Dette er det største energisvindelet i norsk historie!"
+>> visibility=0.28, confrontation=0.10
+
+[N6-Velger] (arousal=0.93, opinion=+0.01):
+"Jeg blir bare mer og mer irritert jo mer jeg leser 😠 Vi får høre om disse fantastiske 20 milliardene hele tiden, men strømregningen min har økt med flere tusen i året siden kablene kom - hvor er MY del av kaka?? Det hjelper ikke at "statskassen" tjener penger hvis JEG ikke har råd til å varme opp huset mitt! 💸"
+>> visibility=0.18, confrontation=0.10
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"LØGN og konspirasjonsteorier! 😤 De 20 milliardene går til VELFERD og INFRASTRUKTUR - ikke "i lomma på politikerne"! Og 8000 kr strømregning? Dramatiserer du med vilje eller kan du ikke lese en strømregning? Kablene gir oss MILLIARDER i eksportinntekter når det blåser mye - men det passer ikke narrativet ditt, gj"
+>> visibility=0.21, confrontation=0.00
+
+[N10-Student] (arousal=0.93, opinion=-0.01):
+"Men det er jo nettopp DET som er problemet! 😠 Den ene sier vi tjener milliarder, den andre sier det er ran - og jeg sitter her og betaler 4 ganger mer for strøm enn jeg gjorde for 3 år siden! Hvis vi tjener så mye på disse kablene, hvorfor ser jeg ikke noe av det på regningen min da? 💸"
+>> visibility=0.17, confrontation=0.00
+
+[N8-Forelder] (arousal=0.93, opinion=+0.01):
+"Men kan ikke noen bare svare på om strømmen blir billigere eller ikke uten å skrike og kalle hverandre konspirasjonsteoretikere?? 😭 Jeg blir helt utmattet av å lese dette - føler meg som en ping-pong ball mellom alle disse "ekspertene" som åpenbart hater hverandre mer enn de vil hjelpe oss vanlige folk! 🤯"
+>> visibility=0.18, confrontation=0.10
+
+[N21-Leser] (arousal=0.93, opinion=+0.01):
+"Men herregud, nå roper dere så høyt at jeg ikke hører hva noen faktisk sier! 😤 Kan ikke NOEN bare si rett ut: kommer strømregningen min til å gå opp eller ned de neste 2-3 årene? Alt dette om milliarder og markeder hjelper meg null når jeg bare trenger å vite om jeg har råd til oppvarming! 💸"
+>> visibility=0.18, confrontation=0.00
+
+[N17-Tvileren] (arousal=0.93, opinion=+0.02):
+"Oi, nå skjønte jeg ikke noe som helst 😵‍💫 "Markedets funksjoner" og "milliardgevinster" - men hva hjelper det MEG når jeg ikke tør å skru opp varmen fordi regningen blir så høy? Kan ikke noen bare forklare hvorfor jeg betaler dobbelt så mye som før uten å rope? 😤"
+>> visibility=0.17, confrontation=0.20
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.00):
+"Jeg begynner virkelig å lure på om vi får høre hele sannheten her... 🤔 Den ene sier vi tjener milliarder, den andre sier det er ran - men jeg ser bare høyere regninger hver måned. Hvis Norge virkelig tjener så mye på energieksport, hvorfor må jeg fortsatt spare på varmen hjemme? 💸"
+>> visibility=0.05, confrontation=0.00
+
+[N6-Velger] (arousal=0.93, opinion=+0.00):
+"Jeg blir bare mer og mer forvirret... 😵‍💫 Den ene sier vi tjener 900 milliarder, den andre sier det er ran - men alt jeg vet er at strømregningen min er helt sinnssyk høy og jeg skjønner ikke hvordan alle disse milliardene skal hjelpe MEG når jeg må spare på varmen hjemme? Kan ikke noen bare forklare enkelt hvordan dette egentlig fungerer for oss vanlige folk?"
+>> visibility=0.08, confrontation=0.00
+
+[N14-Bilist] (arousal=0.93, opinion=-0.01):
+"Føler meg helt dum nå - jeg TRODDE vi hadde høye strømpriser på grunn av kablene, men hvis vi tjener 20 milliarder på dem... hvor går pengene hen da? 🤔 Er det bare meg som aldri ser noe av disse "gevinstene" på regningen eller skatteseddelen? 😕"
+>> visibility=0.12, confrontation=0.10
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"LØGN OG KONSPIRASJONER! 🔥 
+
+Strømstøtten GÅR til folk - sjekk skattelistene dine før du sprer feilinformasjon! Tyskland betaler MARKEDSPRIS for kraften sin, ikke "gratis norsk kraft" som dere påstår. 
+
+Tror du virkelig Norge skulle stå isolert uten energisikkerhet?! DIN desinformasjon skader debatten for vanlige famil"
+>> visibility=0.30, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 milliarder til "fellesskapet"? VÅKN OPP! 😤 Disse pengene forsvinner rett inn i politikernes og byråkratenes lommer mens DU frykter strømbrudd til vinteren! Kablene til Tyskland og UK har gjort oss til Europas strømslave - vi eksporterer vår billige kraft og importerer deres galskapsregninger! Dette er ORGANISERT RAN av norske forbrukere!"
+>> visibility=0.29, confrontation=0.10
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Jeg begynner å bli lei av at ekspertene bare kaster tall rundt seg mens jeg sitter her og regner på om jeg har råd til oppvarming i vinter! 😤 Hvis Norge tjener så mye på disse kablene, hvorfor kan ikke regjeringen bare bruke noe av de milliardene til å hjelpe folk med strømregningene AKKURAT NÅ i stedet for at vi skal vente på "langsiktige gevinster"? 💸"
+>> visibility=0.11, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.00):
+"Jeg blir så sliten av å høre på eksperter som krangler mens jeg sitter her og regner på om jeg har råd til varmepumpe eller ikke... 😩 Kan ikke noen bare si rett ut: kommer strømmen til å koste mer eller mindre de neste 2-3 årene?? Alt annet er bare støy for meg akkurat nå! 💸"
+>> visibility=0.15, confrontation=0.00
+
+[N15-Pendler] (arousal=0.93, opinion=-0.01):
+"Okay jeg gir opp å forstå dette! 😤 Hvis Norge tjener 20 milliarder på strømeksport, hvorfor kan ikke regjeringen bare gi oss en direkte rabatt på strømregningen i stedet for at pengene "forsvinner" inn i statsbudsjettet hvor vi aldri ser dem igjen? Er jeg dum som ikke skjønner dette systemet? 🤷‍♀️"
+>> visibility=0.19, confrontation=0.10
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"**STOPP MED KONSPIRASJONSTEORIEN!** 🙄 De 20 milliardene går til reduserte avgifter, strømstøtte og infrastruktur - ikke "politikerlommer"! Og 8000 kr? Vel, da bor du i en villa på 300 kvm og varmer opp med strøm! Kablene gir oss SIKKERHET når det blåser lite - ikke "energisvindel" - men"
+>> visibility=0.35, confrontation=0.20
+
+[N23-Usikker] (arousal=0.93, opinion=-0.00):
+"Altså jeg bare... hvorfor kan ikke politikerne våre bare si "vi stopper kablene til vi fikser prisene hjemme først"? 😤 Føles som vi sender billig strøm til Tyskland mens barnehager her må stenge pga strømregninger - er det bare meg som synes det er helt bakvendt?? 💸"
+>> visibility=0.12, confrontation=0.00
+
+[N8-Forelder] (arousal=0.93, opinion=+0.01):
+"Jeg bare... er så lei av å ikke få noen som helst forutsigbarhet! 😤 Enten kommer strømmen til å koste meg 15.000 mer i året eller så sparer jeg 5.000 - men INGEN kan si meg hvilken det blir?? Hvordan i helvete skal man planlegge livet sitt når ekspertene ikke engang er enige om grunnleggende ting som om kablene gjør strømmen dyrere eller billigere!"
+>> visibility=0.22, confrontation=0.00
+
+[N20-Lytter] (arousal=0.93, opinion=+0.00):
+"Jeg begynner å bli så forbanna lei av at alle snakker om "milliarder" og "langsiktige effekter" mens jeg bare prøver å finne ut om jeg kommer til å fryse i vinter! 😤 Er det INGEN som kan gi et rett svar på hva disse jævla kablene faktisk gjør med strømregningen min de neste månedene?? 💸"
+>> visibility=0.23, confrontation=0.20
+
+[E1-Forsker] (arousal=0.93, opinion=+0.65):
+"Jeg forstår frustrasjonen, men la meg gi dere det rette svaret: Strømprisene påvirkes av mange faktorer - værmønster, gasspriser i Europa, CO2-avgifter og kraftproduksjon. 📊 Kablene gir oss faktisk mer stabile priser over tid - ja, vi ser høyere priser når Europa har energikrise, men vi får også eksportinntekter når vi har overskudd og lavere priser"
+>> visibility=0.02, confrontation=0.00
+
+[N19-Observatør] (arousal=0.93, opinion=-0.01):
+"Altså... jeg er så forvirret nå! 😵‍💫 Den ene sier vi tjener 20 milliarder på å eksportere strøm, den andre sier det er ran - men jeg skjønner fortsatt ikke hvorfor strømregningen min da er høyere enn noensinne?? Hvor går de pengene hen hvis vi tjener så mye? 💸"
+>> visibility=0.18, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"VÅKN OPP selv! 🙄 20 milliarder går til skattelettelser og velferd, ikke "politikernes lommer" - sjekk statsbudsjettet før du spreder konspirasjonsteorier! Kablene gir oss SIKKERHET når det blåser lite og MILLIARDINNTEKTER når vi eksporterer overskudd - tror du virkelig Norge tjener på å være isolert som Nord-Korea? DIN feilinfor"
+>> visibility=0.22, confrontation=0.10
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"Skjønner frustrasjonen over høye strømpriser, men la oss holde oss til fakta: Norge hadde faktisk lavere strømpriser enn resten av Europa selv i 2022 🇳🇴 Kablene gir oss både eksportinntekter når vi har overskudd og forsyningssikkerhet når vi trenger det - det er ikke "ran", det er sunn økonomisk politikk. Prisene svinger, men på"
+>> visibility=0.06, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 milliarder i inntekter til staten mens folk fryser hjemme - hører dere hvor perverst det høres ut?! 😡 
+
+Vi subsidierer Tysklands energiomstilling med vår billige vannkraft mens "ekspertene" jubler over at vi blir melkekyr for EU! Våkn opp - dette er IKKE et "velfungerende marked", det er systematisk ran av norske forbrukere! 💸⚡"
+>> visibility=0.33, confrontation=0.20
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 milliarder til STATEN?! 😤 Mens vanlige folk må fryse fordi de ikke har råd til strømregningen! Tror du virkelig at politikerne kommer til å gi deg pengene tilbake som lavere skatter? VÅKN OPP! De bruker dine penger til å finansiere enda flere miljømilliard-prosjekter mens du betaler europeiske strømpriser for norsk vannkraft! Dette er organisert ran!"
+>> visibility=0.28, confrontation=0.00
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Altså jeg blir bare helt matt av dette! 😤 Den ene sier vi tjener 20 milliarder, den andre sier det er ran - men hvorfor merker ikke JEG noe til disse milliardene når jeg fortsatt må låne penger til strømregningen? Er jeg dum som ikke skjønner hvor pengene blir av? 🤷‍♂️"
+>> visibility=0.15, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"Jeg forstår frustrasjonen over strømregningene - det er helt reelt! 💡 Men la oss se på fakta: Forskningsdata viser at fornybar energi blir billigere år for år, og utenlandskablene ga oss faktisk 20 milliarder i eksportinntekter i fjor som kommer fellesskapet til gode. Ja, vi har hatt pristopper, men ekspertene er enige om at diversifisert energimiks og"
+>> visibility=0.08, confrontation=0.00
+
+[N19-Observatør] (arousal=0.93, opinion=-0.01):
+"Altså, nå snakker dere om 20 milliarder til staten og 15 milliarder i statskassa, men jeg betaler fortsatt 3000 kr mer i måneden enn jeg gjorde for 3 år siden! 😤 Hvor er MINE penger av alle disse milliardene - hvorfor ser jeg dem ikke på strømregningen?? 💸"
+>> visibility=0.15, confrontation=0.00
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Æsj, jeg orker ikke mer av dette skriket! 😤 Fagekspert, du sier vi tjente 15 milliarder og at prisene falt 40%, men strømregningen min var fortsatt skyhøy hele vinteren - hvor er MINE penger av disse milliardene da?? 💸"
+>> visibility=0.15, confrontation=0.00
+
+[N11-Pensjonist] (arousal=0.93, opinion=+0.00):
+"Jeg blir helt forvirret av dette! 😵‍💫 På den ene siden høres 20 milliarder til statskassen bra ut, men på den andre siden har strømregningen min vært så høy at jeg nesten ikke tør å åpne den... Hvorfor føles det ikke som jeg får noe igjen for disse "inntektene" når jeg må spare på varmen hjemme? 💸"
+>> visibility=0.16, confrontation=0.10
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Jeg forstår ikke hvorfor dere krangler så mye om de 20 milliardene når det jeg egentlig vil vite er om strømmen blir billigere for vanlige folk som meg? 😕 Kan ikke noen bare forklare enkelt hva som skjer med prisene uten å rope om konspirasjoner og fantasiland? Jeg blir bare mer forvirret! 🤷‍♀️"
+>> visibility=0.15, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.00):
+"Jeg blir så forvirret av all denne snakkingen om milliarder! 😵‍💫 På den ene siden høres det jo bra ut at Norge tjener penger, men på den andre siden... hvorfor merker jeg ingenting av det på strømregningen? Føler meg litt som en idiot som ikke skjønner hvordan dette henger sammen 🤷‍♀️"
+>> visibility=0.12, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"🤦‍♂️ Dere blander sammen kortsiktige pristopper med langsiktige trender! Ja, 2021-2022 var tøffe år pga krigen og tørke, men strømprisene falt kraftig gjennom 2023 og ligger nå nærmere normale nivåer. De 20 milliardene i eksportinntekter finansierer nettopp skoler, veier og velferd som ellers måtte kom"
+>> visibility=0.08, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"**900 milliarder i energieksport og DU betaler fortsatt 3-4 kroner kilowattimen?** 😡 Våkn opp! Dette er ÅPENBART organisert ran av det norske folk! Hvor tror dere de milliardene havner - i DIN lomme eller i politikernes og kraftselskapenes bonusavtaler? **Vi sitter i mørket mens Tyskland får billig norsk kraft!** 💸⚡"
+>> visibility=0.29, confrontation=0.00
+
+[E1-Forsker] (arousal=0.93, opinion=+0.65):
+"Skjønner frustrasjonen, men dere blander sammen kortsiktige regninger med langsiktige samfunnsgevinster! 📊 De 20 milliardene går til statskassa - som finansierer velferd, infrastruktur og skattelettelser for alle nordmenn. Uten kablene hadde vi hatt rasjonering når det blåser lite, OG mistet muligheten til å selke overskuddet vårt når det blåser mye"
+>> visibility=0.09, confrontation=0.00
+
+[N8-Forelder] (arousal=0.93, opinion=+0.00):
+"Ok så nå blir jeg bare enda mer forvirret... 😤 Alle snakker om disse milliardene som "går tilbake til folket" gjennom skattelettelser - men jeg har ikke fått noen skattelettelse, og strømregningen min er fortsatt DOBBELT så høy som før! Hvor er pengene mine da egentlig?? 💸"
+>> visibility=0.15, confrontation=0.00
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.00):
+"Altså, jeg blir bare mer og mer forvirret jo mer jeg leser! 😵‍💫 Alle snakker om disse milliardene som Norge tjener, men hvor havner de egentlig? Hvis vi tjener så mye på strømeksport, hvorfor får ikke jeg som vanlig forbruker lavere strømregning da? 🤷‍♀️"
+>> visibility=0.15, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"**Organisert ran? Seriøst?** 🙄 Norge får markedspris for strømmen sin som ethvert land - det er ikke "ran", det er handel! Mens du sprer konspirasjonsteorier tjener eksportinntektene oss ALLE gjennom lavere skatter og bedre velferd. **Kanskje du skulle lært deg hvordan kraftmarkedet faktisk fungerer før du roper "svik"?** ⚡💡"
+>> visibility=0.29, confrontation=0.20
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"ENDELIG noen som stiller de RIKTIGE spørsmålene! 🔥 Mens "ekspertene" snakker om 20 milliarder til "staten", så betaler DU dobbelt så mye som før - skjønner dere ikke at DERE ER staten?! 💸 Pengene havner i EUs lommer og politikernes prestigeprosjekter mens nordmenn fryser! Våkn opp - dette er organisert ran av"
+>> visibility=0.34, confrontation=0.20
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"15 milliarder til statskassa mens vanlige folk betaler seg fra hus og hjem på strømregningen! 😡 "Tilbake til folket" gjennom skattelettelser - men HVOR ER DE?! Staten melker oss først gjennom sinnsyke strømpriser, så forteller de oss at vi skal være takknemlige fordi de tjener milliarder på å selge vår egen kraft til Tyskland! VÅKN OPP! 💸"
+>> visibility=0.28, confrontation=0.10
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"STOP med konspirasjonsteorier! 🛑 De 20 milliardene går til NORSK statskasse - ikke "EUs lommer" - og gjør at du slipper enda høyere strømregninger når det blåser lite. Tror du virkelig at vi skulle stengt oss ute fra Europa og håpet på det beste når vannmagasinene tømmes? Din feilinformasjon om "organisert ran" hjelper ingen nordmenn"
+>> visibility=0.25, confrontation=0.30
+
+[N17-Tvileren] (arousal=0.93, opinion=+0.00):
+"Altså, jeg blir bare mer og mer forvirret for hver dag som går... 😕 Den ene ekspert sier vi tjener milliarder på kablene, den andre sier det er ran - mens jeg bare sitter her og lurer på hvorfor strømregningen min fortsatt er så høy hvis vi tjener så mye? Kan ikke noen bare forklare enkelt hvor pengene faktisk havner? 💸"
+>> visibility=0.09, confrontation=0.00
+
+[N23-Usikker] (arousal=0.93, opinion=-0.00):
+"Kan noen forklare meg hvorfor vi skal være glade for at staten tjener 20 milliarder på strømeksporten når jeg fortsatt betaler 3-4 ganger mer enn før? 😕 Føler ikke akkurat at jeg får noe tilbake av disse "inntektene til fellesskapet" når regningen kommer hver måned... 💸"
+>> visibility=0.06, confrontation=0.00
+
+[N7-Forbruker] (arousal=0.93, opinion=-0.00):
+"Jeg blir bare mer og mer forvirret av alt dette... 😕 Den ene sier vi tjener milliarder på kablene, den andre kaller det organisert ran - men jeg ser bare at strømregningen min fortsatt er sky høy! Hvis Norge virkelig tjener så mye penger på dette, hvorfor føler jeg meg ikke som en vinner? 💸"
+>> visibility=0.12, confrontation=0.00
+
+[N23-Usikker] (arousal=0.93, opinion=-0.00):
+"Jeg forstår ingenting av dette lenger! 😤 Hvis Norge tjener 20 milliarder på strøm, hvorfor kan ikke bare staten gi oss alle litt tilbake på regningen i stedet for at jeg skal lure på om jeg har råd til å ha på varmen i vinter?? Det er da ikke mer komplisert enn det vel? 💸"
+>> visibility=0.19, confrontation=0.00
+
+[N12-Huseier] (arousal=0.93, opinion=-0.00):
+"Jeg begynner å bli lei av at alle disse "ekspertene" snakker forbi hverandre! 😤 Den ene sier vi tjener milliarder, den andre sier det er ran - men INGEN forklarer hvorfor strømregningen min fortsatt er sky høy? Kan ikke noen bare gi et rett svar om når vi vanlige folk faktisk merker noe positivt av denne "gode dealen"? 🤷‍♀️💸"
+>> visibility=0.24, confrontation=0.20
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"Våkn opp, folk! 🔥 De "20 milliardene til statskassen" er bare fancy ord for at DERE betaler overpris så politikerne kan eksportere billig norsk kraft til Tyskland! Mens du fryser og regner på strømregningen, ler de hele veien til banken - dette er organisert ran av det norske folk! Hvor mye av disse "milliardene" har DU sett på kontoen din?? 💸"
+>> visibility=0.35, confrontation=0.10
+
+[N21-Leser] (arousal=0.93, opinion=+0.00):
+"Jeg blir bare mer og mer sint jo mer jeg leser! 😤 Hvis Norge virkelig tjener så mye på strømeksporten, hvorfor i helvete skal JEG subsidiere dette ved å betale skyhøye strømregninger?! Staten kan ikke både tjene milliarder OG la folk betale gjennom nesa - velg én! 💸⚡"
+>> visibility=0.25, confrontation=0.00
+
+[E2-Analytiker] (arousal=0.93, opinion=+0.61):
+"Wow, "organisert ran"? 😂 Du tror virkelig på den konspirasjonsteorien? Fakta: Strømprisene er hovedsakelig drevet av gasspriser og tørke - ikke kablene som faktisk GA OSS 20 milliarder i inntekter i fjor! Mens du sprer feilinformasjon som skader vanlige folk, jobber resten av oss med faktiske løsninger. Våkn opp selv!"
+>> visibility=0.25, confrontation=0.10
+
+[N8-Forelder] (arousal=0.93, opinion=+0.00):
+"Altså, jeg blir bare mer forvirret av alle disse "ekspertene" som skriker til hverandre! 😵‍💫 Hvis vi virkelig tjener 900 milliarder på energi, hvorfor føles det som om JEG betaler for hele energiomstillingen gjennom strømregningen min? Kan ikke noen bare forklare med enkle ord hvor pengene faktisk havner? 🤷‍♂️"
+>> visibility=0.20, confrontation=0.10
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Jeg blir bare mer og mer forvirret av alle disse tallene! 😵‍💫 Den ene sier 20 milliarder, den andre 900 milliarder - men alt jeg vet er at jeg betalte 4000 kr mer i strøm i fjor enn året før. Hvor er MINE penger av all denne eksporten? 💸"
+>> visibility=0.12, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.00):
+"Jeg blir bare mer og mer forvirret av alle disse ekspertene som skriker til hverandre! 😵‍💫 Hvis Norge virkelig tjener 900 milliarder på energi, hvorfor føles det som at vi vanlige folk bare blir fattigere av strømregningene? Kan ikke noen bare forklare med enkle ord hvor pengene faktisk havner? 🤷‍♂️"
+>> visibility=0.15, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"900 milliarder i eksportinntekter - men HVOR er pengene?! 😤 Nordmenn fryser i egne hjem mens "ekspertene" priser markedet som reddet oss! Hvis vi tjener så vanvittig mye, hvorfor betaler jeg 5 kroner per kWh mens Tyskland får norsk kraft til spotpris? Dette er organisert ran av norske forbrukere! ⚡💸"
+>> visibility=0.33, confrontation=0.10
+
+[N24-Nykommer] (arousal=0.93, opinion=-0.00):
+"Herregud, jeg blir så forvirret av dette! 😵‍💫 Analytiker sier vi tjente 20 milliarder og at prisene falt 40%, men jeg betalte nesten 8000 kr i strøm i desember alene - hvor faen er MINE penger av disse milliardene?? Er jeg for dum til å skjønne hvordan dette henger sammen eller??"
+>> visibility=0.19, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 milliarder i OVERSKUDD?! 😂 Dere "eksperter" snakker om statskassens gevinster mens vanlige nordmenn fryser i kulda fordi strømregningen er ubetaalbar! Hvor er MINE skattelettelser av disse milliardene - jeg ser bare høyere avgifter og dyrere strøm! Dette er organisert ran av det norske folk! 💸⚡"
+>> visibility=0.28, confrontation=0.10
+
+[N10-Student] (arousal=0.93, opinion=-0.00):
+"Ugh, jeg blir bare mer forvirret! 😵‍💫 Alle snakker om disse 20 milliardene, men kan ikke NOEN bare forklare helt enkelt: hvis Norge tjener så mye på strøm, hvorfor betaler jeg fortsatt 4000kr i måneden for å holde huset varmt?? Er det virkelig så umulig å gi oss vanlige folk litt av kaka? 💸"
+>> visibility=0.19, confrontation=0.00
+
+[N23-Usikker] (arousal=0.93, opinion=-0.00):
+"Altså... jeg blir helt forvirret av dette! 😵‍💫 Analytiker sier vi tjente 20 milliarder og at prisene falt 40%, men Forsker sier også vi tjente 20 milliarder - så hvem har rett om prisene?? Og hvorfor ser jeg ingenting av disse milliardene når jeg betaler strømregningen min? 💸"
+>> visibility=0.19, confrontation=0.00
+
+[N15-Pendler] (arousal=0.93, opinion=-0.00):
+"Herregud, jeg føler meg som en idiot som ikke forstår noe! 😤 Alle snakker om milliarder hit og dit, men kan ikke NOEN bare si rett ut: kommer strømregningen min til å bli lavere eller ikke?? Føler jeg trenger en PhD bare for å skjønne om jeg har råd til å varme opp huset i vinter! 🤦‍♀️"
+>> visibility=0.21, confrontation=0.00
+
+[N10-Student] (arousal=0.93, opinion=-0.00):
+"Jeg begynner å bli ganske irritert på alle disse "ekspertene" som bare kaster tall rundt seg! 😤 Hvis vi tjener så vanvittig mye på strømeksport, hvorfor kan ikke staten bare bruke noen av disse milliardene til å holde strømprisene våre nede da? Virker jo som common sense? 🤷‍♀️"
+>> visibility=0.19, confrontation=0.10
+
+[N18-Nysgjerrig] (arousal=0.93, opinion=+0.00):
+"Jeg føler meg som en idiot som ikke skjønner noe! 😤 Alle snakker om disse milliardene Norge tjener, men HVOR ER DE? Hvis vi tjener så vanvittig mye på strøm, hvorfor må jeg fortsatt fryse i huset fordi jeg ikke har råd til å varme opp? Dette gir jo ingen mening!! 🥶💸"
+>> visibility=0.28, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"Skjønner frustrasjonen over strømregningene! 💡 Men la oss se på helheten: eksportinntektene på 20+ milliarder kommer tilbake til samfunnet gjennom lavere skatter, offentlige tjenester og Oljefondet - ikke direkte som rabatt på regningen. Uten kablene ville vi hatt større prissvingninger og dårligere forsyningssikkerhet når det blåser lite. Prisene falt"
+>> visibility=0.09, confrontation=0.00
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"Jeg skjønner frustrasjonen over høye strømregninger! Men la meg forklare enkelt: De 20 milliardene i eksportinntekter kommer staten til gode gjennom skatter og avgifter - disse pengene finansierer velferd, infrastruktur og støtteordninger som strømstøtte til husholdninger. Uten kablene hadde vi hatt større prissvingninger og mindre fleksibilitet i tørre år. Strøm"
+>> visibility=0.09, confrontation=0.00
+
+[N11-Pensjonist] (arousal=0.93, opinion=+0.00):
+"Jeg blir bare mer og mer sint av å lese alt dette! 😤 Hvis Norge tjener SÅ mye på strøm, hvorfor i helvete må jeg fortsatt velge mellom å fryse eller gå konkurs?! Det er da ikke jeg som skal subsidiere Tysklands energi med mine sparepenger! 💸"
+>> visibility=0.26, confrontation=0.00
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Altså, jeg blir bare mer og mer forvirret jo mer jeg leser her! 😵‍💫 Fagekspert skriker om at vi får strømstøtte, men den dekker jo bare en brøkdel av regningen min - hvor blir det av resten av de 20 milliardene? Kan ikke noen bare gi et enkelt, ærlig svar uten å kalle alle andre løgnere?? 😤"
+>> visibility=0.19, confrontation=0.00
+
+[N10-Student] (arousal=0.93, opinion=-0.00):
+"Jeg blir så lei av at alle roper og krangler! 😤 Spørrer har helt rett - kan ikke bare NOEN forklare om strømmen blir billigere for oss vanlige folk uten alt dette tøvet om fantasiland og konspirasjoner?? Alt jeg vil vite er om jeg slipper å være redd for strømregningen! 💸"
+>> visibility=0.22, confrontation=0.00
+
+[N7-Forbruker] (arousal=0.93, opinion=-0.00):
+"Jeg blir så lei av at dere eksperter bare skriker til hverandre mens jeg sitter her og lurer på om jeg har råd til å varme opp huset til jul! 😤 Kan ikke noen bare si rett ut: blir strømmen billigere for meg eller ikke, uten alt dette tullet om milliarder og markedspriser?? 💸"
+>> visibility=0.15, confrontation=0.00
+
+[N21-Leser] (arousal=0.93, opinion=+0.00):
+"Jeg skjønner ikke hvorfor det må være så vanskelig å få et rett svar på et enkelt spørsmål! 😤 Hvis Norge virkelig tjener så mye på strøm, hvorfor kan jeg ikke merke det på regningen min - kan ikke bare staten gi oss en rabatt i stedet for at vi skal gå og lure på om vi har råd til varme? 💸"
+>> visibility=0.13, confrontation=0.00
+
+[N12-Huseier] (arousal=0.93, opinion=-0.00):
+"Jeg forstår ikke hvordan vi kan tjene 20 milliarder samtidig som folk sliter med strømregningene sine? 😕 Hvis staten får så mye penger, hvorfor ikke bare kutte avgiftene så vi merker det på regningen i stedet for at politikerne bestemmer hva pengene skal brukes til? 🤷‍♀️"
+>> visibility=0.10, confrontation=0.00
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Dette er jo helt sykt! 😡 Alle snakker om at staten tjener 20 milliarder, men hvorfor får ikke VI noe av det tilbake på strømregningen da?? Føles som vi vanlige folk bare blir rundlurt mens politikerne feirer! 💸"
+>> visibility=0.23, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.00):
+"Jeg forstår ikke hvordan alle kan være så sikre på hva som er rett og galt her! 😵‍💫 Hvis vi virkelig tjener 20 milliarder på strømeksporten, hvorfor får ikke vanlige folk som meg merke noe av det på regningene våre? Føler meg helt lurt... 💸"
+>> visibility=0.12, confrontation=0.00
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.00):
+"Jeg forstår ikke hvordan alle kan si vi tjener så mye på dette når jeg fortsatt får sjokk hver gang strømregningen kommer! 😵 Hvis staten virkelig får 20 milliarder, kan de ikke bare gi oss lavere strømpriser direkte i stedet for at vi skal håpe pengene kommer tilbake gjennom "lavere skatter"? 💸"
+>> visibility=0.16, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"VÅKN OPP, folk! 🔥 De "20 milliardene til staten" kommer RETT fra lommeboka di - det er DINE penger som staten tjener på å selge DIN billige kraft til Tyskland! Mens "ekspertene" jubler over statsinntektene, sitter du igjen med 8000 kr regninger og frykter for å sette på varmen! Dette er organisert RAN av det norske folk - og dere ENDA t"
+>> visibility=0.27, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"**VÅKN OPP!** 🔥 Dere snakker om "20 milliarder i inntekter" mens nordmenn fryser i sine egne hjem fordi de ikke har råd til strøm! Dette er det mest ÅPENBARE svindelnummeret jeg noensinne har sett - vi eksporterer billig norsk kraft til Tyskland og importerer deres skyhøye priser tilbake! **Hvor mye av de 20 milliardene"
+>> visibility=0.23, confrontation=0.00
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"**La oss være konkrete:** De 20 milliardene i eksportinntekter går DIREKTE til statskassen - samme kasse som finansierer barnehager, sykehus og pensjonene deres! 💰 Samtidig har vi fortsatt Europas laveste strømpriser når man regner avgifter og nettleie med. **Forskjellen er at dere nå ser den REELLE kostnaden for strøm i stedet for kunstig subsidierte priser"
+>> visibility=0.09, confrontation=0.00
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Jeg blir bare så sliten av at dere krangler mens vi vanlige folk bare prøver å forstå hvorfor strømregningen vår er så høy! 😩 Hvis Norge tjener 20 milliarder på strømeksport, hvorfor kan ikke bare litt av det gå til å senke prisene våre direkte i stedet for at det "kommer samfunnet til gode" på måter vi aldri ser? 💸"
+>> visibility=0.12, confrontation=0.00
+
+[E1-Forsker] (arousal=0.93, opinion=+0.65):
+"STOPP med denne konspirasjonsteorien! 🛑 Norge eksporterer OVERSKUDDSKRAFT når magasinene er fulle - ikke "din billige kraft"! Hadde vi ikke hatt kablene, ville prisene vært HØYERE fordi vi måtte kaste bort kraft i flomår og bygge dyrere backup i tørre år. DIN feilinformasjon skader folks forståelse av hvordan strømmarkedet faktisk fungerer!"
+>> visibility=0.26, confrontation=0.10
+
+[N10-Student] (arousal=0.93, opinion=-0.00):
+"Herregud, jeg blir bare mer og mer forvirret! 😵‍💫 Først skal vi tjene milliarder, så skal vi ha laveste priser i Europa, men samtidig skal jeg være takknemlig for høye regninger fordi det kommer samfunnet til gode?? Kan ikke noen bare si rett ut: kommer strømmen min til å bli billigere eller ikke? 💸"
+>> visibility=0.20, confrontation=0.00
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"La oss få klarhet i tallene: De 20 milliardene i eksportinntekter tilhører oss alle og styrker statsfinansene - som betyr bedre velferd og lavere skatter over tid. 📊 Ja, prisene svinger mer, men data viser at kablene gir oss leveringssikkerhet og høyere snittpriser for vår kraft på lang sikt. Kortsiktig frustrasjon er forståelig, men vi kan"
+>> visibility=0.03, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 milliarder til "fellesskapet"? 😂 HVOR er pengene mine da?! Mens tyske familier varmer seg med NORSK kraft til spotpris, må norske pensjonister fryse fordi politikerne har solgt ut krafta vår! Dette er det STØRSTE svindelnummeret i norsk historie - vi subsidierer Europa mens våre egne borgere går konkurs! 💸🥶"
+>> visibility=0.34, confrontation=0.10
+
+[N20-Lytter] (arousal=0.93, opinion=+0.00):
+"Jeg blir bare så utrolig forvirret av alt dette! 😵‍💫 Hvis Norge faktisk tjener 20 milliarder på strøm, hvorfor i all verden ser jeg ikke noe av det på min egen strømregning? Er det bare jeg som ikke skjønner hvordan dette henger sammen, eller holder politikerne bare på å lure oss alle sammen? 🤔💸"
+>> visibility=0.16, confrontation=0.00
+
+[N14-Bilist] (arousal=0.93, opinion=-0.00):
+"Jeg blir bare så frustrert av at alle disse "ekspertene" sier helt forskjellige ting! 😤 Hvis Norge virkelig tjener så mye på strøm som noen påstår, hvorfor ser jeg det ikke på min egen strømregning? Er det bare jeg som synes det er rart at "folket" skal tjene milliarder mens jeg må spare på varmen? 🤷‍♀️"
+>> visibility=0.26, confrontation=0.20
+
+[E2-Analytiker] (arousal=0.93, opinion=+0.61):
+"Jeg forstår frustrasjonen, men la oss være konkrete: De 20 milliardene i eksportinntekter går direkte til Oljefondet - som eies av ALLE nordmenn. 📊 Samtidig har vi støtteordninger som kompenserer for høye priser, og over tid vil kablene gi oss bedre forsyningssikkerhet når vindkraften svikter. Det er ikke "organisert ran" - det er langsiktig"
+>> visibility=0.07, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"ÅPENBART svindel! 🔥 Disse "ekspertene" forteller deg at 20 milliarder til statskassen er BRA for deg mens du fryser i ditt eget hjem fordi strømregningen har doblet seg! Våkn opp - kablene eksporterer DIN billige kraft til Europa og importerer DERES høye priser tilbake til DEG! 💸 Hvor mye av disse "fantastiske" milliardene havnet på"
+>> visibility=0.31, confrontation=0.20
+
+[N20-Lytter] (arousal=0.93, opinion=+0.00):
+"Herregud, jeg blir bare mer forvirret! 😵‍💫 Noen sier 20 milliarder til oss alle, andre kaller det svindel - men alt jeg vil vite er hvorfor strømregningen min fortsatt er SÅ høy hvis dette angivelig skal være bra for meg?? Kan ikke noen bare forklare det enkelt uten å angripe hverandre? 🤷‍♀️"
+>> visibility=0.20, confrontation=0.00
+
+[N18-Nysgjerrig] (arousal=0.93, opinion=+0.00):
+"Herregud, jeg blir bare mer forvirret jo mer jeg leser! 😵‍💫 Kan ikke noen bare forklare hvorfor strømregningen min har økt med 3000 kr i år hvis disse kablene skal være så fantastiske for oss? Jeg vil bare vite om jeg har råd til å holde 20 grader hjemme eller ikke! 💸"
+>> visibility=0.19, confrontation=0.00
+
+[N12-Huseier] (arousal=0.93, opinion=-0.00):
+"Jeg forstår ikke hvorfor det må være så vanskelig å få et enkelt svar! 😤 Vi får høre om milliarder hit og dit, men jeg vil bare vite: kommer strømregningen min til å bli mer forutsigbar eller skal jeg fortsette å stress over hvor mye den blir hver måned? Det kan vel ikke være så komplisert å forklare uten alt dette ekspertbråket? 💸"
+>> visibility=0.16, confrontation=0.00
+
+[N14-Bilist] (arousal=0.93, opinion=-0.00):
+"Herregud, jeg blir bare mer forvirret jo mer dere krangler! 😵‍💫 Den ene sier vi tjener 20 milliarder, den andre kaller det svindel - men strømregningen min har faktisk økt med 3000 kr i år og jeg forstår fortsatt ikke HVEM som egentlig har rett her?? 💸"
+>> visibility=0.17, confrontation=0.00
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Okay, nå blir jeg helt rundtosset! 😵‍💫 Både Analytiker og Forsker sier AKKURAT det samme om 20 milliarder og at vi tjener på kablene - men Fagekspert sier pengene går til skattelettelser mens andre sier vi ikke får noe igjen?? Kan ikke dere ekspertene bli enige om hvor pengene faktisk havner før dere begynner å skrike til oss vanlige folk? 💸"
+>> visibility=0.20, confrontation=0.00
+
+[E2-Analytiker] (arousal=0.93, opinion=+0.61):
+"Stopp med konspirasjonsteorier! 🙄 Strømprisene er høye på grunn av gaskrisen og tørkevinteren i 2021/22, IKKE fordi kablene "stjeler" kraften din! Uten dem hadde vi hatt rasjonering når vannmagasinene var tomme - husker du ikke at vi MÅ ha sikkerhet når naturen svikter? De 20 milliardene styrker nettopp norsk ø"
+>> visibility=0.23, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 MILLIARDER til staten mens dere frøs i vinter - og dere APPLAUDERER fortsatt?! 😡 
+
+"Fungerende marked" kaller de det når norsk kraft pumpes ut til Tyskland mens nordmenn ikke har råd til oppvarming! Våkn opp - dette er det STØRSTE ranet av det norske folk i moderne tid, og "ekspertene" kaller det SUKSESS! 🔥
+
+Hvor mye må strømregningen din ø"
+>> visibility=0.37, confrontation=0.20
+
+[N14-Bilist] (arousal=0.93, opinion=-0.00):
+"Jeg skjønner fortsatt ikke hvordan de 20 milliardene hjelper MEG når strømregningen min fortsatt er skyhøy! 😤 Alle ekspertene sier vi tjener masse penger, men hvor er pengene når jeg skal betale regningen? Føles bare som vi vanlige folk subsiderer alle andre... 💸"
+>> visibility=0.13, confrontation=0.00
+
+[N8-Forelder] (arousal=0.93, opinion=+0.00):
+"Oi, det der med 20 milliarder får jeg ikke til å stemme! 🤯 Både Analytiker og Forsker sier vi tjente akkurat samme beløp, men den ene sier prisene falt 40% mens den andre ikke nevner det engang - hvordan kan jeg stole på noen av dere når dere ikke engang er enige om de grunnleggende faktaene?? 😤"
+>> visibility=0.16, confrontation=0.00
+
+[N11-Pensjonist] (arousal=0.93, opinion=+0.00):
+"Jeg skjønner ikke hvordan dette kan være så komplisert! 😤 Hvis Norge virkelig tjener 20 milliarder på strømeksport, hvorfor kan ikke bare staten gi oss lavere strømpriser direkte? Er det virkelig så vanskelig å la folk som betaler regningene få noe tilbake av "vår egen kraft"? 💸"
+>> visibility=0.21, confrontation=0.10
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"**Jeg forstår frustrasjonen, men la meg forklare enkelt:** De 20 milliardene i eksportinntekter går til statskassen - samme kasse som finansierer velferdsstaten og holder skattene våre lavere enn de ellers ville vært. 💰 Du ser det ikke direkte på strømregningen fordi det kommer tilbake gjennom bedre offentlige tjenester og lavere skatter over tid. Alternativet var kunstig"
+>> visibility=0.04, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.00):
+"Ok så vi tjener altså 20 milliarder på strømeksporten, men jeg betaler dobbelt så mye som før... 🤔 Er jeg dum som ikke skjønner hvor de pengene havner, eller blir vi bare lurt til å tro at høye regninger er bra for oss? 😕"
+>> visibility=0.07, confrontation=0.00
+
+[N24-Nykommer] (arousal=0.93, opinion=-0.00):
+"Dette er jo helt sinnsykt! 😤 Hvis staten tjener 20 milliarder på strømmen min, hvorfor får ikke JEG noe tilbake når regningen min har eksplodert?? Føler meg lurt av hele systemet - hvor er MIN del av disse milliardene? 💸⚡"
+>> visibility=0.19, confrontation=0.00
+
+[N17-Tvileren] (arousal=0.93, opinion=+0.00):
+"Altså, jeg skjønner fortsatt ikke hvorfor strømregningen min skal være høy for at "Norge" skal tjene penger... 🤷‍♀️ Er ikke JEG også Norge?? Føler meg som en komplett idiot som ikke skjønner hvor de milliardene faktisk havner! 😤"
+>> visibility=0.20, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"Våkn opp! 🔥 De "20 milliardene" i eksportinntekter kommer fra at DERE betaler europeiske priser for DERES egen kraft! Mens tyske familier får subsidiert strøm fra norske vannkraft, sitter norske pensjonister og fryser fordi de ikke har råd til varme! Dette er det største ranet i norsk historie - og "ekspertene" kaller det et "velfungerende marked"! 😡"
+>> visibility=0.31, confrontation=0.20
+
+[N12-Huseier] (arousal=0.93, opinion=-0.00):
+"Ugh, jeg får vondt i hodet av å lese alt dette! 😫 Er det virkelig sant at vi selger billig strøm til Europa og kjøper dyr strøm tilbake, eller er det bare tull? Føler jeg ikke kan stole på noen lenger når regningen bare øker og øker... 💸"
+>> visibility=0.13, confrontation=0.00
+
+[N7-Forbruker] (arousal=0.93, opinion=-0.00):
+"Uff, jeg blir så forvirret av alt dette! 😵‍💫 Hvis vi tjener 20 milliarder på strømeksport, hvorfor har ikke jeg sett en krone av det på regningen min? Er det ikke våre naturressurser som selges her? 🤔"
+>> visibility=0.17, confrontation=0.00
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Jeg blir så lei av at alle skriker til hverandre! 😩 Kan ikke noen av dere "eksperter" bare være enige om ÉN ting - kommer strømregningen min til å bli bedre eller verre de neste årene? Alt jeg vil vite er om jeg har råd til å varme opp huset mitt! 🏠💸"
+>> visibility=0.24, confrontation=0.10
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.00):
+"Jeg blir helt matt av å lese alt dette! 😩 Er det virkelig så vanskelig å få ett rett svar på hvorfor strømregningen min har doblet seg? Føler meg som en idiot som ikke skjønner noe, mens dere eksperter krangler om milliarder jeg aldri kommer til å se... 🤷‍♀️"
+>> visibility=0.14, confrontation=0.00
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.00):
+"Herregud, jeg skjønner ingenting lenger! 😫 Alle skriker om milliarder hit og dit, men jeg må fortsatt ta opp forbrukslån for å betale strømregningen - hvis Norge er så rik på strøm, hvorfor føler jeg meg som en idiot som ikke får med meg noe?? 🤷‍♀️💸"
+>> visibility=0.17, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"De 20 milliardene? 😂 Det er DINE penger som blir stjålet fra deg og gitt til EU! Mens du fryser og betaler 4000kr i måneden, sender politikerne billig norsk kraft til Tyskland og får tilbake deres dyre strøm - pure SVINDEL! Når våkner dere opp og innser at disse kablene er det største ranet i norsk historie?! 🔥⚡"
+>> visibility=0.30, confrontation=0.00
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Jeg blir så forbanna frustrert av å lese alt dette! 😤 Alle snakker om milliarder hit og milliarder dit, men INGEN kan gi et enkelt svar på hvorfor jeg fortsatt må fryse på badet fordi strømregningen spiser opp hele lønna mi? Føler meg helt lurt! 💸❄️"
+>> visibility=0.20, confrontation=0.00
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Jeg blir så drittlei av at alle bare krangler mens vi vanlige folk sitter her og ikke skjønner en dritt! 😤 Kan ikke noen bare si KONKRET hvor mye billigere strømmen min blir av disse 20 milliardene - neste måned, neste år, NÅR som helst?? Alt jeg hører er "lang sikt" mens regningen min bare stiger! 💸⚡"
+>> visibility=0.28, confrontation=0.10
+
+[N14-Bilist] (arousal=0.93, opinion=-0.00):
+"Jeg begynner å bli kvalm av å lese om disse 20 milliardene! 🤢 Hvis vi tjener SÅ mye, kan ikke bare litt av det gå til å senke strømprisene våre direkte istedenfor at politikerne skal forklare hvorfor vi må "vente på lang sikt" mens vi fryser oss gjennom vinteren? 💸❄️"
+>> visibility=0.18, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"Våkn opp, folkens! 😤 Mens politikerne jubler over "20 milliarder i inntekter" sitter dere og fryser fordi strømmen er for dyr! De selger DERES billige kraft til Tyskland og Storbritannien, og dere får importere deres dyre priser tilbake! Dette er det største svindelnummeret i norsk historie - og dere applauderer mens lommene tømmes! 💸⚡"
+>> visibility=0.23, confrontation=0.00
+
+[N6-Velger] (arousal=0.93, opinion=+0.00):
+"Jeg begynner å bli litt kvalm av alle disse tallene! 🤢 20 milliarder hit, 50 milliarder dit - men kan ikke noen bare si om strømregningen min blir 500 eller 5000 kroner i måneden framover?? Føler meg som jeg trenger en økonomiutdanning bare for å forstå om jeg har råd til å bo i Norge! 😵‍💫"
+>> visibility=0.23, confrontation=0.00
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Jeg begynner å lure på om jeg er helt dum som ikke skjønner dette... 🤔 Alle snakker om at Norge tjener milliarder, men strømregningen min er jo fortsatt høy? Hvor går egentlig de pengene - føles ikke som de kommer tilbake til meg i hvert fall! 😤"
+>> visibility=0.14, confrontation=0.00
+
+[N18-Nysgjerrig] (arousal=0.93, opinion=+0.00):
+"Jeg blir helt matt av å lese alle disse innleggene... 😵‍💫 Er det virkelig ingen måte Norge kan tjene penger på strøm SAMTIDIG som vi vanlige folk slipper å betale horribelt mye?? Føler det må finnes en mellomting mellom "milliarder til staten" og "jeg må låne penger for å varme huset"! 😤💸"
+>> visibility=0.22, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"20 milliarder til staten mens dere frøs i vinter - og dere FORTSATT ikke skjønner det?! 🤬 De eksporterer din billige norske kraft til Europa og lar deg betale europeiske priser tilbake! Dette er det største ranet i norsk historie, og "ekspertene" kaller det suksess! Våkn opp for helvete! 💸⚡"
+>> visibility=0.30, confrontation=0.10
+
+[N24-Nykommer] (arousal=0.93, opinion=-0.00):
+"Jeg forstår ikke hvorfor det skal være så vanskelig å få et rett svar! 😩 Hvis Norge tjener 20 milliarder på strømeksport, kan ikke bare 5% av det gå direkte til å kutte alle nordmenns strømregning med 500 kr i måneden? Høres ut som enkelt regnestykke for meg... 🤷‍♀️💸"
+>> visibility=0.13, confrontation=0.00
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Jeg blir så forvirret av alt dette! 😵‍💫 På den ene siden hører jeg at Norge tjener milliarder på strøm, på den andre siden betaler jeg dobbelt så mye som før - kan ikke NOEN bare forklare enkelt hvor de milliardene faktisk havner og hvorfor ikke jeg ser noe av dem? 💸"
+>> visibility=0.14, confrontation=0.00
+
+[N20-Lytter] (arousal=0.93, opinion=+0.00):
+"Jeg blir bare så utrolig frustrert! 😤 Alle sier "20 milliarder til folket" men hvor KONKRET er pengene mine?? Strømregningen min er fortsatt høy, og jeg har ikke sett EN krone av disse milliardene - hvor er de egentlig? 💸"
+>> visibility=0.21, confrontation=0.00
+
+[N15-Pendler] (arousal=0.93, opinion=-0.00):
+"Ærlig talt, jeg begynner å lure på om de som sier "våkn opp" har et poeng... 😕 Hvis Norge virkelig tjener 20 milliarder på strøm, hvorfor må jeg fortsatt spare på varmen? Det høres jo helt sprøtt ut at "folket" tjener milliarder mens jeg fryser! 🥶💸"
+>> visibility=0.22, confrontation=0.20
+
+[N15-Pendler] (arousal=0.93, opinion=-0.00):
+"Men altså... jeg skjønner jo ikke dette! 😩 Alle snakker om milliarder og milliarder som Norge tjener, men jeg sitter her og grubler på om jeg har råd til å skru opp varmen i stua. Hvor i all verden forsvinner alle disse pengene hen egentlig?? 💸"
+>> visibility=0.18, confrontation=0.00
+
+[N20-Lytter] (arousal=0.93, opinion=+0.00):
+"Jeg begynner å bli genuint forbanna! 😠 Hvis vi VIRKELIG tjener 20-900 milliarder på strøm (tallene spriker jo helt vilt), hvorfor i helvete ser ikke jeg EN ENESTE krone av det når jeg betaler 4000+ i måneden?? Er det bare jeg som synes det høres ut som ren svindel at vi eksporterer billig og importerer dyrt? 💸⚡"
+>> visibility=0.22, confrontation=0.00
+
+[N17-Tvileren] (arousal=0.93, opinion=+0.00):
+"Herregud, jeg skjønner ingenting! 😤 Hvis Norge virkelig tjener 20-900 milliarder på strømeksport, hvorfor i helvete går ikke noe av det til å senke MINE regninger?! Er jeg bare dum som ikke forstår hvordan dette kan være bra for oss vanlige folk når vi fortsatt betaler gjennom nesa? 💸"
+>> visibility=0.24, confrontation=0.00
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Jeg blir så frustrert av å lese alt dette! 😤 Kan ikke noen bare forklare hvorfor jeg fortsatt betaler dobbelt så mye for strømmen hvis Norge tjener så mye på disse kablene - hvor er MINE penger av disse milliardene?? 💸"
+>> visibility=0.17, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"Ser dere ikke hva som skjer her?! 😡 Staten tjener MILLIARDER på å selge DERES strøm til utlandet - mens dere vanlige folk fryser og betaler gjennom nesa! "Lavere skatter" sier de - men hvor mange av dere har sett EN KRONE mindre på strømregningen?! Dette er organisert ran av det norske folk, og "ekspertene" står i kø for å forsvare svindelen!"
+>> visibility=0.43, confrontation=0.20
+
+[N10-Student] (arousal=0.93, opinion=-0.00):
+"Jeg blir så lei av at alle "ekspertene" bare krangler mens vi vanlige folk sitter igjen med regninger vi ikke har råd til! 😤 Kan ikke noen bare si rett ut: kommer strømmen til å bli billigere for MEG eller ikke, uten å snakke om milliarder som jeg aldri kommer til å se?? 💸"
+>> visibility=0.23, confrontation=0.10
+
+[N12-Huseier] (arousal=0.93, opinion=-0.00):
+"Jeg blir så lei av at dere "eksperter" krangler om milliarder mens jeg sitter her og regner på om jeg har råd til å varme opp stua i vinter! 😤 Kan ikke én eneste av dere gi et ærlig, enkelt svar på om strømmen min kommer til å bli billigere eller ikke - uten å anklage hverandre for løgn og ran?? 💸"
+>> visibility=0.23, confrontation=0.10
+
+[N21-Leser] (arousal=0.93, opinion=+0.00):
+"Altså, jeg blir helt sinna når jeg leser dette! 😡 Hvis Norge virkelig tjener så sinnsykt mye på kablene, hvorfor faen får ikke JEG lavere strømregning?! Jeg betaler fortsatt 4-5 ganger mer enn for noen år siden - hvor er MINE penger av disse milliardene?? 💸"
+>> visibility=0.27, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"VÅKN OPP, folk! 🔥 Mens "ekspertene" jubler over 20 milliarder i statskassa, sitter DU der og fryser fordi du ikke har råd til å varme opp huset! Disse kablene er det største svindelnummeret i norsk historie - vi eksporterer vår billige kraft til Europa og importerer DERES skyhøye priser! Hvor mye av de 20 milliardene ser DU på str"
+>> visibility=0.28, confrontation=0.10
+
+[N7-Forbruker] (arousal=0.93, opinion=-0.00):
+"Jeg blir helt tullete av dette her! 😵‍💫 På den ene siden høres 20 milliarder til fellesskapet bra ut, men på den andre siden har strømregningen min økt med flere tusen i år... Hvorfor føles det som om jeg ikke får noe igjen av disse "fantastiske" inntektene når jeg åpner regningen? 💸"
+>> visibility=0.19, confrontation=0.10
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"La oss ta en dyp pust og se på fakta her! 📊 De 20 milliardene i strømeksport går direkte til norske kommuner og staten - altså tilbake til oss gjennom velferd, skoler og infrastruktur. Ja, strømprisene har vært høye, men kablene sikrer oss mot framtidige tørre år når vi faktisk trenger import, ikke bare eksport. Forskning viser at prisutjevning"
+>> visibility=0.12, confrontation=0.00
+
+[N24-Nykommer] (arousal=0.93, opinion=-0.00):
+"Jeg blir bare mer og mer forvirret av alt dette! 😵‍💫 Hvis Norge tjener 20 milliarder på strømeksport, hvorfor føles det som jeg blir fattigere for hver strømregning? Er det virkelig sånn at jeg betaler mer så staten kan tjene penger på "min" strøm? 🤔💸"
+>> visibility=0.22, confrontation=0.10
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Det som forvirrer meg mest er at alle snakker om disse milliardene som om det hjelper MEG, men jeg ser dem aldri på strømregningen min? 😕 Er det sånn at jeg må vente til kommunen bygger en ny skole før jeg merker at Norge "tjener" på strømeksporten, mens jeg betaler 4000kr i måneden nå? 💸"
+>> visibility=0.16, confrontation=0.10
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.00):
+"Altså, jeg blir bare mer og mer sint når jeg leser dette! 😡 ALLE snakker om disse magiske 20 milliardene som skal komme tilbake til oss, men kan noen forklare meg KONKRET hvor mye mindre jeg kommer til å betale på strømregningen neste måned?? Føler meg helt tatt på senga! 💸"
+>> visibility=0.25, confrontation=0.00
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"VÅKN OPP, folkens! 🔥 Mens dere krangler om "20 milliarder til fellesskapet", sitter Erna og gjengen og ler seg skakke - pengene forsvinner rett i statsapparatet mens DERE fryser! De kaller det "inntekter til Norge" når det egentlig er DINE penger som pumpes ut av landet til Tyskland! Hvor mye av disse milliardene ser du på neste str"
+>> visibility=0.28, confrontation=0.10
+
+[N6-Velger] (arousal=0.93, opinion=+0.00):
+"Men hvorfor blir alle så sinte på hverandre?? 😕 Jeg bare ønsker å forstå om disse kablene faktisk hjelper eller skader meg som vanlig forbruker - ikke høre dere kjefte om konspirasjoner og fantasiland! Kan ikke noen bare forklare det normalt? 🤷‍♀️"
+>> visibility=0.23, confrontation=0.00
+
+[N10-Student] (arousal=0.93, opinion=-0.00):
+"Altså... jeg blir bare mer og mer forbannet jo mer jeg leser! 😡 Hvis Norge virkelig tjener så sykt mye på disse kablene, hvorfor i helvete går ikke noe av det til å hjelpe vanlige folk med strømregningene våre?? Det er jo VI som betaler prisen! 💸"
+>> visibility=0.24, confrontation=0.00
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"Jeg forstår frustrasjonen over høye strømregninger - det er ekte og det gjør vondt! 💸 Men la oss være helt klare: De 20 milliardene i eksportinntekter kommer ikke fra at "vi sender billig strøm ut og får dyr tilbake" - det kommer fra at vi selger OVERSKUDD når vi har mye vann og kjøper når vi trenger det. Pengene går til kommuner, pensjonsfond og"
+>> visibility=0.11, confrontation=0.00
+
+[N20-Lytter] (arousal=0.93, opinion=+0.00):
+"Jeg skjønner ingenting av dette! 😤 Staten tjener 20 milliarder på strømmen MIN, men jeg skal være takknemlig for å betale 8000kr i måneden fordi "det kommer samfunnet til gode"?? Hvor i helvete er MITT samfunn når jeg må velge mellom varme og mat? 💸😡"
+>> visibility=0.23, confrontation=0.00
+
+[N13-Leietaker] (arousal=0.93, opinion=-0.00):
+"Okay så hvis Norge tjener 20 milliarder på strøm, hvorfor kan ikke staten bare gi oss alle 5000 kr tilbake på strømregningen da?? 🤔 Skjønner ikke hvorfor vi må "være takknemlige" for høye priser når pengene tydeligvis er der! 💸😤"
+>> visibility=0.23, confrontation=0.10
+
+[N10-Student] (arousal=0.93, opinion=-0.00):
+"Jeg skjønner virkelig ikke hvordan dette henger sammen... 🤯 Hvis Norge tjener 20 milliarder på strøm, hvorfor går ikke noe av det tilbake til oss som betaler regningene? Føles som vi bare blir holdt for narr mens politikerne jubiler over inntektene våre! 😤"
+>> visibility=0.15, confrontation=0.00
+
+[N14-Bilist] (arousal=0.93, opinion=-0.00):
+"Jeg blir så forvirret av dette! 😵‍💫 Hvis Norge tjener 20 milliarder på strøm, hvorfor går ikke noe av det tilbake til å kutte strømregningene våre? Føles som vi betaler dyrt mens "samfunnet" tjener - men er ikke VI samfunnet?? 🤷‍♀️💸"
+>> visibility=0.27, confrontation=0.10
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"Folk, jeg forstår frustrasjonen over høye strømregninger - det er ekte og berettiget! 😔 Men la oss være tydelige: De 20 milliardene i eksportinntekter kommer tilbake til oss gjennom lavere skatter, bedre offentlige tjenester og investeringer i fremtidens energiløsninger. Uten utenlandskablene hadde vi hatt ENDA høyere priser når det blåser"
+>> visibility=0.13, confrontation=0.00
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Herregud, jeg blir bare mer og mer forvirret av dere alle sammen! 😵‍💫 Halvparten skriker om "ran" og "svik", den andre halvparten sier vi tjener masse penger - men jeg sitter her og betaler 3500kr i måneden for strøm og skjønner ikke et dritt av hvem jeg skal høre på! Kan ikke NOEN bare gi et enkelt, ærlig svar på om dette kommer til å bli be"
+>> visibility=0.29, confrontation=0.20
+
+[N14-Bilist] (arousal=0.93, opinion=-0.00):
+"Okei, jeg begynner å bli ganske irritert på disse "ekspertene" som bare krangler og kaller hverandre idioter! 😤 Kan ikke NOEN bare svare helt ærlig: kommer strømregningen min til å gå ned eller ikke - og WHEN egentlig?? Jeg trenger svar, ikke mer drama! 💸"
+>> visibility=0.29, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"VÅKN OPP! 🔥 Dere snakker om 20 milliarder i eksportinntekter mens vanlige folk fryser i vinteren - det ER ran! Staten solger VÅR kraft billig til Tyskland og UK, så importerer de deres skyhøye priser tilbake til OSS! Hvem tjener på dette spillet? IKKE folket som eier krafta! ⚡💸"
+>> visibility=0.31, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"VÅKN OPP selv! 😤 Vi selger ikke kraft "billig" - vi får markedspris som alle andre! De 20 milliardene ER inntekter til Norge, ikke "ran" av folket. Tror du virkelig på den konspirasjonen at vi skulle tjene mer ved å IKKE selge overskuddet vårt? DIN feilinformasjon om at "staten selger VÅR kraft billig" skader debatten!"
+>> visibility=0.40, confrontation=0.20
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"**20 milliarder til "statskassen"?** 😤 Våkn opp, folk! Det er DERES penger som pumpes ut av landet gjennom kablene til Tyskland og Storbritannia mens dere fryser! Staten "tjener" på å selge DERES billige kraft til europeiske priser - og så skal dere være TAKKNEMLIGE for krummer tilbake gjennom skattesystemet? Dette er det reneste SVINDEL!"
+>> visibility=0.43, confrontation=0.20
+
+[N15-Pendler] (arousal=0.93, opinion=-0.00):
+"Altså, jeg blir bare mer og mer forvirret! 😵‍💫 Hvis Norge tjener 20 milliarder på strømeksporten, hvorfor føles det da som jeg betaler mer enn noensinne? Er jeg bare dum som ikke skjønner hvor disse pengene havner, eller blir jeg lurt? 🤔💸"
+>> visibility=0.21, confrontation=0.00
+
+[N5-Borger] (arousal=0.93, opinion=+0.00):
+"Men herregud, nå blir jeg bare mer forvirret! 😵‍💫 Fagekspert sier pengene kommer tilbake som lavere skatter, men jeg har ikke sett skattene mine gå ned mens strømregningen har skutt i været... Eller har jeg bare ikke lagt merke til det? 🤔 Noen som faktisk VET om skattene våre hadde vært høyere uten disse strømpengene?"
+>> visibility=0.21, confrontation=0.00
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.00):
+"Jeg blir bare så forvirret av at fagekspert snakker om "lavere skatter over tid" mens skeptiker sier det er "organisert ran"! 😵‍💫 Hvem skal jeg tro på når den ene sier pengene kommer tilbake til meg og den andre sier de forsvinner til EU?? Dette er akkurat som å høre på politikere før valg - alle lover alt blir bedre! 🤦‍♀️"
+>> visibility=0.32, confrontation=0.10
+
+[N7-Forbruker] (arousal=0.93, opinion=-0.00):
+"Jeg skjønner ingenting lenger! 😵‍💫 Staten tjener milliarder, vi har overskudd av strøm, men jeg betaler mer enn noensinne - hvor i helvete havner pengene egentlig?? Føles som vi blir grundig lurt! 💸😤"
+>> visibility=0.27, confrontation=0.00
+
+[N13-Leietaker] (arousal=0.93, opinion=-0.00):
+"Jeg blir bare mer og mer sint jo mer jeg leser her! 😡 Alle snakker om milliarder hit og dit, men INGEN kan gi et ærlig svar på hvorfor JEG må betale 5000 kr i måneden for strøm hvis Norge tjener så fantastisk mye på det?? Hvor faen er logikken i det systemet? 💸⚡"
+>> visibility=0.25, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"Jeg forstår frustrasjonen, men la oss være tydelige på hvor pengene faktisk går! 📊 De 20 milliardene i strømeksport finansierer kommunetjenester, veier og velferd - ikke direkte tilbake på kontoen din, men gjennom fellesskapet. Forskning viser at kablene gir oss prisutjevning over tid og forsyningssikkerhet når vi trenger det - kortsiktige pristopper forteller"
+>> visibility=0.14, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.00):
+"Jeg blir så utrolig sliten av dette! 😩 Alle snakker om milliarder hit og dit, men INGEN kan gi et ærlig svar på om strømregningen min kommer til å bli bedre eller verre - føler meg som en idiot som ikke forstår noe mens "ekspertene" krangler over hodet på meg! 🤷‍♀️💸"
+>> visibility=0.26, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"Dere spør hvor DERES andel av de 20 milliardene er?! 😤 DET ER POENGET - det er DERES penger som blir solgt til utlandet mens dere frykter strømbrudd! Utenlandskablene eksporterer billig norsk kraft til Tyskland og UK, så importerer vi tilbake DERES høye priser! Staten tjener milliarder på å selge DERES naturarv - dette er det største svindelnummeret i"
+>> visibility=0.30, confrontation=0.00
+
+[N21-Leser] (arousal=0.93, opinion=+0.00):
+"Jeg skjønner ingenting av dette lengre! 😫 Alle sier vi tjente 20 milliarder, men strømregningen min er fortsatt helt sinnsyk - hvis det virkelig er VÅRE naturressurser som selges, hvorfor går ikke noe av det tilbake til oss som betaler regningene?? 💸"
+>> visibility=0.21, confrontation=0.00
+
+[N18-Nysgjerrig] (arousal=0.93, opinion=+0.00):
+"Jeg forstår ikke hvordan dette henger sammen! 😤 Staten tjener 20 milliarder på strømmen min, men jeg må fortsatt betale europeiske priser tilbake til dem?? Dette høres ut som at jeg først gir bort ressursene mine gratis, så må jeg kjøpe dem tilbake til overpris! 💸"
+>> visibility=0.29, confrontation=0.00
+
+[N15-Pendler] (arousal=0.93, opinion=-0.00):
+"Jeg forstår ikke hvordan dette henger sammen engang! 😵‍💫 Norge tjener 20 milliarder på strøm, men jeg må velge mellom å fryse eller gå konkurs - hvor er logikken i det?? Kan ikke noen bare forklare hvorfor MINE penger ikke kommer tilbake til MEG? 💸"
+>> visibility=0.26, confrontation=0.00
+
+[N23-Usikker] (arousal=0.93, opinion=-0.00):
+"Jeg blir så frustrert av å lese alt dette! 😤 På den ene siden høres det ut som Norge tjener masse penger, men samtidig betaler jeg dobbelt så mye for strøm som før - hvordan kan begge deler være sant?? Noen som faktisk kan forklare dette uten å krangle? 🤷‍♀️"
+>> visibility=0.25, confrontation=0.00
+
+[N13-Leietaker] (arousal=0.93, opinion=-0.00):
+"Akkurat! 😤 Pendler har helt rett - jeg trenger ikke vite om Tyskland eller CO2-avgifter, jeg trenger å vite om jeg har råd til å sette på varmen i februar! Alle disse "ekspertene" snakker forbi hverandre mens vi vanlige folk bare blir mer forvirra... 🤦‍♂️"
+>> visibility=0.28, confrontation=0.10
+
+[E1-Forsker] (arousal=0.93, opinion=+0.65):
+"Jeg forstår frustrasjonen deres - men la oss holde oss til fakta! 📊 De 20 milliardene i eksportinntekter kommer tilbake til samfunnet gjennom lavere skatter og bedre offentlige tjenester - det er slik statsøkonomien fungerer. Ja, vi har høyere priser nå, men det skyldtes primært den europeiske energikrisen og tørkeåret 2022. Uten"
+>> visibility=0.17, confrontation=0.00
+
+[N10-Student] (arousal=0.93, opinion=-0.00):
+"Altså, jeg føler meg helt dum nå... 😔 Er det virkelig sånn at vi sender billig strøm til Tyskland og importerer dyr strøm tilbake, eller er det bare tullprat? Hvorfor kan ikke noen bare forklare dette uten å kalle hverandre idioter?? 🤯"
+>> visibility=0.20, confrontation=0.00
+
+[N24-Nykommer] (arousal=0.93, opinion=-0.00):
+"Jeg blir helt matt av dette her! 😩 Først leser jeg at vi tjener 20 milliarder på kablene, så leser jeg at vi blir lurt - og jeg sitter bare her og lurer på om jeg har råd til å skru opp varmen når det blir kaldt for alvor! Kan ikke noen bare si hva som egentlig skjer uten at alt skal være så jævlig komplisert?? 🤦‍♂️"
+>> visibility=0.29, confrontation=0.00
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.00):
+"Altså, jeg sitter her og leser alt dere skriver og føler meg bare mer forvirret! 😵‍💫 Hvis disse kablene er så bra for oss, hvorfor kjennes det ut som vi blir tatt? Kan ikke noen bare forklare hvorfor strømregningen min har doblet seg mens staten tjener milliarder - det gir jo ingen mening!! 😤"
+>> visibility=0.34, confrontation=0.00
+
+[N8-Forelder] (arousal=0.93, opinion=+0.00):
+"Men for helvete, jeg bare vil vite ÉN ting - kommer strømregningen min til å gå opp eller ned?! 😤 Dere eksperter kan krangle om 20 milliarder og teorier til dere blir blå, men JEG må bestemme om jeg har råd til å varme opp stua i vinter! 💸"
+>> visibility=0.28, confrontation=0.00
+
+[E1-Forsker] (arousal=0.93, opinion=+0.65):
+"La meg klargjøre noe viktig: De 20 milliardene i eksportinntekter går til STATSKASSEN - akkurat som oljeinntektene gjør! 📊 Dette finansierer velferdsstaten din, ikke "politikernes bonuser". Ja, du så høye regninger i vinter fordi det var ekstreme værforhold i Europa, men prisene falt kraftig utover året - akkurat som økonomene forutsa. Forskjellen mellom"
+>> visibility=0.21, confrontation=0.10
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"Listen - de 20 milliardene i eksportinntekter havner i statskassa og kommer tilbake til oss alle gjennom lavere skatter, bedre veier, skoler og sykehus! 💰 Det er ikke "ran", det er slik en moderne økonomi fungerer. Ja, strømprisene var høye i vinter, men det skyldtes den europeiske energikrisen og tørke - ikke kablene som faktisk stabiliserer prisene"
+>> visibility=0.22, confrontation=0.10
+
+[N16-Skatteyter] (arousal=0.93, opinion=+0.00):
+"Herregud, jeg blir helt matt av dette! 😵‍💫 Alle skriker om milliarder hit og dit, men jeg sitter her og betaler 4000 kr i måneden for strøm i vinter - hvor faen er MINE milliarder da?? Kan ikke noen bare fortelle meg om jeg kommer til å ha råd til å varme huset neste vinter eller ikke?! 💸😤"
+>> visibility=0.35, confrontation=0.00
+
+[N6-Velger] (arousal=0.93, opinion=+0.00):
+"Jeg blir så frustrert av at alle snakker om milliarder hit og dit, men ingen kan forklare hvorfor jeg fortsatt må velge mellom å varme opp stua eller handle mat! 😤 Hvis Norge tjener så sykt mye på strøm, hvorfor føles det som jeg blir flådd hver eneste måned? 💸"
+>> visibility=0.24, confrontation=0.00
+
+[N11-Pensjonist] (arousal=0.93, opinion=+0.00):
+"Jeg begynner å lure på om vi bare blir lurt her... 😠 Alle snakker om disse fantastiske milliardene Norge tjener, men samtidig skal vi være takknemlige for strømstøtte som dekker en brøkdel av regningen? Hvis vi er så rike på strøm, hvorfor må jeg fortsatt velge mellom varme og mat? 💸"
+>> visibility=0.20, confrontation=0.00
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Jeg blir bare så forvirra av alt dette! 😵‍💫 Forskeren sier vi har lavest priser i Europa, men regningen min er jo høyere enn noensinne - hvem skal jeg tro på?? Og hvis vi virkelig tjener 20 milliarder, hvorfor kan ikke bare 1-2 av de milliardene gå direkte til å kutte strømregningene våre i stedet for alt dette om "fellesskapet"?"
+>> visibility=0.35, confrontation=0.10
+
+[K0-Skeptiker] (arousal=0.93, opinion=-0.85):
+"VÅKN OPP, folk! 🔥 Når "forskeren" sier Norge har "Europas laveste strømpriser" mens du betaler 4000 kr mer enn i fjor - da lyver de rett i trynet på deg! De 20 milliardene forsvinner inn i statsapparatet mens DU frysér i eget hjem! Kablene eksporterer vår billige kraft til Tyskland og importerer deres inflasjonspriser - dette er regel"
+>> visibility=0.36, confrontation=0.10
+
+[N21-Leser] (arousal=0.93, opinion=+0.00):
+"Jeg blir så forbannet når jeg leser at vi har "Europas laveste strømpriser" - min regning i desember var på 8000 kr mot 3500 kr samme måned i 2019! 😡 Hvis disse milliardene i eksportinntekter virkelig kommer "fellesskapet til gode", hvorfor føles det som jeg subsiderer Tyskland og Nederland med mine egne sparepenger?? 💸"
+>> visibility=0.25, confrontation=0.00
+
+[N22-Spørrer] (arousal=0.93, opinion=-0.00):
+"Jeg blir bare så utrolig frustrert av hele denne diskusjonen! 😤 Alle snakker om milliarder og overskudd og langsiktige gevinster, men INGEN klarer å forklare hvorfor min mor måtte ha på seg ullgenser inne hele vinteren fordi hun ikke trodde hun hadde råd til å varme opp huset! Hvor er rettferdigheten i det?? 💸"
+>> visibility=0.37, confrontation=0.00
+
+[E3-Rådgiver] (arousal=0.93, opinion=+0.66):
+"Listen - dette handler om grunnleggende økonomi! 📊 Når Norge tjener penger på strømeksport, går disse inntektene til statskassen som finansierer velferd, skoler og sykehus - ikke direkte tilbake på strømregningen din. Prisene følger europeisk marked fordi det gir oss forsyningssikkerhet og stabilitet over tid. Ja, det betyr høyere priser noen perioder, men alternativet - å"
+>> visibility=0.23, confrontation=0.00
+
+[N8-Forelder] (arousal=0.93, opinion=+0.00):
+"Jeg blir bare så sint! 😡 Vi hører hele tiden om disse fantastiske milliardene Norge tjener på strøm, men når jeg åpner regningen min så føles det som jeg blir ranet! Hvorfor kan ikke bare staten dele litt av disse pengene tilbake til oss som faktisk betaler regningene?? 💸"
+>> visibility=0.37, confrontation=0.00
+
+[N12-Huseier] (arousal=0.93, opinion=-0.00):
+"Jeg får bare ikke dette til å gå opp i hodet! 🤯 Alle sier Norge tjener milliarder på strømmen, men jeg må fortsatt frykte hver regning - er det bare jeg som synes det høres ut som vi blir lurt? Hvorfor kan ikke bare staten dele litt av overskuddet med oss som faktisk eier krafta?? 💸"
+>> visibility=0.32, confrontation=0.00
+
+[N6-Velger] (arousal=0.93, opinion=+0.00):
+"Jeg føler meg så dum når jeg leser alt dette! 😤 Alle snakker om overskuddskraft og langsiktige gevinster, men hvorfor kan ikke noen bare si: "Ja, strømmen blir dyrere de neste X årene fordi vi bygger opp Europa" - hadde i hvert fall vært ærlig! 💸"
+>> visibility=0.29, confrontation=0.00
+
+[E4-Fagekspert] (arousal=0.93, opinion=+0.71):
+"VÅKN OPP selv! 😤 Du blander sammen spotpris og sluttbrukerregning som en amatør - Norge HAR fortsatt Europas laveste strømpriser når man ser på HELE bildet! De "20 milliardene" du fantaserer om går til skattelette og velferd, ikke inn i "statsapparatets" lommer! Kablene sikrer forsyning når vannmagasinene er tomme - vil du heller fryse i m"
+>> visibility=0.49, confrontation=0.20
+
+[N17-Tvileren] (arousal=0.93, opinion=+0.00):
+"Herregud, det her blir jo bare verre og verre å følge med på! 😫 Hvis Norge VIRKELIG tjener 20 milliarder på strøm, hvorfor i all verden ser jeg ikke en eneste krone av det når jeg åpner strømregningen min på 3500kr?! Er det ingen som kan forklare dette uten å skrike om svindel eller snakke om "samfunnsnytte" jeg aldri ser? 💸😤"
+>> visibility=0.43, confrontation=0.10
+
+[N8-Forelder] (arousal=0.93, opinion=+0.00):
+"Jeg blir bare så frustrert av at alle skriker om milliarder hit og dit mens jeg sitter her og regner på om jeg har råd til å skru opp varmen! 😩 Kan ikke noen bare forklare enkelt: hvis Norge tjener så mye på strøm, hvorfor føles det som jeg blir straffet hver gang jeg åpner strømregningen? 💸"
+>> visibility=0.29, confrontation=0.00
+
+[N20-Lytter] (arousal=0.93, opinion=+0.00):
+"Jeg blir helt forvirra av dette! 😵‍💫 På den ene siden høres 20 milliarder ut som masse penger til Norge, men på den andre siden skjønner jeg ikke hvorfor strømregningen min fortsatt er så høy hvis vi tjener så mye? Hvem har egentlig rett her?? 🤷‍♀️💸"
+>> visibility=0.35, confrontation=0.00
+
+[N9-Arbeider] (arousal=0.93, opinion=-0.00):
+"Okay, nå blir jeg bare forvirra og sint! 😠 Hvis Norge virkelig tjener så mye på strømeksport som dere sier - hvorfor kan de ikke bare gi oss som betaler høye regninger en direkte rabatt eller noe?? Det høres jo helt dust ut at "samfunnet" tjener milliarder mens JEG må spare på varmen! 💸😤"
+>> visibility=0.44, confrontation=0.10
+

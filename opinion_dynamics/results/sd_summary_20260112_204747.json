@@ -1,0 +1,53 @@
+{
+  "initial": {
+    "neutrals": 20.0,
+    "arousal": 0.47
+  },
+  "final": {
+    "neutrals": 7.310274205872299,
+    "contrarian_converts": 12.651823668820729,
+    "consensus_converts": 0.03790212530696872,
+    "arousal": 0.887035179135772,
+    "frame_adoption": 0.8932083065909988
+  },
+  "dynamics": {
+    "threshold_crossing_time": null,
+    "peak_arousal": 0.887035179135772,
+    "peak_arousal_time": 50.0,
+    "visibility_ratio": 27.040000000000003
+  },
+  "conversion_rates": {
+    "to_contrarian_pct": 63.25911834410365,
+    "to_consensus_pct": 0.1895106265348436
+  },
+  "parameters": {
+    "population": {
+      "initial_neutrals": 20.0,
+      "fixed_contrarians": 1.0,
+      "fixed_consensus": 4.0,
+      "initial_arousal": 0.47,
+      "initial_frame_adoption": 0.0
+    },
+    "content": {
+      "contrarian_emotion": 0.58,
+      "contrarian_provocativeness": 0.54,
+      "consensus_emotion": 0.04,
+      "consensus_provocativeness": 0.03
+    },
+    "algorithm": {
+      "emotion_weight": 0.4,
+      "provocative_weight": 0.4,
+      "engagement_exponent": 2.0
+    },
+    "dynamics": {
+      "base_conversion_rate": 0.015,
+      "arousal_amplifier": 2.5,
+      "threshold_arousal": 0.93,
+      "threshold_multiplier": 4.0
+    },
+    "derived": {
+      "total_population": 25.0,
+      "visibility_ratio": 27.040000000000003
+    }
+  }
+}

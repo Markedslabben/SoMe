@@ -1,0 +1,49 @@
+flowchart TB
+    subgraph ALGO["ALGORITHM LAYER"]
+        ENG["Engagement squared"]
+        VIS_C["Visibility_C<br/>8.7x higher"]
+        VIS_S["Visibility_S<br/>baseline"]
+    end
+
+    subgraph EXPOSURE["EXPOSURE LAYER"]
+        EXP_C(("Exposure_C<br/>dominant"))
+        EXP_S(("Exposure_S<br/>suppressed"))
+    end
+
+    subgraph POPULATION["POPULATION STOCKS"]
+        N[["NEUTRALS N<br/>20 to 7"]]
+        C[["CONTRARIAN C<br/>0 to 12.7"]]
+        S[["CONSENSUS S<br/>0 to 0.04"]]
+    end
+
+    subgraph COGNITIVE["COGNITIVE LAYER"]
+        A[["AROUSAL A<br/>0.47 to 0.89"]]
+        SUS(("Susceptibility"))
+        F[["FRAME ADOPTION F<br/>0 to 0.89"]]
+    end
+
+    ENG -->|amplifies| VIS_C
+    ENG -->|amplifies| VIS_S
+    VIS_C -->|high| EXP_C
+    VIS_S -->|low| EXP_S
+    C -.->|more sources| EXP_C
+    S -.->|few sources| EXP_S
+    N ==>|60 percent convert| C
+    N -.->|0 percent convert| S
+    EXP_C -->|enables| N
+    EXP_C -->|provokes| A
+    A -->|increases| SUS
+    SUS -->|peripheral processing| C
+    SUS -->|blocks rational| S
+    EXP_C -->|language adoption| F
+    F -.->|secondary propagation| EXP_C
+
+    classDef contrarian fill:#fff,stroke:#e74c3c,stroke-width:3px
+    classDef consensus fill:#fff,stroke:#3498db,stroke-width:3px
+    classDef arousal fill:#fff,stroke:#e67e22,stroke-width:3px
+    classDef neutral fill:#fff,stroke:#7f8c8d,stroke-width:3px
+
+    class N neutral
+    class C contrarian
+    class S consensus
+    class A,F arousal

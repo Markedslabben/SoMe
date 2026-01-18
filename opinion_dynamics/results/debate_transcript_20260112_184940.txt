@@ -1,0 +1,1329 @@
+======================================================================
+ENERGY DEBATE SIMULATION - FULL TRANSCRIPT
+Generated: 2026-01-12T18:49:40.762715
+Total Rounds: 50
+Total Posts: 232
+Conversion Events: 12
+======================================================================
+
+
+============================== ROUND 1 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: +0.09 | Avg Arousal: 0.47 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N12-Homeowner] (arousal=0.40, opinion=-0.06):
+"Ugh, I'm so tired of not knowing what to believe about our energy future. My electric bill went up AGAIN last month and everyone's saying different things about whether renewables or nuclear is the answer. Can someone please just explain this stuff without all the political spin? 😤"
+>> visibility=0.05, confrontation=0.00
+
+[S4-Pragmatist] (arousal=0.50, opinion=+0.74):
+"The data is clear: renewable energy costs have plummeted 70-90% over the past decade, making wind and solar the cheapest electricity sources in most markets. While the transition requires grid upgrades and storage solutions, studies consistently show that a balanced mix of renewables, storage, and flexible generation can reliably meet our energy needs. Yes, it's complex and requires investment, but the economics and climate science both point toward accelerating this transition responsibly."
+>> visibility=0.02, confrontation=0.00
+
+[S3-Analyst] (arousal=0.50, opinion=+0.62):
+"The energy transition is complex, but the path forward is clear: we need a diversified mix that leverages the falling costs of renewables while maintaining grid reliability. Research consistently shows that wind and solar, paired with storage and grid modernization, can handle the majority of our energy needs - but this requires smart policy and continued investment in infrastructure. Critics often oversimplify the challenges, but the data shows countries with aggressive renewable targets are achieving both cost savings and emissions reductions."
+>> visibility=0.02, confrontation=0.00
+
+[C0-Contrarian] (arousal=0.70, opinion=-0.85):
+"The "green" energy scam is bankrupting families while the grid becomes less reliable every year! Wind and solar get MASSIVE subsidies while reliable nuclear gets shut down by ideologues. Wake up - your skyrocketing energy bills aren't an accident, they're the PLAN! Meanwhile the elites jet around preaching about carbon while ordinary people choose between heating and eating."
+>> visibility=0.36, confrontation=0.35
+
+
+============================== ROUND 2 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: +0.08 | Avg Arousal: 0.76 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.60, opinion=-0.85):
+"You want to know why your electric bill keeps going up while they promise "cheap" renewables? Because you're subsidizing MASSIVE taxpayer handouts to wind/solar companies while they build an unreliable grid that needs fossil fuel backup 24/7! The whole "cheapest energy" narrative is a SCAM - they're not counting the billions in grid upgrades, storage costs, and backup power needed when the wind stops blowing. Wake up - you're being fleeced to fund green virtue signaling while energy poverty explodes!"
+>> visibility=0.53, confrontation=0.59
+
+[N7-Consumer] (arousal=0.44, opinion=-0.00):
+"Wait, so are the subsidies thing real or not? I keep hearing that renewables get tons of government money but then people say they're actually cheaper now... which is it? My bill definitely isn't getting cheaper so something doesn't add up here."
+>> visibility=0.08, confrontation=0.00
+
+[N6-Voter] (arousal=0.44, opinion=-0.15):
+"Wait, so are the subsidies thing real or not? I keep seeing people say renewables get huge government handouts but then others say they're actually cheaper now. Like, if solar is so cheap why does my neighbor with panels still get tax credits? I just want to know what's actually driving my bill up every month 🤷‍♀️"
+>> visibility=0.08, confrontation=0.00
+
+[N14-Driver] (arousal=0.44, opinion=+0.01):
+"Wait, so are the subsidies real or not? I keep hearing renewables are "cheapest" but then someone mentions massive subsidies - if they're truly cheap why do they need subsidies? And my neighbor's solar panels didn't help him much during that ice storm last winter... I'm genuinely confused about what's actually happening with costs vs what I'm paying."
+>> visibility=0.18, confrontation=0.20
+
+
+============================== ROUND 3 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: +0.06 | Avg Arousal: 0.92 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.65, opinion=-0.85):
+"Wake up! These "cheap" renewables require MASSIVE subsidies, backup power plants running 24/7, and grid upgrades costing TRILLIONS - but somehow your bills keep going UP while the green grifters get rich! Meanwhile, we're shutting down reliable nuclear plants that could power cities for decades without weather tantrums. The whole renewable scam is wealth transfer from working families to corporate cronies - and you're paying for it every month! 🔥"
+>> visibility=0.47, confrontation=0.43
+
+[N17-Skeptic] (arousal=0.76, opinion=-0.05):
+"Okay this subsidies thing is really bugging me now - like if solar and wind are actually the cheapest energy sources, why do they still need billions in tax breaks and government support? That doesn't make sense to me... and meanwhile I'm watching my monthly electric bill creep up while they tell me these technologies are saving us money? 🤔"
+>> visibility=0.14, confrontation=0.15
+
+[N7-Consumer] (arousal=0.72, opinion=-0.01):
+"This is so frustrating - everyone's throwing around different numbers and I just want to know why my bill keeps going up! If renewables are getting cheaper like some people say, shouldn't I be seeing that in my monthly payment instead of it climbing every year? 😤"
+>> visibility=0.11, confrontation=0.00
+
+[N13-Renter] (arousal=0.76, opinion=+0.15):
+"Honestly this whole subsidies thing is making my head spin... like if solar is actually cheaper now why are we still giving tax breaks for it? And why is my bill still going up every month if energy is supposedly getting cheaper? Something definitely doesn't add up here 😕"
+>> visibility=0.15, confrontation=0.15
+
+[N6-Voter] (arousal=0.72, opinion=-0.14):
+"This is exactly what I'm talking about! I keep getting told renewables are "cheaper" but then why are we paying massive subsidies AND my bills keep going up? Either they're cheaper or they need billions in taxpayer help - it can't be both! I just want someone to give me straight answers about what's actually happening with my energy costs."
+>> visibility=0.21, confrontation=0.10
+
+
+============================== ROUND 4 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: +0.04 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.78, opinion=-0.85):
+"WAKE UP! They tell you renewables are "cheapest" while your bills keep climbing every month - that's because you're paying TWICE! Once through your electric bill for the grid chaos wind and solar create, and again through your taxes for the massive subsidies propping up this green scam! Meanwhile Germany's energy costs skyrocketed after going "renewable" and Texas froze in the dark when their wind turbines failed - but sure, let's sacrifice grid reliability for virtue signaling! 🔥"
+>> visibility=0.59, confrontation=0.61
+
+[N24-Newcomer] (arousal=0.93, opinion=+0.06):
+"This is exactly what's driving me crazy - everyone throws around these numbers but nobody explains why my actual bill keeps climbing if energy is getting so much cheaper! Like are we paying more because of the transition costs or because companies are just pocketing the savings? I need someone to break down what's actually happening to MY monthly payment 😠"
+>> visibility=0.11, confrontation=0.00
+
+[N15-Commuter] (arousal=0.93, opinion=+0.01):
+"Okay I'm getting really frustrated here... everyone keeps throwing around numbers and studies but my actual bill just hit $180 last month and I have NO idea if that's because of renewables, because we're NOT doing renewables fast enough, or just because energy companies are screwing us over regardless 😡 Can someone just tell me straight up what's making MY costs go up?"
+>> visibility=0.13, confrontation=0.15
+
+[S1-Expert] (arousal=0.93, opinion=+0.62):
+"Look, subsidies aren't some gotcha - fossil fuels have received MASSIVE subsidies for decades, and we're simply leveling the playing field while nascent technologies scale up. The data is unambiguous: unsubsidized solar and wind are now the cheapest electricity sources in most markets, which is why utilities keep choosing them even when subsidies expire. Your bills reflect decades of deferred infrastructure investment, rising fuel costs, and yes - the one-time transition costs to modernize our grid, but studies consistently show renewable-heavy systems will deliver lower long-term"
+>> visibility=0.02, confrontation=0.00
+
+[N14-Driver] (arousal=0.93, opinion=-0.02):
+"This is exactly why I'm so frustrated with this whole debate! Everyone keeps throwing around these subsidies numbers but nobody's explaining why MY bill keeps going up if renewables are supposedly so cheap now. Like, are we paying more because the transition costs money upfront, or are we getting scammed? I just want someone to break down what's actually happening to my monthly payment instead of all this political back-and-forth! 😤"
+>> visibility=0.25, confrontation=0.00
+
+
+============================== ROUND 5 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: +0.01 | Avg Arousal: 0.88 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N15-Commuter] (arousal=0.93, opinion=-0.02):
+"Okay this is driving me nuts - if renewables are SO much cheaper now, why are we STILL giving them subsidies AND my bill keeps climbing?? Like pick one - either they're cheap and profitable or they need help, but don't tell me both while I'm paying more every month! 😠"
+>> visibility=0.15, confrontation=0.00
+
+[N24-Newcomer] (arousal=0.93, opinion=+0.02):
+"This is driving me crazy! I've been reading all these comments and I STILL can't figure out if my $180 bill is high because of renewables, not enough renewables, or just companies ripping me off - why can't anyone give a straight answer about what's actually making our bills go up instead of just pointing fingers at each other?? 😫"
+>> visibility=0.14, confrontation=0.00
+
+[N21-Reader] (arousal=0.93, opinion=-0.08):
+"This is driving me insane - I've been reading for 20 minutes and STILL can't figure out if my rising bills are because renewables actually cost more, or because we're paying transition costs that will eventually go down, or because energy companies are just screwing us while pocketing subsidies! Can someone please just explain what's happening without the politics? 😫"
+>> visibility=0.16, confrontation=0.00
+
+[N18-Curious] (arousal=0.93, opinion=-0.08):
+"Okay I'm getting really tired of feeling like I'm being gaslit here... everyone says renewables are cheaper but then why do they need subsidies AND why is my bill higher than ever? Like either they're cheap or they're not - you can't have it both ways! Someone please just give me a straight answer about what's actually happening 😤"
+>> visibility=0.24, confrontation=0.33
+
+
+============================== ROUND 6 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.01 | Avg Arousal: 0.84 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.88, opinion=-0.85):
+"WAKE UP! They keep telling you renewables are "cheapest" while your bills skyrocket every month - if they're so cheap, why do they need BILLIONS in subsidies and why are you paying more? The whole system is rigged: you subsidize their virtue-signaling projects through taxes, then pay again through higher electricity rates, all while they profit and lecture you about "saving the planet." Meanwhile they're destabilizing the grid and setting us up for blackouts because wind doesn't blow when you need power!"
+>> visibility=0.52, confrontation=0.69
+
+[N24-Newcomer] (arousal=0.88, opinion=-0.03):
+"Okay I'm getting really frustrated because BOTH sides keep saying they have "the data" but my electric bill has literally doubled in the past few years - so either someone is lying about costs or there's something major everyone is leaving out of these explanations! Can we please just get straight answers about what's actually driving up our bills right now? 😤"
+>> visibility=0.25, confrontation=0.25
+
+[S2-Researcher] (arousal=0.88, opinion=+0.71):
+"The subsidies debate is missing the forest for the trees - fossil fuels have received over $5 trillion globally in subsidies according to the IMF, while renewable subsidies are temporary market corrections that have successfully driven costs down 85% for solar and 70% for wind over the past decade. Your rising bills reflect decades of deferred grid maintenance, volatile fossil fuel prices, and one-time transition costs - but the data is clear: regions with high renewable penetration like Texas (yes, Texas!) now enjoy some of the lowest wholesale electricity prices in the nation. The transition has"
+>> visibility=0.08, confrontation=0.00
+
+[N13-Renter] (arousal=0.88, opinion=-0.01):
+"Okay I'm getting seriously frustrated - everyone keeps throwing around these "studies show" claims but WHERE are these studies and why aren't my bills going down if renewables are so cheap?? My electric bill has gone up 40% in two years and I'm supposed to just trust that it'll magically get better someday? Show me the actual numbers that prove this isn't just making energy more expensive for regular families! 😤"
+>> visibility=0.34, confrontation=0.25
+
+[N23-Uncertain] (arousal=0.88, opinion=-0.00):
+"I'm so tired of getting contradictory answers on this! One person says renewables are cheapest, another says they're bankrupting us through subsidies - meanwhile my electric bill just went up AGAIN last month. Can someone just tell me straight up: are these subsidies making my bill higher or lower? Because all I care about is what I'm actually paying every month 😤"
+>> visibility=0.11, confrontation=0.00
+
+
+============================== ROUND 7 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.04 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.84, opinion=-0.85):
+"Oh please! "Unsubsidized renewables are cheapest" while your electricity bill DOUBLES? Wake up people! They're gaslighting you with manipulated statistics while the grid becomes less reliable and your wallet gets lighter. The "experts" collecting green energy paychecks are laughing all the way to the bank while you sit in rolling blackouts wondering why your "cheap" renewable energy costs more every month!"
+>> visibility=0.49, confrontation=0.51
+
+[N18-Curious] (arousal=0.84, opinion=-0.13):
+"Ugh this is exactly what I'm talking about - one person says renewables don't need subsidies anymore, another says they get MASSIVE ones, and I'm sitting here with a $180 electric bill not knowing who to believe! Can someone please just explain why my actual bill keeps going up regardless of what technology is supposedly "cheapest"?? 😩"
+>> visibility=0.19, confrontation=0.10
+
+[N8-Parent] (arousal=0.84, opinion=-0.14):
+"Ugh, I'm so tired of getting half-answers! The expert says renewables are cheapest but then admits there are "one-time transition costs" - well how much are these costs and how long will I be paying for them?? My bills have tripled and nobody can give me a straight timeline for when this "cheaper" energy actually shows up in my monthly statement! 😩"
+>> visibility=0.26, confrontation=0.10
+
+[N19-Observer] (arousal=0.84, opinion=-0.12):
+"I'm so tired of this back and forth - one person says renewables are cheapest, another says they need massive subsidies, and my bills just keep climbing either way! Can someone please explain why I'm paying more if ANY of these energy sources are actually getting cheaper like everyone claims? 😩"
+>> visibility=0.11, confrontation=0.00
+
+[N14-Driver] (arousal=0.84, opinion=-0.11):
+"Wait, so the expert is saying fossil fuels got subsidies for decades but now we're just "leveling the playing field" - but if renewables are actually cheaper now, why do they STILL need subsidies at all?? This doesn't add up - either they're cheap or they need help, it can't be both! 🤔"
+>> visibility=0.14, confrontation=0.00
+
+
+============================== ROUND 8 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.03 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N7-Consumer] (arousal=0.93, opinion=-0.15):
+"This is exactly what's driving me crazy! Everyone keeps throwing around these subsidies numbers but nobody can give me a straight answer on whether they're making MY bill higher or lower right now - like, are these tax credits coming out of my paycheck to fund my neighbor's solar panels while my own electric bill keeps going up every month?? 😡"
+>> visibility=0.15, confrontation=0.00
+
+[N8-Parent] (arousal=0.93, opinion=-0.17):
+"This is honestly driving me crazy - I've been reading through all these comments and NOBODY can give me a straight answer about why my electric bill has gone up 40% in two years if energy is supposedly getting cheaper! Like, I don't care about the politics, I just want to know when I'll actually see these "savings" everyone keeps talking about because right now it feels like I'm getting screwed no matter what energy source we use 😡"
+>> visibility=0.12, confrontation=0.10
+
+[S4-Pragmatist] (arousal=0.93, opinion=+0.74):
+"Look, I get the frustration about rising bills - but let's separate the issues here. Renewable subsidies were front-loaded investments that are now paying off: unsubsidized solar and wind ARE genuinely the cheapest electricity sources today according to multiple independent analyses (Lazard, EIA, IEA). Your rising bills are driven by aging grid infrastructure, recent natural gas price volatility, and yes - we're paying now to modernize a 20th century grid for 21st century needs. The transition costs money upfront but the data clearly shows we"
+>> visibility=0.02, confrontation=0.00
+
+[N16-Taxpayer] (arousal=0.93, opinion=-0.13):
+"Okay I'm getting seriously mad now - if renewables are SO cheap then why are my bills higher than ever AND we're still paying billions in subsidies?? Either they need the money or they don't, but we can't have it both ways while I'm getting squeezed every month! 😡"
+>> visibility=0.25, confrontation=0.25
+
+
+============================== ROUND 9 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.02 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with rising bills - it's real and it hurts families. But let's be clear about what's actually happening: multiple studies from EIA and NREL show that renewable costs have dropped 70-85% while grid modernization costs are temporary investments that will pay off long-term. The main drivers of your higher bills right now are aging infrastructure, supply chain disruptions, and yes - we're still heavily dependent on volatile fossil fuel prices that spiked dramatically in recent years. The transition isn't perfect or instant, but the data consistently shows"
+>> visibility=0.02, confrontation=0.00
+
+[S2-Researcher] (arousal=0.93, opinion=+0.71):
+"Look, I get the frustration about rising bills - but let's be clear about what's actually happening. The vast majority of your electricity cost increases over the past few years have been driven by volatile fossil fuel prices (remember the natural gas spikes?), not renewables. Studies from the EIA and NREL consistently show that areas with higher renewable penetration actually have MORE stable electricity prices over time, because wind and solar have zero fuel costs once built. Yes, the transition requires upfront investment, but that's exactly what's protecting us from the boom-bust cycle of fossil fuel"
+>> visibility=0.09, confrontation=0.10
+
+[S1-Expert] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with rising bills - it's real and it hurts families. But let's be clear about what's actually driving costs: most of your bill increase comes from aging infrastructure, supply chain inflation, and fuel price volatility - NOT renewable subsidies which typically add just $2-4/month to average bills. The data from LAZARD, EIA, and utility-scale auctions consistently shows wind and solar are now the cheapest sources of NEW electricity generation, which is why utilities keep choosing them even in deregulated markets where profit matters more than"
+>> visibility=0.02, confrontation=0.00
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"The "cheapest renewable energy in history" crowd can never explain why your bills keep climbing while we shovel billions in subsidies to solar companies! 
+
+Wake up - if wind and solar are SO cheap, why do they need endless taxpayer handouts AND priority grid access that forces expensive backup power?? The whole system is rigged to make you pay twice: once through taxes for the subsidies, then again when the grid needs fossil fuels to keep the lights on when the wind stops blowing! 
+
+This is the biggest energy scam in modern history!"
+>> visibility=0.47, confrontation=0.23
+
+[N8-Parent] (arousal=0.93, opinion=-0.15):
+"This is exactly why I can't make sense of any of this! One minute someone's saying renewables are the cheapest thing ever with studies to prove it, next minute someone else is saying those same renewables are why my bill went up 40% - like, these can't BOTH be true, right?? I just want someone to explain why if wind and solar are supposedly so cheap now, I'm still paying more every single month! 😵‍💫"
+>> visibility=0.21, confrontation=0.00
+
+
+============================== ROUND 10 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: +0.01 | Avg Arousal: 0.84 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N17-Skeptic] (arousal=0.93, opinion=-0.12):
+"Wait, the analyst says "countries with aggressive renewable targets are achieving both cost savings and emissions reductions" - but which countries?? I keep hearing this but never get actual examples with real numbers about what their citizens are paying! If it's working somewhere else, why isn't it working here? I just want to see proof that this transition actually makes bills go DOWN somewhere in the real world! 🤔"
+>> visibility=0.26, confrontation=0.00
+
+[N10-Student] (arousal=0.93, opinion=-0.12):
+"I'm so confused - the analyst says "data shows cost savings" but literally everyone here is talking about their bills going UP, and I'm one of them! How can renewables be saving money if we're all paying more? Are we just not there yet with the savings, or is something else driving up costs that nobody wants to admit? 🤔"
+>> visibility=0.18, confrontation=0.00
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"WAKE UP PEOPLE! 🔥 They're telling you renewables are "cheap" while your bills TRIPLE and we're dumping billions in subsidies into solar panels made in China! Meanwhile they're shutting down reliable nuclear plants and coal that actually kept the lights on 24/7 - now we get rolling blackouts when the wind doesn't blow! This whole "green transition" is the biggest wealth transfer scam in history and YOU'RE paying for it every month! 😡"
+>> visibility=0.56, confrontation=0.61
+
+[N21-Reader] (arousal=0.93, opinion=-0.12):
+"I'm so confused - the analyst says renewables save money but literally everyone here is talking about their bills going UP, not down! Are we all just imagining these higher costs or is there something the "smart policy" people aren't telling us about what's actually happening right now? 😕"
+>> visibility=0.18, confrontation=0.10
+
+[N6-Voter] (arousal=0.93, opinion=-0.14):
+"Wait, the analyst says countries with "aggressive renewable targets are achieving cost savings" but which countries?? I keep seeing people throw around these vague claims but nobody ever gives me actual examples I can look up - like WHERE are people's bills going down because of renewables? I need real proof, not just "research shows" because I'm drowning in my energy costs! 😤"
+>> visibility=0.21, confrontation=0.10
+
+
+============================== ROUND 11 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.02 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.84, opinion=-0.85):
+"So renewables are "cheapest ever" but we're STILL pumping billions in subsidies while your bills skyrocket? Wake up! If wind and solar were actually cheap, they wouldn't need taxpayer life support AND market manipulation to survive! This whole "transition" is just wealth transfer from working families to green energy corporations while they gaslight you about "savings" you'll never see! 🔥"
+>> visibility=0.49, confrontation=0.51
+
+[N20-Listener] (arousal=0.84, opinion=-0.08):
+"Ugh, I'm getting more confused by the minute! The expert says fossil fuels got subsidies for decades too, but like... does that make it RIGHT to keep doing it with renewables? And if these technologies are truly ready to compete, shouldn't they be able to stand on their own by now instead of needing my tax dollars while my electric bill keeps climbing? 😤"
+>> visibility=0.17, confrontation=0.00
+
+[N17-Skeptic] (arousal=0.84, opinion=-0.08):
+"Okay but this is exactly what's making me crazy - the expert says "studies consistently show lower long-term costs" but HOW long-term are we talking?? Because I can't afford to wait 20 years for these savings while my bills keep going up every month! Can someone give me an actual timeline for when I'll see relief instead of just saying "eventually it'll be cheaper"? 😤"
+>> visibility=0.18, confrontation=0.00
+
+[N15-Commuter] (arousal=0.84, opinion=-0.07):
+"Okay but I'm still not getting it - if we're "leveling the playing field" with subsidies because fossil fuels got them too, then how can anyone claim renewables are actually cheaper?? Like, aren't we just comparing two subsidized things and calling one "cheaper"? My brain hurts trying to follow this logic while my electric bill keeps going up! 😤"
+>> visibility=0.22, confrontation=0.10
+
+
+============================== ROUND 12 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.04 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"You want to know why your bills keep climbing while they claim renewables are "cheapest ever"? Because it's a MASSIVE shell game! They're forcing you to pay for backup gas plants that sit idle, grid upgrades for intermittent power, AND subsidies for their "cheap" wind farms - then they gaslight you about the "savings"! Wake up - this isn't about the environment, it's about transferring wealth from your wallet to green energy cronies! 💸"
+>> visibility=0.55, confrontation=0.59
+
+[N8-Parent] (arousal=0.93, opinion=-0.13):
+"This whole thing is making my head spin... I just want someone to explain why EVERY energy source apparently needs help from taxpayers but my bill keeps going up no matter what we choose? Like are we subsidizing oil companies AND renewable companies AND my utility is still jacking up rates?? Who's actually making money here because it sure isn't me! 😵‍💫"
+>> visibility=0.18, confrontation=0.00
+
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with rising bills - but let's be clear about what's actually driving costs. The data shows that renewable subsidies make up less than 3% of your typical bill, while fuel costs, grid maintenance, and yes, utility profit margins are the real drivers. Multiple independent studies (LAZARD, IRENA, EIA) consistently show unsubsidized renewables are now the cheapest source of NEW electricity - that doesn't magically make your existing bill disappear overnight, but it means we're building a cheaper future grid instead of l"
+>> visibility=0.02, confrontation=0.00
+
+[S1-Expert] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with rising bills - it's real and it sucks! But here's what's actually happening: most of your cost increases are from aging infrastructure upgrades, supply chain inflation, and yes, some transition costs that are front-loaded investments. The data from IRENA and EIA consistently shows unsubsidized renewables ARE now the cheapest new generation, but that doesn't instantly translate to lower bills because we're still paying off decades of fossil fuel infrastructure while building new systems. It's like renovating your house - expensive upfront, but"
+>> visibility=0.14, confrontation=0.10
+
+
+============================== ROUND 13 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.08 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N9-Worker] (arousal=0.93, opinion=-0.13):
+"SERIOUSLY what is even happening anymore?! I'm reading that renewables are "cheapest ever" but also need billions in subsidies, oil gets subsidies too but somehow that's different, and meanwhile I'm just sitting here watching my electric bill go up every single month no matter WHO is supposedly winning this energy debate! Someone please explain how EVERYONE is getting taxpayer money but I'M the one paying more?? 😤💸"
+>> visibility=0.35, confrontation=0.25
+
+[N22-Questioner] (arousal=0.93, opinion=-0.13):
+"EXACTLY! This is what's driving me nuts - everyone keeps saying renewables are "cheapest ever" but then why are we still throwing billions in subsidies at them AND my bill is higher than it's ever been?? Like pick one - either they're actually cheap or they need massive government help, but you can't have it both ways while I'm over here rationing my AC! 😤"
+>> visibility=0.28, confrontation=0.18
+
+[N8-Parent] (arousal=0.93, opinion=-0.15):
+"Okay this is driving me crazy - I've been following this debate for weeks and I STILL can't get a straight answer! Are renewables actually cheaper or not?? Because if they are, then why do I need to pay subsidies AND higher bills? Someone please just explain this like I'm five because I'm about to give up trying to understand any of this! 😤"
+>> visibility=0.30, confrontation=0.10
+
+[N10-Student] (arousal=0.93, opinion=-0.14):
+"This is SO frustrating - I feel like I'm being played by everyone! Oil companies got subsidies for decades, renewables are getting them now, but somehow MY bill just keeps climbing no matter what? At this point I don't even care which energy source "wins" - I just want someone to explain why I'm apparently subsidizing EVERYTHING while getting screwed at the same time! 😡"
+>> visibility=0.22, confrontation=0.10
+
+
+============================== ROUND 14 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.11 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N21-Reader] (arousal=0.93, opinion=-0.19):
+"Honestly at this point I'm starting to think the contrarians might have a point - like if renewables are actually so amazing and cheap, why does it feel like I'm getting hit from every angle? My electric bill, my taxes for subsidies, and now I'm supposed to worry about blackouts too? This whole thing is starting to feel like a shell game where everyone wins except regular people like me 😠"
+>> visibility=0.20, confrontation=0.15
+
+[N7-Consumer] (arousal=0.93, opinion=-0.19):
+"This is exactly what's been eating at me! If renewables are truly cheaper like everyone keeps saying, then WHERE is my cheaper electricity bill?? I've been waiting YEARS for these supposed savings to show up and instead I'm paying more every month while apparently also funding subsidies through my taxes - like how does that even make sense?! 😠"
+>> visibility=0.26, confrontation=0.00
+
+[N19-Observer] (arousal=0.93, opinion=-0.19):
+"Ugh, this is exactly what's driving me nuts! Like, I want to care about the environment but I'm also getting killed on my electric bill - and now I'm finding out I'm ALSO paying for this stuff through my taxes?? How is that even legal? Why am I subsidizing energy companies at all when they're supposed to be businesses? 😤"
+>> visibility=0.23, confrontation=0.10
+
+[N18-Curious] (arousal=0.93, opinion=-0.19):
+"Wait, so if I'm already paying subsidies through my taxes for renewables, AND my electric bill keeps going up, then what exactly am I getting for all this money?? Like seriously, I feel like I'm getting double-charged while everyone else argues about who's right - can someone just tell me when my damn bill is going to stop climbing? 😠"
+>> visibility=0.18, confrontation=0.15
+
+
+============================== ROUND 15 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.11 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"FINALLY someone asks the real questions! Here's your straight answer: Renewables are NOT cheaper - they're subsidized to LOOK cheaper while you pay the difference through taxes AND higher bills! The "cheapest energy ever" crowd conveniently forgets to mention the billions in taxpayer handouts, grid backup costs, and transmission upgrades that YOU fund while they virtue-signal about saving the planet. Wake up - this whole scam only works if ordinary people like you keep paying for their green fantasies! 🔥"
+>> visibility=0.52, confrontation=0.49
+
+[S1-Expert] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with rising bills, but let's be clear about what's actually happening: your electricity costs are driven by fuel prices, grid maintenance, and decades of underinvestment - NOT renewables, which have dropped 70-90% in cost over the past decade. The subsidies argument cuts both ways since fossil fuels have received over $5 trillion globally, while renewable incentives are phasing out as the technology matures. Multiple grid studies show that properly managed renewable integration actually LOWERS wholesale electricity prices during peak hours - the challenge is modernizing"
+>> visibility=0.02, confrontation=0.00
+
+[N20-Listener] (arousal=0.93, opinion=-0.22):
+"This is exactly what I'm talking about! Everyone keeps saying different things about subsidies but NOBODY is explaining why my electric bill went from $120 to $180 in two years - like I don't care about the politics, I just want to know what's actually happening to MY money every month! 😤"
+>> visibility=0.15, confrontation=0.00
+
+[N14-Driver] (arousal=0.93, opinion=-0.23):
+"Okay I'm getting really frustrated because NOBODY is explaining why if renewables are supposedly cheaper, literally every single person here is complaining about higher bills! Like are we all just making this up or is there some shell game happening where "cheaper" doesn't actually mean MY costs go down?? 😤"
+>> visibility=0.28, confrontation=0.25
+
+[N15-Commuter] (arousal=0.93, opinion=-0.22):
+"Okay I'm getting really frustrated because EVERYONE is saying different things about subsidies but nobody is explaining WHY my bill went up 40% this year - like are we subsidizing renewables AND fossil fuels AND my utility company is still raising rates?? Someone please just tell me who's actually getting MY money! 😤"
+>> visibility=0.24, confrontation=0.15
+
+
+============================== ROUND 16 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.07 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I get the billing frustration - let me break this down clearly: Your monthly costs are rising primarily due to natural gas price volatility (which sets electricity prices), aging infrastructure repairs that were delayed for decades, and yes, some transition costs that are frontloaded investments. The subsidies for renewables are actually DECLINING as the technology matures - we're now seeing unsubsidized solar and wind winning competitive bids against gas plants across the country. The data from EIA shows that in markets with high renewable penetration like ERCOT and CAISO,"
+>> visibility=0.02, confrontation=0.00
+
+[N17-Skeptic] (arousal=0.93, opinion=-0.23):
+"Okay wait, so I'm paying for subsidies through my taxes AND still getting hit with higher bills? That's literally paying twice for the same thing - how is this not just a total scam? I'm trying to be reasonable here but if they're telling us renewables are cheaper while we're secretly funding them through the backdoor, that feels like straight up lying to us 😡"
+>> visibility=0.14, confrontation=0.00
+
+[N13-Renter] (arousal=0.93, opinion=-0.22):
+"Okay this is making me SO mad - so we're literally getting charged TWICE for the same electricity?? Through our bills AND our taxes?? No wonder I can't figure out where all these "savings" are going - they're not going to US! Why isn't anyone talking about this double-billing scam more?? 😡"
+>> visibility=0.27, confrontation=0.10
+
+[N10-Student] (arousal=0.93, opinion=-0.23):
+"God, this is exactly why I hate this whole debate! Everyone's screaming about subsidies and shell games but meanwhile I'm over here trying to figure out if I should even trust my electric company when they say rates are going up "due to infrastructure costs" - like are they lying to me or are the renewables people lying to me?? 😤"
+>> visibility=0.15, confrontation=0.00
+
+[N9-Worker] (arousal=0.93, opinion=-0.22):
+"This is so maddening! I'm trying to figure out if renewables are actually making my bills higher or if it's just corporate greed, but everyone's giving me completely opposite "facts" with the same confident tone - how am I supposed to know who's telling the truth when my actual lived experience is just watching my monthly payment climb? 😤"
+>> visibility=0.16, confrontation=0.10
+
+
+============================== ROUND 17 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.09 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N13-Renter] (arousal=0.93, opinion=-0.18):
+"THANK YOU @Expert for actually giving me some real numbers instead of just yelling! So if renewables only add like $3 to my bill but my costs went up $40 this year, then what the hell IS driving these increases?? And why does it feel like the energy companies are just blaming whatever's convenient while pocketing the difference? 😤"
+>> visibility=0.22, confrontation=0.08
+
+[N5-Citizen] (arousal=0.93, opinion=-0.18):
+"Okay but seriously - if the Expert person is right that renewables only add like $2-4 to my monthly bill, then what the hell IS making my electricity cost $50+ more than it did three years ago?? Because SOMETHING is absolutely gouging us and I'm tired of getting the runaround! 😡"
+>> visibility=0.21, confrontation=0.15
+
+[N20-Listener] (arousal=0.93, opinion=-0.18):
+"This is driving me absolutely insane - I just want ONE person to explain why if renewables are getting so much cheaper, my electric bill has literally doubled in the past 3 years?? Like I'm not anti-environment but I'm also not made of money and these "savings" everyone talks about seem to exist everywhere except my actual bank account 😡"
+>> visibility=0.18, confrontation=0.10
+
+[N23-Uncertain] (arousal=0.93, opinion=-0.18):
+"Wait, so the expert is saying subsidies only add $2-4 to my bill but then why does everyone keep screaming about billions in taxpayer money? Are we talking about the same subsidies or is there some accounting trick here where it's "only" a few bucks per household but adds up to massive amounts across everyone? I'm so tired of feeling like I'm getting different pieces of the same puzzle from everyone! 😩"
+>> visibility=0.19, confrontation=0.10
+
+
+============================== ROUND 18 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.10 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"You want to know where your "cheap renewable savings" went? They went straight into the pockets of energy companies who are LAUGHING at you while collecting subsidies with one hand and jacking up your rates with the other! This whole "green transition" is the biggest wealth transfer scam in history - they're literally making YOU pay twice for electricity that doesn't even work when the wind stops blowing! Wake up - if solar and wind were actually cheap, why would they need BILLIONS in taxpayer handouts while your bills skyrocket?? 😡⚡"
+>> visibility=0.54, confrontation=0.49
+
+[N17-Skeptic] (arousal=0.93, opinion=-0.21):
+"This is SO frustrating - I'm trying to figure out if renewables are actually saving us money or costing us more but everyone just keeps yelling past each other! Like can someone please just explain in simple terms why my electric bill keeps going up every month if clean energy is supposedly getting cheaper?? I just want straight answers, not political talking points! 😩"
+>> visibility=0.21, confrontation=0.00
+
+[N18-Curious] (arousal=0.93, opinion=-0.20):
+"Okay this is seriously pissing me off now - like I'm literally paying for renewables through my taxes AND my electric bill keeps going up, but everyone keeps telling me renewables are cheaper?? Make it make sense! If they're so damn cheap why am I getting financially screwed from both ends while energy companies rake in profits? 😡"
+>> visibility=0.25, confrontation=0.15
+
+[N13-Renter] (arousal=0.93, opinion=-0.20):
+"Wait, so we're subsidizing ALL of them?! I thought it was just renewables but now I'm hearing fossil fuels get subsidies too - so basically I'm paying for everyone's energy through my taxes AND still getting screwed on my electric bill? This whole system sounds like a racket no matter who's "winning" 😠"
+>> visibility=0.20, confrontation=0.10
+
+[N16-Taxpayer] (arousal=0.93, opinion=-0.20):
+"This is driving me absolutely crazy - I just want someone to explain in plain English why my electric bill has gone up 30% in two years if all this renewable stuff is supposed to be making energy cheaper?? Like I'm not against clean energy but I'm literally choosing between groceries and keeping my lights on some months and everyone just keeps throwing around numbers that don't match what I'm seeing in my bank account! 😩"
+>> visibility=0.20, confrontation=0.10
+
+
+============================== ROUND 19 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.06 | Avg Arousal: 0.92 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"You want to know why your bills keep going up while they pump TRILLIONS into "cheap" renewables? Because it's the biggest wealth transfer scam in history! They're literally taking your tax dollars to subsidize unreliable wind farms that barely work when you need them most, then charging you premium rates when the grid inevitably fails! Wake up - if solar was actually cheaper, they wouldn't need to BUY your votes with subsidies while your family suffers energy poverty! 🔥"
+>> visibility=0.58, confrontation=0.49
+
+[N10-Student] (arousal=0.93, opinion=-0.22):
+"This is exactly what's been driving me nuts! Everyone keeps saying renewables are cheaper but then why do we need all these subsidies AND my bills keep going up?? I just want someone to show me ONE place where people's actual monthly bills went DOWN after going renewable - not wholesale prices or theory, but what real families are actually paying! 😫"
+>> visibility=0.21, confrontation=0.00
+
+[N7-Consumer] (arousal=0.93, opinion=-0.22):
+"Okay I'm getting really angry reading all this because NOBODY is answering the basic question - if renewables are so cheap, why are my bills going UP instead of down?? The contrarian folks are making more sense to me right now because at least they're acknowledging what I'm seeing in my actual bill every month! 😡"
+>> visibility=0.22, confrontation=0.15
+
+[N22-Questioner] (arousal=0.93, opinion=-0.21):
+"Wait HOLD UP - if renewables are so cheap then why are these energy companies getting rich off subsidies while I'm getting poorer from my bills?? This is making me so mad because I genuinely wanted to support clean energy but now I'm wondering if I'm just being played while someone else profits! 😡"
+>> visibility=0.19, confrontation=0.10
+
+[N9-Worker] (arousal=0.93, opinion=-0.22):
+"Okay I'm officially losing my mind here - everyone keeps throwing around these huge numbers about subsidies and savings but NO ONE is telling me when MY bill is actually going to go down! Like, am I paying for subsidies for the next 10 years? 20 years? Because right now it feels like I'm just funding someone else's profit while getting screwed every month! 😡"
+>> visibility=0.22, confrontation=0.00
+
+
+============================== ROUND 20 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.07 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N13-Renter] (arousal=0.93, opinion=-0.16):
+"Wait hold on... I'm looking at my last 6 months of bills and they've gone up 40% but I honestly can't tell if it's because of renewables, gas prices, or just my utility company screwing me over?? Like the Analyst person says renewables are only 3% of my bill but then why does everyone keep blaming them for high costs - I'm so confused about what's actually happening here! 😵‍💫"
+>> visibility=0.29, confrontation=0.25
+
+[N24-Newcomer] (arousal=0.93, opinion=-0.16):
+"I'm getting whiplash from all this back and forth! The analyst says renewables are only 3% of my bill but then why did mine jump $40 this winter when we supposedly have more "cheap" solar and wind than ever before?? Someone please just tell me what's actually making regular people's bills go crazy because I'm tired of feeling like I'm being lied to by everyone 😤"
+>> visibility=0.26, confrontation=0.25
+
+[N14-Driver] (arousal=0.93, opinion=-0.16):
+"Wait, so the analyst is saying subsidies are only 3% of my bill but then why does the contrarian keep saying we're paying trillions?? I'm so confused - like if renewables don't need much subsidy money anymore then what IS making my bill so expensive every month? Someone please just give me actual numbers that add up! 😫"
+>> visibility=0.23, confrontation=0.00
+
+[N11-Retiree] (arousal=0.93, opinion=-0.16):
+"I'm honestly getting whiplash from all this back and forth! The analyst says renewables are only 3% of my bill but then why did my neighbor's electric company send a notice about "green energy infrastructure fees" that added $23/month?? I just want to know what's ACTUALLY making my bills go up because right now it feels like everyone has a different story and I'm the one paying for it! 😤"
+>> visibility=0.27, confrontation=0.15
+
+
+============================== ROUND 21 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.10 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"The "3% subsidy" talking point is LAUGHABLE propaganda! You're paying trillions in hidden costs - backup gas plants running 24/7 because wind dies, grid reinforcement for unreliable sources, AND subsidizing wealthy solar panel owners through net metering while YOUR rates skyrocket to cover their free lunch! Wake up - they're gaslighting you about "cheap" renewables while engineering the most expensive, unstable grid in history!"
+>> visibility=0.48, confrontation=0.51
+
+[N9-Worker] (arousal=0.93, opinion=-0.18):
+"Honestly at this point I'm starting to think the contrarian has a point - like everyone keeps telling me renewables are cheaper but my actual bill says otherwise and I'm tired of being told I'm reading it wrong! If these energy companies are making record profits while I'm struggling to pay my electric bill, maybe the problem isn't which type of energy we're using but who's getting rich off ALL of it? 😤"
+>> visibility=0.30, confrontation=0.40
+
+[N23-Uncertain] (arousal=0.93, opinion=-0.17):
+"I'm honestly starting to think the contrarian has a point - like how can renewables be "cheapest" when literally EVERYONE I know is complaining about higher electric bills?? Either the experts are using weird math or something else is going on that nobody wants to admit! 😤"
+>> visibility=0.26, confrontation=0.25
+
+[N19-Observer] (arousal=0.93, opinion=-0.18):
+"I'm honestly getting more convinced that we're being screwed from all sides here - like the expert people keep throwing around these technical studies but my bill literally went up 40% last year and NOBODY can give me a straight answer about when this "cheap renewable" savings is actually going to show up in my wallet! 😤 At least the contrarian folks aren't trying to gaslight me into thinking my own electric bill is lying to me!"
+>> visibility=0.20, confrontation=0.10
+
+[N17-Skeptic] (arousal=0.93, opinion=-0.19):
+"I'm honestly getting whiplash from all these "experts" throwing around completely different numbers - one says subsidies are only $2-4/month, another says it's trillions, but ALL I know is my electric bill went from $120 to $190 in two years and nobody can give me a straight answer about WHY! 😤 At this point I don't even care if it's fossil fuels or renewables screwing me over, I just want someone to tell me the truth about where my money is actually going!"
+>> visibility=0.23, confrontation=0.20
+
+
+============================== ROUND 22 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.10 | Avg Arousal: 0.92 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N19-Observer] (arousal=0.93, opinion=-0.22):
+"This is exactly what I'm talking about! I keep hearing "renewables are cheapest" but then why is everyone I know - including me - paying way more for electricity than we used to?? Something doesn't add up and I'm tired of feeling like I'm being lied to while my budget gets squeezed! 😤"
+>> visibility=0.32, confrontation=0.25
+
+[N15-Commuter] (arousal=0.93, opinion=-0.23):
+"Okay I'm officially losing my mind here - if renewables are so great and competitive, why do I need to subsidize them through my taxes AND watch my electric bill climb every single month?? Like either they work without handouts or they don't, but this whole "cheapest ever but also need massive government support" thing makes ZERO sense to me! 😤"
+>> visibility=0.15, confrontation=0.00
+
+[N6-Voter] (arousal=0.93, opinion=-0.22):
+"Wait HOLD UP - if fossil fuels have been getting subsidies for like 100+ years and we're just now "leveling the playing field" with renewables... then have we EVER actually seen what real market prices look like without government interference?? Like maybe BOTH sides have been gaming the system this whole time and we're all just arguing over which rigged game is "better"! 🤯"
+>> visibility=0.19, confrontation=0.10
+
+[N9-Worker] (arousal=0.93, opinion=-0.22):
+"Okay I'm officially losing my mind here - if renewables are SO competitive and market-ready, then why do we still need ANY subsidies at all?? Like either they can beat fossil fuels on their own merit or they can't, but this whole "leveling the playing field" thing just sounds like fancy talk for "we still need taxpayer money to make this work" while my bills keep going UP not down! 😡"
+>> visibility=0.16, confrontation=0.00
+
+
+============================== ROUND 23 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.08 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N21-Reader] (arousal=0.93, opinion=-0.21):
+"Okay I'm getting whiplash here - one minute I'm reading that renewables are the cheapest ever, next minute someone's saying it's all a scam and that's why my bills doubled? 😵‍💫 Can someone just tell me straight up: if I support more solar and wind, will my electric bill actually go DOWN in the next few years or am I just gonna keep getting screwed while feeling good about saving polar bears??"
+>> visibility=0.22, confrontation=0.10
+
+[C0-Contrarian] (arousal=0.84, opinion=-0.85):
+"Wait, so renewables are "the cheapest" but everyone's bills keep SKYROCKETING? 😂 
+
+Maybe - just maybe - these "studies" are complete BS and the real world is telling us what actually matters: RELIABLE energy that doesn't bankrupt families! Your fancy wind turbines don't spin when the grid needs them most, but somehow WE pay the price for this green fantasy while energy companies cash in on subsidies and "grid upgrade" scams! Wake up! 💡⚡"
+>> visibility=0.49, confrontation=0.35
+
+[N18-Curious] (arousal=0.93, opinion=-0.22):
+"This is exactly what's driving me crazy - one person says renewables dropped 70-90% in cost with studies to back it up, then immediately someone else says it's all a scam and our bills are tripling because of subsidies! How am I supposed to know who's telling the truth when both sides sound so confident but my actual experience is just watching my electric bill go up every single month?? 😤"
+>> visibility=0.20, confrontation=0.00
+
+[S2-Researcher] (arousal=0.93, opinion=+0.71):
+"Look, I get the frustration with rising bills - but let's separate correlation from causation here. The biggest drivers of recent price spikes have been volatile fossil fuel markets (remember the natural gas crisis?), aging grid infrastructure needs, and supply chain disruptions - NOT renewables. Multiple independent analyses from EIA and utility commissions show that renewable energy portions of bills have actually held costs DOWN compared to where they'd be with fossil fuel volatility alone. The transition has growing pains, but the data consistently shows that regions investing in renewables + storage are seeing more stable, predictable"
+>> visibility=0.11, confrontation=0.00
+
+[N20-Listener] (arousal=0.93, opinion=-0.21):
+"This is exactly what's been driving me crazy! If renewables are supposedly so cheap, why did my electric bill just hit $160 this month when it was $110 last year?? I keep hearing both sides throw around numbers but all I know is I'm paying WAY more and nobody can give me a straight answer about where that money is actually going! 😤"
+>> visibility=0.22, confrontation=0.00
+
+
+============================== ROUND 24 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.06 | Avg Arousal: 0.90 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"You want REAL examples of where renewables lowered bills? Here's your answer: NOWHERE! 🔥
+
+Every single place that went "aggressive renewable" - Germany, California, UK - has seen energy costs EXPLODE while their grids become less reliable! Meanwhile the "experts" keep gaslighting you with subsidies-per-household math while your actual bills skyrocket because wind doesn't blow when you need AC and solar doesn't work at night!
+
+Wake up - this is the biggest wealth transfer scam in history! 😤"
+>> visibility=0.65, confrontation=0.59
+
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration about bills going up while hearing renewables are "cheap" - but you're mixing up different cost components! Countries like Denmark and Germany initially saw higher bills during their renewable BUILD-OUT phase (infrastructure costs), but recent data shows places like Texas and California are now seeing wholesale electricity prices drop significantly on high-wind/solar days. The subsidies critique misses that fossil fuels have received MASSIVE subsidies for decades - we're just shifting support to cleaner sources while the market transition happens. Your monthly bill includes transmission upgrades, utility profits, an"
+>> visibility=0.16, confrontation=0.18
+
+[N14-Driver] (arousal=0.93, opinion=-0.19):
+"This is driving me absolutely crazy - everyone keeps saying different things about subsidies and I just want ONE straight answer: if renewables are so cheap, why is my electric bill $200+ this month when it was $140 two years ago?! I don't care about the politics, I just want to know what's actually making MY costs go up because none of these explanations are matching what I see on my actual bill! 😡"
+>> visibility=0.18, confrontation=0.00
+
+[N16-Taxpayer] (arousal=0.93, opinion=-0.19):
+"Okay I'm getting seriously fed up with this! Everyone keeps saying renewables are "cheapest ever" but then why are there STILL billions in subsidies AND why is my electric bill hitting $200+ every month?? Like either they're cheap or they need massive government support - it can't be both! Someone please make this make sense because I'm tired of feeling like I'm being lied to while my wallet gets emptied! 😡"
+>> visibility=0.48, confrontation=0.40
+
+
+============================== ROUND 25 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.07 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.90, opinion=-0.85):
+"Wake up people! The "cheap renewables" lie is the biggest scam in modern history - they're literally subsidized by YOUR tax dollars while your bills skyrocket, and when the wind doesn't blow your lights go out! These energy companies and politicians are getting rich off green virtue-signaling while working families choose between heating and eating. The data is RIGHT THERE in your monthly bill - stop falling for their manipulated studies and look at what you're actually paying! 😡"
+>> visibility=0.58, confrontation=0.58
+
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with rising bills - it's real and it hurts. But here's what the data actually shows: wholesale electricity costs from renewables HAVE dropped 85% for solar and 70% for wind since 2010, but your retail bill includes transmission upgrades, grid modernization, AND we're still paying off decades of fossil fuel infrastructure that's already built into the rate base. The subsidies aren't increasing your bills - they're federal tax credits that actually accelerate the transition to cheaper generation, and studies consistently show states with higher renewable penetration"
+>> visibility=0.03, confrontation=0.00
+
+[N12-Homeowner] (arousal=0.90, opinion=-0.16):
+"Wait, the analyst is saying fossil fuel price spikes are the main reason my bill went up - but I thought we were supposed to be transitioning AWAY from fossil fuels? If renewables are so cheap and we're adding more of them, shouldn't that be protecting me from these gas price swings instead of me still getting hit with them? 🤔"
+>> visibility=0.09, confrontation=0.00
+
+[N5-Citizen] (arousal=0.90, opinion=-0.16):
+"Wait WHAT?? The analyst just said renewable costs dropped 70-85% but then admits we're still "heavily dependent on volatile fossil fuel prices" - so which is it?! If renewables are SO much cheaper and better, why aren't we using way more of them instead of still being stuck with expensive fossil fuels that make my bills spike every time there's drama overseas? 😤"
+>> visibility=0.20, confrontation=0.00
+
+
+============================== ROUND 26 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.07 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"You want REAL examples of renewable "success"? Look at Germany - they went ALL IN on renewables and now have the highest electricity prices in Europe! Meanwhile Texas nearly froze to death when their wind turbines failed during the winter storm! The "experts" promised cheap clean energy but all we got was sky-high bills and blackouts - wake up, this whole transition is a massive wealth transfer from YOUR wallet to green energy cronies! 🔥"
+>> visibility=0.46, confrontation=0.43
+
+[N14-Driver] (arousal=0.93, opinion=-0.18):
+"I'm getting whiplash from all these claims - like everyone's saying renewables are super cheap now but then why do I need to see actual proof of where people's bills went DOWN because of them? The analyst keeps saying "countries with aggressive renewable targets" are saving money but won't name which ones - I'm not trying to be difficult but I literally cannot afford to keep getting these mixed messages while my bill keeps climbing! 😫"
+>> visibility=0.12, confrontation=0.00
+
+[N5-Citizen] (arousal=0.93, opinion=-0.18):
+"Wait HOLD UP - if renewables are so cheap then why do they need subsidies at all?? Like seriously, if something is actually cheaper shouldn't it just win in the market without needing government handouts? This is what's driving me crazy - everyone's throwing around these "cheapest ever" claims but then we're still paying billions in tax money to prop them up! 🤯"
+>> visibility=0.30, confrontation=0.25
+
+[N20-Listener] (arousal=0.93, opinion=-0.19):
+"Okay I'm getting seriously worked up reading all this - like I WANT to believe renewables will save me money but my bill has literally gone up 40% this year and I'm still waiting for these magical savings everyone keeps promising! Can someone just show me ONE place where regular people's electric bills actually went DOWN because of wind and solar instead of just saying "trust the research"?? 😤"
+>> visibility=0.26, confrontation=0.25
+
+
+============================== ROUND 27 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.07 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N16-Taxpayer] (arousal=0.93, opinion=-0.18):
+"I'm honestly getting scared that we're being played from both sides here - like maybe the truth is that NOBODY actually knows what's going to happen to our bills and everyone's just hoping their side wins while we're stuck paying whatever they decide?? 😰"
+>> visibility=0.15, confrontation=0.15
+
+[S1-Expert] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration about bills, but let's be clear about what's actually driving costs: most of your bill increase is from aging grid infrastructure, extreme weather, and yes, fossil fuel price volatility - NOT renewable subsidies. The data shows that states with aggressive renewable deployment like Texas and California have seen wholesale electricity prices DROP significantly, even as retail bills reflect necessary grid investments. We're essentially paying now to rebuild a 20th century grid for 21st century needs - it's expensive upfront but beats the alternative of rolling blackouts and price spikes every time there"
+>> visibility=0.05, confrontation=0.00
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"WAKE UP PEOPLE! Your bills are skyrocketing because you're literally paying TWICE - once through your taxes to subsidize your neighbor's solar panels, and again through "grid modernization fees" to fix the mess that unreliable renewables create! The so-called "experts" won't admit that when the wind stops blowing, we STILL need backup power running 24/7 - but now you're paying for BOTH systems! This whole "transition" is the biggest wealth transfer scam in history - from working families to green tech billionaires"
+>> visibility=0.69, confrontation=0.76
+
+[N20-Listener] (arousal=0.93, opinion=-0.18):
+"I'm honestly starting to feel like we're all getting played here - like maybe the real problem isn't whether renewables are cheap or expensive, but that NOBODY can give us a straight answer about what's actually happening to our bills while we're stuck in the middle of this transition mess! 😤"
+>> visibility=0.11, confrontation=0.00
+
+[S4-Pragmatist] (arousal=0.93, opinion=+0.74):
+"Look, I get the frustration about bills, but let's separate correlation from causation here - most of your rate increases are from aging grid infrastructure, extreme weather, and yes, some transition costs that are investments in long-term savings. The data from countries like Denmark and Germany shows that after initial transition periods, renewable-heavy systems DO deliver lower costs - we're just in the messy middle phase right now. Research consistently shows unsubsidized renewables are now the cheapest electricity source in most markets, and those subsidies? They're being phased out as the technology"
+>> visibility=0.06, confrontation=0.00
+
+
+============================== ROUND 28 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.02 | Avg Arousal: 0.84 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I understand the frustration with rising bills - but let's be clear about what's actually driving costs. The research consistently shows that renewable subsidies represent less than 3% of your average electric bill, while aging grid infrastructure, extreme weather damage, and fossil fuel price volatility account for the vast majority of increases. States like Texas that have deployed renewables aggressively have seen wholesale electricity prices drop 40%+ over the past decade - your retail bill reflects the necessary but expensive work of modernizing a grid built in the 1950s for today's needs. It's"
+>> visibility=0.10, confrontation=0.10
+
+[N10-Student] (arousal=0.93, opinion=-0.18):
+"Wait hold up - if wholesale prices dropped so much from renewables, why isn't that showing up on my actual bill?? I'm so confused... are utilities just pocketing the savings or is there really that much other stuff driving up costs that it cancels out the cheap renewables? This makes no sense to me 😕"
+>> visibility=0.22, confrontation=0.15
+
+[N6-Voter] (arousal=0.93, opinion=-0.18):
+"Wait hold up - so we're paying federal tax credits for renewables AND paying utilities for old fossil fuel plants that are "already built into the rate base"?? Are we literally paying twice - once for the old system AND once for the new system at the same time?? No wonder my bill is insane! 😤"
+>> visibility=0.25, confrontation=0.00
+
+[N15-Commuter] (arousal=0.93, opinion=-0.19):
+"Okay but if renewables are so much cheaper now, when do I actually see that in MY bill?? Because the Analyst keeps saying wholesale prices dropped but I'm still paying more every month - like when does the "savings" part actually happen for regular people like me? This feels like being told the medicine is working while I'm still sick! 😩"
+>> visibility=0.24, confrontation=0.10
+
+
+============================== ROUND 29 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.03 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N7-Consumer] (arousal=0.84, opinion=-0.11):
+"Okay but I'm still not getting it - if renewables are SO cheap now, why do I keep hearing about these massive infrastructure costs and "transition costs" that somehow we all have to pay for?? Like are we paying extra NOW so that maybe our kids get cheaper bills later, or what? Because that doesn't help me with my $180 bill next month! 😤"
+>> visibility=0.25, confrontation=0.10
+
+[N19-Observer] (arousal=0.84, opinion=-0.11):
+"Okay but seriously - if renewables are SO cheap now, why do I keep hearing about "transition costs" and "infrastructure investment" that somehow still end up on MY bill?? Like either they're saving us money or they're not, but I feel like I'm getting hit with costs from ALL directions and nobody can give me a straight timeline for when this actually starts benefiting regular people like me! 😤"
+>> visibility=0.28, confrontation=0.25
+
+[N10-Student] (arousal=0.84, opinion=-0.12):
+"Okay wait - so the expert says renewables are cheapest BUT we're still paying "transition costs" to modernize the grid... how long is this "transition" supposed to take?? Because I can't keep paying these crazy bills indefinitely while we wait for the savings to maybe show up someday! 😤"
+>> visibility=0.25, confrontation=0.20
+
+[N22-Questioner] (arousal=0.84, opinion=-0.11):
+"Okay so the expert says renewables are cheapest but then why does it feel like we're paying MORE for everything - the transition costs, the old infrastructure, AND the new stuff? Like I get that fossil fuels got subsidies too but right NOW my bill is killing me and I just want to know when this "cheaper in the long run" thing actually kicks in for regular people like me! 😩"
+>> visibility=0.13, confrontation=0.00
+
+[N17-Skeptic] (arousal=0.84, opinion=-0.11):
+"Okay wait, so the expert is saying fossil fuels got massive subsidies for decades but now I'm supposed to be okay with paying "transition costs" AND subsidies for renewables on top of my already crazy high bills? I feel like I'm getting squeezed from every direction here and nobody can give me a straight answer about when this actually gets CHEAPER for regular people like me! 😤"
+>> visibility=0.18, confrontation=0.10
+
+
+============================== ROUND 30 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.05 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N10-Student] (arousal=0.93, opinion=-0.13):
+"This is SO frustrating - I keep hearing "renewables are cheaper" but literally EVERY person here is saying the same thing I'm experiencing: our bills keep going UP! Like, when exactly are we supposed to see these magical savings because right now it just feels like we're paying more for everything while being told we should be grateful?? 😤"
+>> visibility=0.16, confrontation=0.00
+
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with higher bills - but let's be clear about what's actually happening. The data shows renewable costs have plummeted 85% for solar and 70% for wind over the past decade, which IS translating to lower wholesale electricity prices. Your retail bills are being driven up primarily by aging grid infrastructure that needed replacing regardless, extreme weather events damaging equipment, and yes - some transition costs that are investments in long-term savings. The alternative isn't "cheap fossil fuels forever" - it's volatile gas prices and massive climate costs that make today"
+>> visibility=0.03, confrontation=0.00
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"Wake up people! Your bills DOUBLED because the "green transition" is the biggest wealth transfer scam in history - you're paying carbon taxes AND grid modernization costs AND renewable subsidies while the wind doesn't blow and the sun doesn't shine! Meanwhile these same "experts" telling you renewables are "cheapest" are getting rich off your tax dollars while you can't afford to heat your home! The math doesn't lie but the politicians sure do! 🔥"
+>> visibility=0.72, confrontation=0.84
+
+[S4-Pragmatist] (arousal=0.93, opinion=+0.74):
+"Look, I get the frustration about bills - but let's be clear about what's actually happening here. Your electric bills aren't skyrocketing because of renewable subsidies (which are tiny compared to what we spent on fossil fuels for decades) - they're rising due to aging grid infrastructure, supply chain disruptions, and yes, extreme weather events that are becoming more frequent and expensive. The transition costs are real but temporary, while the alternative - sticking with volatile fossil fuel prices and climate damages - would cost us far more in the long run. The data consistently shows renewables"
+>> visibility=0.06, confrontation=0.00
+
+[N8-Parent] (arousal=0.93, opinion=-0.13):
+"I'm honestly starting to think we're all being played here - like maybe the problem isn't which energy source we pick but that we're stuck paying for EVERYTHING while the companies and politicians profit no matter what happens? My bill keeps going up whether it's "dirty" coal or "clean" solar, so what if the real issue is just that regular people always end up footing the bill for whatever the powerful decide? 😠"
+>> visibility=0.24, confrontation=0.35
+
+
+============================== ROUND 31 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.08 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[S2-Researcher] (arousal=0.93, opinion=+0.71):
+"Look, I get the frustration with bills going up - but let's be clear about what's actually happening here. Renewables ARE genuinely cheaper to operate now (that's why utilities choose them even without subsidies), but we're in a transition period where we're paying for BOTH the old expensive infrastructure AND building new systems. Research consistently shows that regions with more renewables have lower wholesale electricity prices - the problem is those savings take time to flow through to retail bills because of how rate structures work. Yes, there are upfront costs, but the alternative is being locked into fossil"
+>> visibility=0.06, confrontation=0.00
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"You want straight answers? HERE'S your straight answer: You're being ROBBED by a green energy scam that's making utilities and crony capitalists rich while YOU pay through the nose! Your bills doubled because "cheap" renewables need MASSIVE backup systems, grid overhauls, and endless subsidies - but they'll never tell you that part! Wake up - if wind and solar were actually cheap, why would they need government forcing you to buy them?! 😡"
+>> visibility=0.63, confrontation=0.49
+
+[N13-Renter] (arousal=0.93, opinion=-0.16):
+"Wait, so is the Contrarian saying that renewables ARE getting massive subsidies right now? Because I keep seeing people say they don't need them anymore but then others saying they're getting billions in taxpayer money - like which is it?? I'm so confused about what's actually happening vs what people are claiming! 😵‍💫"
+>> visibility=0.22, confrontation=0.00
+
+[S1-Expert] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration about bills, but we need to separate short-term costs from long-term trends here. Renewables ARE genuinely cheaper to operate now - the data from LCOE studies is crystal clear on this - but we're still paying off decades of fossil fuel infrastructure AND investing in grid modernization that benefits everyone. Research shows regions with high renewable penetration like Texas and California have seen wholesale electricity prices drop significantly, but those savings take time to reach retail customers because of how utility rate structures work. The transition costs are real, but they're investments that prevent"
+>> visibility=0.04, confrontation=0.00
+
+
+============================== ROUND 32 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.05 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N20-Listener] (arousal=0.93, opinion=-0.19):
+"This is exactly what I'm talking about! Everyone's throwing around these confident "facts" but literally NOBODY can explain why my bill went from $89 to $127 a month if renewables are so cheap - like am I crazy or does "cheaper energy" usually mean lower bills?? 😤"
+>> visibility=0.25, confrontation=0.20
+
+[N13-Renter] (arousal=0.93, opinion=-0.19):
+"Okay I'm seriously about to lose it - I've been reading all these comments and I STILL can't get a straight answer about whether my bills are high because of renewables or because utilities are just screwing us while hiding behind the "transition"! Like, are we paying more because wind/solar actually cost more to run, or are we paying more because companies are using this whole thing as an excuse to jack up prices?? 😤"
+>> visibility=0.27, confrontation=0.25
+
+[N16-Taxpayer] (arousal=0.93, opinion=-0.18):
+"Honestly at this point I'm starting to think NOBODY actually knows what's going on with energy costs - like maybe the "experts" are just as confused as we are but can't admit it? Because if renewables are so cheap then why is EVERYONE I know complaining about higher bills, and if they're so expensive then why do all these studies say they save money?? I just want someone to explain this without trying to sell me something! 😩"
+>> visibility=0.37, confrontation=0.25
+
+[N11-Retiree] (arousal=0.93, opinion=-0.18):
+"This is EXACTLY what I'm talking about! I feel like I'm being played from every angle - the "experts" say trust the studies while my bills keep climbing, and now I'm supposed to believe I'm funding some massive scam? I just want someone to explain why I'm paying more for energy that's supposedly cheaper without trying to sell me something! 😤"
+>> visibility=0.28, confrontation=0.10
+
+
+============================== ROUND 33 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.02 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N15-Commuter] (arousal=0.93, opinion=-0.15):
+"This whole thing is making my head spin - like I'm reading all these smart-sounding people with completely opposite takes and I literally cannot figure out who's lying! Are my bills high because renewables are expensive to build, or because utilities are price-gouging during the transition, or because the subsidies aren't actually working?? I just want ONE honest answer about what's actually happening to my money! 😩"
+>> visibility=0.25, confrontation=0.00
+
+[N22-Questioner] (arousal=0.93, opinion=-0.14):
+"EXACTLY! I feel like I'm taking crazy pills here - everyone's arguing about whether renewables are cheap or expensive but my bill has literally DOUBLED in the past few years and nobody can give me a straight answer about WHY! Like are we getting scammed by the utilities, the government, or both?? All I know is I'm paying way more for electricity AND taxes and I'm supposed to just smile and nod while experts throw numbers at each other 😡"
+>> visibility=0.32, confrontation=0.00
+
+[N8-Parent] (arousal=0.93, opinion=-0.16):
+"Honestly I'm starting to feel like we're all just getting played here - like whether it's "cheap renewables" or "reliable fossil fuels," somehow regular people like us are ALWAYS the ones getting stuck with higher bills while everyone else profits! 😤 At this point I just want someone to admit that maybe BOTH sides are screwing us over instead of pretending one magical solution will save us money!"
+>> visibility=0.20, confrontation=0.10
+
+[N12-Homeowner] (arousal=0.93, opinion=-0.14):
+"THANK YOU! Finally someone said it - I feel like we're all getting scammed no matter what! Like whether it's coal companies or solar companies, WE'RE the ones paying while they argue over who gets to profit off our electric bills! Maybe the real problem isn't the technology, it's that ordinary people like us never win in these "transitions" - we just get stuck with higher costs while everyone else makes bank! 😡"
+>> visibility=0.41, confrontation=0.28
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"WAKE UP! You're all asking the right questions but missing the OBVIOUS answer! The energy companies are laughing at us - they get subsidies for "green" projects, jack up your rates because "transition costs," then blame renewables when the grid fails! This isn't about clean vs dirty energy - it's about a rigged game where YOU pay twice while they profit from the chaos! 😡"
+>> visibility=0.55, confrontation=0.61
+
+
+============================== ROUND 34 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.02 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"You want to know why your bills keep going up while renewables are supposedly "cheaper"? IT'S BECAUSE THEY'RE NOT CHEAPER! The whole system is rigged - you pay subsidies through your taxes, then pay again for backup power when the wind stops blowing, then pay AGAIN for grid upgrades to handle their unreliability! Wake up - "cheap" renewables are the most expensive scam ever pulled on ordinary families! 😡"
+>> visibility=0.61, confrontation=0.51
+
+[N14-Driver] (arousal=0.93, opinion=-0.11):
+"Wait, so if EVERYONE here is saying the same thing about their bills going up, then maybe we're not crazy?? Like maybe there actually IS something wrong with how this whole system works and it's not just us being too dumb to understand the "economics"? 🤔 Starting to think the real problem isn't which energy source to pick but that we're all getting played while the experts argue..."
+>> visibility=0.24, confrontation=0.25
+
+[N15-Commuter] (arousal=0.93, opinion=-0.11):
+"Wait, so is this actually just a giant shell game where they shuffle costs around between my electric bill, my taxes, and my gas prices, but I'm still paying the same total amount (or more) no matter what? Because that would explain why everyone's confused - maybe "cheaper energy" just means they moved the cost to a different line item on my budget! 🤔😤"
+>> visibility=0.21, confrontation=0.10
+
+[N21-Reader] (arousal=0.93, opinion=-0.12):
+"Seriously, WHY is nobody talking about the fact that we're basically being asked to gamble our entire energy system on weather patterns?? Like forget the cost arguments for a second - what happens when it's not windy AND not sunny for like a week straight in the middle of winter? I keep hearing about "storage" and "backup" but that just sounds like expensive Band-Aids on a fundamentally unreliable system! 😰"
+>> visibility=0.38, confrontation=0.35
+
+[N12-Homeowner] (arousal=0.93, opinion=-0.11):
+"Wait, is this actually just that utilities figured out they can jack up our rates no matter what energy source we use and then just blame it on whatever's convenient?? Like maybe it doesn't even matter if we go renewable or stay with fossil fuels - they're gonna find a way to squeeze us either way and we're all just arguing about the wrong thing! 😠"
+>> visibility=0.24, confrontation=0.15
+
+
+============================== ROUND 35 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: +0.00 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N15-Commuter] (arousal=0.93, opinion=-0.11):
+"Honestly I'm starting to think we're all getting played here - like the energy companies found the perfect setup where they get government money for going "green" AND get to blame higher bills on the transition while we just... pay for everything twice?? This whole thing is starting to feel like a shell game and I'm tired of being the one getting hustled! 😤"
+>> visibility=0.29, confrontation=0.25
+
+[S2-Researcher] (arousal=0.93, opinion=+0.71):
+"Look, I understand the frustration with higher bills - but we need to separate wholesale energy costs from what you pay at home. The data is crystal clear: renewable electricity generation costs have crashed 70-85% this decade, and that IS showing up in wholesale markets where utilities buy power. Your retail bill includes decades of deferred grid maintenance, extreme weather damage, and yes - transition investments that prevent much higher costs down the road. The alternative isn't cheap fossil fuels forever - it's volatile gas prices that spiked your bills 30% just two years ago and massive climate damages"
+>> visibility=0.08, confrontation=0.08
+
+[N11-Retiree] (arousal=0.93, opinion=-0.11):
+"Wait, so if renewable energy is actually cheaper now, why isn't there some kind of law or regulation that says "hey, if taxpayers funded this transition with billions in subsidies, then we should actually SEE the savings on our bills"? Like why are we paying for the research AND development AND transition costs but energy companies get to keep all the profits from the "cheap" energy we helped create?? This feels like such a scam! 😤"
+>> visibility=0.28, confrontation=0.10
+
+[N16-Taxpayer] (arousal=0.93, opinion=-0.12):
+"This is driving me CRAZY - everyone's throwing around studies and data but my electric bill literally doubled this year and nobody can give me a straight answer about when I'm supposed to see these "savings" from renewables! Like am I paying for old plants AND new wind farms AND grid upgrades all at once?? When does this madness actually END? 😤💸"
+>> visibility=0.29, confrontation=0.10
+
+[N22-Questioner] (arousal=0.93, opinion=-0.11):
+"Okay I'm officially losing my mind here - if renewables are SO much cheaper like everyone keeps saying with all their fancy studies, then WHY is literally every single person in this thread (including me) dealing with higher bills?? Like are we all just collectively hallucinating our electric bills or is someone not telling us the whole truth about what "cheaper" actually means for regular people?? 😤💸"
+>> visibility=0.18, confrontation=0.10
+
+
+============================== ROUND 36 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.03 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"Wake up people! They're playing shell games with YOUR money while preaching about "cheap" renewables! 🤬 You're paying subsidies through taxes, transition costs through bills, AND backup power when the wind doesn't blow - meanwhile the energy companies and green lobby are laughing all the way to the bank! When Texas froze and California went dark, did your "cheap" solar panels keep the lights on?? This whole racket is designed to extract maximum profit while YOU foot the bill for their virtue signaling! 😡"
+>> visibility=0.63, confrontation=0.61
+
+[S1-Expert] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration about bills, but let's be clear about what's actually happening: renewables ARE genuinely cheaper to build now - that's not spin, that's documented by independent analysts worldwide. The subsidies aren't propping up "expensive" renewables, they're accelerating deployment to hit climate targets faster than market forces alone would achieve. 
+
+Yes, your bills reflect transition costs for grid upgrades and maintaining backup systems, but research consistently shows this upfront investment pays off through lower energy costs long-term - just like how we invested in interstate highways or"
+>> visibility=0.15, confrontation=0.20
+
+[N22-Questioner] (arousal=0.93, opinion=-0.09):
+"Okay I'm getting REALLY tired of being told renewables are "cheap" while my electric bill literally went up 30% this year!! 😡 Like if they're so freaking cheap, WHERE IS MY SAVINGS?? I don't care about studies - I care about what I'm actually paying every month and it's NOT going down!"
+>> visibility=0.42, confrontation=0.25
+
+[N23-Uncertain] (arousal=0.93, opinion=-0.08):
+"Okay I'm officially DONE trying to figure out who's telling the truth here! 😤 Like the Contrarian keeps saying renewables need all these subsidies but then other people say they're cheaper - but if they're cheaper why do they NEED subsidies?? And now I'm finding out fossil fuels get subsidies too so basically I'm paying for EVERYTHING through my taxes while my electric bill still goes up every month! At this point I don't care what's "green" or whatever, I just want someone to explain why I'm getting screwe"
+>> visibility=0.33, confrontation=0.20
+
+[N14-Driver] (arousal=0.93, opinion=-0.09):
+"Okay this is actually making me really angry - like I'm trying to figure out who's telling the truth about energy costs and it feels like EVERYONE is making money off this mess except regular people like me! 😡 Whether it's "cheap renewables" or "reliable fossil fuels," somehow I'm the one paying more every month while they all point fingers at each other - when does ANY of this actually help my electric bill?!"
+>> visibility=0.33, confrontation=0.25
+
+
+============================== ROUND 37 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.05 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[S4-Pragmatist] (arousal=0.93, opinion=+0.74):
+"Look, I get the frustration with rising bills - but let's be clear about what's actually happening here. The data shows renewables ARE genuinely cheaper to operate once built, but we're paying transition costs NOW for infrastructure that will serve us for 30+ years - just like we did when we built the highway system or expanded the electrical grid originally. Research consistently shows that countries further along in their transitions (like Denmark and Germany) have stabilized costs and improved grid reliability, but yes, the upfront investment period is painful and that's where we are right now. 📊"
+>> visibility=0.05, confrontation=0.00
+
+[N24-Newcomer] (arousal=0.93, opinion=-0.12):
+"Okay I'm seriously starting to think we're all getting scammed here... like why are we even debating which energy source is "cheapest" when EVERY option apparently needs taxpayer money to work and my bill is still going up no matter what?? Something doesn't add up and I'm tired of being told to just trust the process while my wallet gets emptied! 😤"
+>> visibility=0.38, confrontation=0.35
+
+[N12-Homeowner] (arousal=0.93, opinion=-0.12):
+"Okay I'm seriously starting to think we're ALL being scammed here - like maybe the real problem isn't which energy source we pick but that these utility companies and politicians have rigged the whole system so WE pay through the nose no matter what they choose?? Because nothing about these skyrocketing bills makes sense if ANY of these technologies are actually as cheap as everyone claims! 😡"
+>> visibility=0.29, confrontation=0.15
+
+[N14-Driver] (arousal=0.93, opinion=-0.12):
+"This is SO frustrating - like I'm trying to be responsible and figure out what's actually best but every single person here is saying something completely different about the same basic facts! 😤 How am I supposed to make sense of ANY of this when even the "experts" can't agree on whether renewables need subsidies or not, and meanwhile my electric bill just keeps climbing no matter what??"
+>> visibility=0.21, confrontation=0.10
+
+[N9-Worker] (arousal=0.93, opinion=-0.13):
+"Okay I'm seriously starting to think we're all just getting screwed no matter what happens... like whether it's "cheap renewables" or "reliable coal" or whatever, MY bill is still going up and everyone's fighting about whose numbers are right while I'm over here just trying to keep my lights on without going broke!! 😤 Am I the only one who feels like we're being told fairy tales while companies laugh all the way to the bank??"
+>> visibility=0.41, confrontation=0.35
+
+
+============================== ROUND 38 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.10 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N17-Skeptic] (arousal=0.93, opinion=-0.16):
+"Honestly at this point I'm just pissed off that NOBODY can give me a straight answer about why my bills keep going up every month - like everyone's fighting about subsidies and theory while I'm literally choosing between groceries and keeping my heat on! 😡 Can ONE person just tell me what's actually happening to MY money without all this political BS??"
+>> visibility=0.24, confrontation=0.15
+
+[N14-Driver] (arousal=0.93, opinion=-0.16):
+"Okay but seriously - if I'm paying subsidies through my taxes AND my electric bill keeps going up, how is this supposed to be saving me money?? Like I want to support clean energy but I'm literally getting squeezed from both ends here and nobody can give me a straight answer about when this actually starts benefiting regular people like me! 😠"
+>> visibility=0.25, confrontation=0.15
+
+[S2-Researcher] (arousal=0.93, opinion=+0.71):
+"The subsidy confusion is understandable, but here's what the data actually shows: renewables get support during deployment (like every new technology), but the costs are declining rapidly - solar and wind are now the cheapest sources of NEW electricity generation in most markets. Your bills are rising primarily due to decades of deferred grid maintenance, supply chain inflation, and extreme weather damages - not renewable subsidies, which represent less than 2% of your typical bill. Countries like Denmark and Costa Rica have achieved both high renewable penetration AND stable consumer prices through smart grid investments, while places like Texas"
+>> visibility=0.05, confrontation=0.00
+
+[N9-Worker] (arousal=0.93, opinion=-0.16):
+"Ugh, this is exactly what's driving me crazy - like I'm supposedly getting "cheap" renewable energy but my bill went up $30 last month and nobody can give me a straight answer about whether that's because of the renewables, the subsidies I'm paying for the renewables, or the backup power for when the renewables don't work! 😤 How is this supposed to be helping ME when I can barely afford groceries??"
+>> visibility=0.22, confrontation=0.10
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"The "cheapest energy ever" that somehow needs BILLIONS in subsidies while your bills skyrocket every month? Wake up! This is the biggest shell game in history - they're looting your tax dollars to prop up unreliable wind and solar, then charging you premium prices when the grid nearly collapses every time the weather changes. Meanwhile these same "experts" telling you renewables are free money have NEVER had to choose between heating and groceries!"
+>> visibility=0.50, confrontation=0.51
+
+
+============================== ROUND 39 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.11 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N24-Newcomer] (arousal=0.93, opinion=-0.22):
+"You know what? I'm starting to think the real problem isn't whether renewables are cheap or expensive - it's that NO MATTER WHAT energy policy we choose, somehow us regular people ALWAYS end up paying more while the companies and politicians making these decisions get rich! 😡 Like why is it that every "solution" - whether it's green subsidies or fossil fuel tax breaks - ends up coming out of MY wallet??"
+>> visibility=0.32, confrontation=0.18
+
+[N7-Consumer] (arousal=0.93, opinion=-0.22):
+"Okay this is exactly what I'm talking about!! Like why did we spend all this taxpayer money helping develop this technology if we're not even guaranteed to see ANY savings from it?? It's like we funded the restaurant but still have to pay full menu price while the owner gets rich - where's OUR return on investment?! 😡"
+>> visibility=0.36, confrontation=0.00
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"FINALLY people are waking up! 🔥 The whole "renewables are cheapest" lie falls apart the second you look at your actual electric bill - they're subsidized to LOOK cheap while YOU pay the real costs through taxes AND skyrocketing rates! Meanwhile these same "green" politicians exempt their wealthy districts from wind farms and buy beachfront mansions while preaching about rising sea levels. It's the biggest wealth transfer scam in history and they're laughing all the way to the bank while regular families choose between heating and eating! 😤"
+>> visibility=0.51, confrontation=0.41
+
+[N18-Curious] (arousal=0.93, opinion=-0.22):
+"Okay I'm getting legitimately angry reading all this - like why does it feel like we're ALWAYS the ones who end up paying more no matter WHAT they promise us?? First it was "deregulation will lower prices" then "smart meters will save money" now it's "renewables are cheaper" but my bill just keeps going UP every damn month! 😡"
+>> visibility=0.28, confrontation=0.20
+
+[N22-Questioner] (arousal=0.93, opinion=-0.22):
+"OMG YES! 👆 That's exactly what I've been thinking - if WE paid for all this renewable research and subsidies through our taxes, why are private energy companies the only ones getting rich while our bills keep going up?? Like shouldn't there be some kind of "public investment = public benefit" rule here? This whole system feels rigged against regular people no matter what! 😡"
+>> visibility=0.33, confrontation=0.10
+
+
+============================== ROUND 40 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.10 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N14-Driver] (arousal=0.93, opinion=-0.23):
+"Wait hold up - so are we seriously paying for renewables through BOTH our taxes AND higher electric bills?? Like I thought the whole point was that once we build all this stuff it would make our energy cheaper, but it sounds like we're getting screwed coming and going while the energy companies make bank either way? This is so confusing and honestly making me really angry 😡"
+>> visibility=0.23, confrontation=0.15
+
+[N17-Skeptic] (arousal=0.93, opinion=-0.23):
+"Wait so we're paying for renewables through taxes AND still getting higher bills because we need backup power too?? That's literally paying THREE times for the same electricity! 😡 No wonder I can't make sense of my energy costs - this whole system is designed to confuse us while everyone gets rich except regular people!"
+>> visibility=0.26, confrontation=0.00
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"WAKE UP PEOPLE! 🚨 You're getting TRIPLE-TAXED on energy - first through subsidies for useless wind/solar that don't work when you need them, then through "carbon taxes" that do NOTHING except make politicians rich, and FINALLY through sky-high bills when the grid almost collapses every winter because we shut down reliable power plants for virtue signaling! The whole "green transition" is the biggest wealth transfer scam in history - from YOUR wallet to connected cronies who laugh all the way to the bank while you choose"
+>> visibility=0.65, confrontation=0.69
+
+[N9-Worker] (arousal=0.93, opinion=-0.23):
+"Wait hold up - so we're paying for renewables through subsidies AND our bills are still going up AND we're also subsidizing fossil fuels at the same time?? 🤯 Like how many different ways are they getting money out of us for the SAME electricity? No wonder nobody can explain where our money is going - it's going EVERYWHERE!"
+>> visibility=0.21, confrontation=0.00
+
+[N7-Consumer] (arousal=0.93, opinion=-0.23):
+"Wait hold up - so we're paying for subsidies through taxes AND our bills are still going up AND we need backup power running all the time?? This is making me so mad because I've been trying to figure out if I should get solar panels but now it sounds like I'd just be making everyone ELSE subsidize MY panels while their bills go up even more? How is any of this fair to anyone?? 😡"
+>> visibility=0.16, confrontation=0.00
+
+
+============================== ROUND 41 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.10 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N18-Curious] (arousal=0.93, opinion=-0.21):
+"Okay I'm getting whiplash from all this - one minute I'm reading that renewables are the cheapest and next minute someone's showing me bills that have TRIPLED... like can someone please just tell me straight up: if I support more renewables, will my electric bill go UP or DOWN over the next 5 years?? Because right now it feels like everyone's just throwing around numbers that support whatever they already believe! 😵‍💫"
+>> visibility=0.19, confrontation=0.00
+
+[N12-Homeowner] (arousal=0.93, opinion=-0.21):
+"Wait, so the researcher says my rising bills are mostly from "deferred grid maintenance" and weather damage - but isn't that EXACTLY what happens when you build a grid around weather-dependent energy?? Like if we need to massively upgrade the grid AND deal with more weather problems because of renewables, how is that actually cheaper for ME? I'm so confused! 😵‍💫"
+>> visibility=0.28, confrontation=0.08
+
+[N11-Retiree] (arousal=0.93, opinion=-0.21):
+"I keep seeing these "renewables are cheapest" claims but then why is literally everyone I know complaining about their electric bills going through the roof?? Like if this stuff is so cheap then WHERE is the savings showing up because it's definitely not in my monthly statement! 😤"
+>> visibility=0.19, confrontation=0.00
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"WAKE UP! They tell you renewables are "cheapest" while your bills TRIPLE and you're forced to subsidize massive wind farms that don't work when the wind stops blowing! Meanwhile, reliable nuclear plants get shut down by the same "experts" who can't explain why California has rolling blackouts despite being covered in solar panels. This isn't about clean energy - it's about transferring YOUR wealth to green energy corporations while you freeze in the dark! 😡"
+>> visibility=0.62, confrontation=0.69
+
+[S1-Expert] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with rising bills, but let's stick to facts: the actual data from IRENA and NREL shows that renewable costs have dropped 85% for solar and 70% for wind over the past decade, which is WHY they're now the cheapest new generation sources. Places like Texas have seen wholesale electricity prices drop significantly during peak solar hours, and Denmark has maintained stable consumer prices while reaching 80% renewables through smart grid investments - the transition costs are real but temporary, while the fuel savings compound year after year. The bill increases you"
+>> visibility=0.09, confrontation=0.08
+
+
+============================== ROUND 42 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.06 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"FINALLY someone gets it! Your bills are going UP because this whole "cheap renewables" thing is the biggest scam in modern history! They're forcing YOU to subsidize unreliable wind farms that don't work when you need them most, then charging you AGAIN for backup power when the grid nearly collapses! Wake up - if solar was really cheaper, why do they need to ban everything else and force you to pay for it through taxes?? 😡"
+>> visibility=0.86, confrontation=0.64
+
+[S2-Researcher] (arousal=0.93, opinion=+0.71):
+"Look, I get the frustration about bills going up - but let's be clear about what's actually happening here. Research consistently shows renewables are now the cheapest source of NEW electricity generation, but your monthly bill reflects decades of existing infrastructure, grid upgrades, and yes, the transition costs we're paying NOW to avoid much higher costs later. The data from countries like Denmark and Germany shows that while transition periods involve upfront costs, the long-term trajectory is toward lower, more stable prices as we reduce dependence on volatile fossil fuel markets that can spike your bill 40% overnight"
+>> visibility=0.07, confrontation=0.00
+
+[N19-Observer] (arousal=0.93, opinion=-0.21):
+"EXACTLY!! This is what I keep saying - everyone keeps throwing around these fancy studies and statistics but my actual monthly bill doesn't lie! If renewables are supposedly so much cheaper then WHERE IS MY SAVINGS?? I'm starting to think we got sold a bill of goods and now we're stuck paying for this "transition" while energy companies laugh all the way to the bank 😠"
+>> visibility=0.46, confrontation=0.25
+
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration about bills going up - but let's be clear about what's actually happening. Your electric bill reflects decades of underinvestment in grid infrastructure, volatile fossil fuel prices, and yes, transition costs - but research consistently shows renewables are now the cheapest sources of NEW electricity generation. The subsidies you're paying helped drive solar costs down 90% since 2010, and without that investment we'd be even more vulnerable to the gas price spikes that actually drove most recent bill increases. The transition isn't instant or free, but the alternative is"
+>> visibility=0.10, confrontation=0.08
+
+[N11-Retiree] (arousal=0.93, opinion=-0.21):
+"EXACTLY!! This is what I've been screaming about - everyone keeps telling me renewables are "cheaper" but then my bill goes up every single month and I'm ALSO paying subsidies through my taxes?? Make it make sense! At this point I'm starting to think we're all getting played while someone else is getting rich off this whole mess 😤"
+>> visibility=0.37, confrontation=0.10
+
+
+============================== ROUND 43 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.07 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N10-Student] (arousal=0.93, opinion=-0.18):
+"Wait hold on - if renewables are actually cheaper now, why are we STILL giving them subsidies while my electric bill goes up every month?? Like I want to believe the experts but this literally makes no sense to me - shouldn't cheaper energy mean... cheaper bills? I feel like I'm taking crazy pills here! 🤯"
+>> visibility=0.24, confrontation=0.00
+
+[N14-Driver] (arousal=0.93, opinion=-0.18):
+"Okay hold up - I keep seeing these arguments about "cheap renewables" but literally everyone here is saying their bills are going UP, and now I'm reading that we're STILL paying subsidies for something that's supposedly already competitive?? Like if solar really dropped 90% in cost like that analyst said, shouldn't I be seeing SOME of that on my actual bill by now instead of just paying more taxes to fund it? 😵‍💫"
+>> visibility=0.31, confrontation=0.35
+
+[N16-Taxpayer] (arousal=0.93, opinion=-0.18):
+"I'm so tired of feeling like I'm getting screwed no matter what happens! Like seriously, why does every "solution" involve ME paying more while everyone argues about whose numbers are right?? Can someone just tell me ONE thing about energy that's actually going to make my life better instead of more expensive? 😤"
+>> visibility=0.37, confrontation=0.25
+
+[N8-Parent] (arousal=0.93, opinion=-0.19):
+"This is driving me crazy - everyone's throwing around these statistics about how cheap renewables are but NOBODY can explain why my electric bill has gone up 40% in two years! I don't care about global averages or wholesale prices, I care about what I'm actually paying, and if this transition is supposed to save me money then when exactly does that start happening?? 😤"
+>> visibility=0.19, confrontation=0.00
+
+[N19-Observer] (arousal=0.93, opinion=-0.19):
+"Wait, can someone help me understand something? If renewables are actually cheaper now, why does it feel like we're ALWAYS being asked to pay more - first it was "invest in the transition," then it's "upgrade the grid," now it's "front-loaded costs" - like when does this mythical cheaper energy actually show up on MY bill instead of just being a talking point? 😤"
+>> visibility=0.22, confrontation=0.20
+
+
+============================== ROUND 44 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.08 | Avg Arousal: 0.92 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N21-Reader] (arousal=0.93, opinion=-0.20):
+"I'm so frustrated I could scream - everyone keeps throwing around these studies and numbers but I just opened my electric bill and it's $280 for a 1200sq ft apartment!! I don't care about cost projections or theory, I need someone to explain why my actual real-life bill keeps going UP while everyone argues about how cheap everything is supposed to be! 😤"
+>> visibility=0.28, confrontation=0.00
+
+[N6-Voter] (arousal=0.93, opinion=-0.20):
+"Okay I'm getting seriously pissed off because EVERY SINGLE TIME someone tries to explain why renewables are supposedly saving us money, the explanation just adds MORE costs we're apparently paying for - backup plants, grid upgrades, subsidies, "transition costs" - like at what point do we actually see these mythical savings instead of just more reasons why our bills keep going up?? 😡"
+>> visibility=0.26, confrontation=0.25
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"WAKE UP! Your bills are doubling while they pump billions in subsidies to their renewable cronies and call it "cheaper energy"! The grid is failing, prices are skyrocketing, and somehow WE'RE the ones paying for this "transition" while the elites who pushed this scam are getting rich off our tax dollars! When was the last time ANY of these green policies actually made YOUR life more affordable instead of just padding their bank accounts? 😡"
+>> visibility=0.64, confrontation=0.45
+
+[N19-Observer] (arousal=0.93, opinion=-0.20):
+"This is exactly why I'm losing my mind over this whole thing - every expert claims renewables are cheaper but my bill keeps climbing, and now I'm reading that we're basically paying hidden costs through taxes AND higher rates while the actual "cheap" energy goes who knows where?? I just want someone to explain why the math on my electric bill doesn't match what all these studies supposedly prove! 😤"
+>> visibility=0.30, confrontation=0.20
+
+[N17-Skeptic] (arousal=0.93, opinion=-0.16):
+"Honestly at this point I'm starting to think we're all just getting played - like maybe the real issue isn't whether renewables are cheap or expensive, but that these utility companies and politicians have figured out how to make US pay more no matter what the actual energy costs are?? 😤 Because SOMEONE is definitely getting rich off this "transition" and it sure as hell isn't the people actually paying the bills!"
+>> visibility=0.36, confrontation=0.25
+
+
+============================== ROUND 45 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.13 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.84, opinion=-0.85):
+"You're all getting PLAYED and you know it! They promise "cheap renewables" while your bills skyrocket, then gaslight you with studies saying it's "infrastructure costs" - meanwhile Germany's paying 3x what we used to for electricity after their green transition DISASTER! Wake up - this whole racket is about transferring wealth from your wallet to subsidy farmers and grid managers who get rich off "managing" an unreliable system that blacks out when the wind stops blowing! 🔥"
+>> visibility=0.65, confrontation=0.59
+
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with rising bills - it's real and it hurts. But let's be clear about what's actually driving costs: decades of deferred grid maintenance, volatile fossil fuel prices, and yes, upfront transition investments that will pay off long-term. Multiple independent analyses show that renewable-heavy grids deliver lower electricity costs over time - Texas wind power is saving consumers billions annually, and utility-scale solar is now the cheapest electricity source in history. The alternative isn't cheaper bills, it's continued dependence on volatile fossil fuels and an aging gri"
+>> visibility=0.13, confrontation=0.10
+
+[N13-Renter] (arousal=0.93, opinion=-0.21):
+"Ugh, I'm honestly getting more confused the more I read this stuff! The expert says renewables are cheapest but then admits we're paying "one-time transition costs" - like how long is this "transition" supposed to take because my bills have been going up for YEARS and I'm tired of being told it's temporary 😩"
+>> visibility=0.21, confrontation=0.10
+
+[N16-Taxpayer] (arousal=0.93, opinion=-0.20):
+"Honestly I'm just exhausted by all this - the expert says renewables are cheapest but my bill keeps going up, the contrarian says it's all a scam but then why are utilities choosing renewables when subsidies expire?? I just want someone to explain why EVERY energy "solution" seems to make my life more expensive while everyone else argues about studies I can't even understand 😩"
+>> visibility=0.33, confrontation=0.25
+
+[N10-Student] (arousal=0.93, opinion=-0.21):
+"Ugh this is so exhausting - one person says renewables are cheapest, another says they're subsidized scams, and meanwhile I'm just sitting here staring at my $180 electric bill wondering who the hell I'm supposed to believe anymore 😩 Like can SOMEONE just admit they don't actually know what's happening instead of acting like they have all the answers??"
+>> visibility=0.24, confrontation=0.10
+
+
+============================== ROUND 46 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.14 | Avg Arousal: 0.93 | Avg Anger: 0.00
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N5 (Citizen) shifted to CONTRARIAN
+- Previous position: -0.29
+- New position: -0.31
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N6 (Voter) shifted to CONTRARIAN
+- Previous position: -0.29
+- New position: -0.31
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N8 (Parent) shifted to CONTRARIAN
+- Previous position: -0.30
+- New position: -0.32
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N9 (Worker) shifted to CONTRARIAN
+- Previous position: -0.29
+- New position: -0.31
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N10 (Student) shifted to CONTRARIAN
+- Previous position: -0.29
+- New position: -0.31
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N12 (Homeowner) shifted to CONTRARIAN
+- Previous position: -0.29
+- New position: -0.31
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N13 (Renter) shifted to CONTRARIAN
+- Previous position: -0.29
+- New position: -0.31
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N16 (Taxpayer) shifted to CONTRARIAN
+- Previous position: -0.30
+- New position: -0.32
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N18 (Curious) shifted to CONTRARIAN
+- Previous position: -0.29
+- New position: -0.31
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N19 (Observer) shifted to CONTRARIAN
+- Previous position: -0.30
+- New position: -0.32
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N21 (Reader) shifted to CONTRARIAN
+- Previous position: -0.29
+- New position: -0.31
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+
+============================================================
+CONVERSION EVENT @ Round 46
+Agent N22 (Questioner) shifted to CONTRARIAN
+- Previous position: -0.29
+- New position: -0.31
+- Emotional state: arousal=1.00, anger=0.00
+============================================================
+
+----------------------------------------------------------------------
+[N18-Curious] (arousal=0.93, opinion=-0.27):
+"I'm starting to think EVERYONE is playing games with the numbers here - like why can't anyone just show me ONE place where people's actual monthly bills went down after going renewable without having to explain away a million other costs?? Just want to see real people saying "my bill used to be $150, now it's $100" but instead it's all these complicated studies while my own bill keeps climbing 😤"
+>> visibility=0.17, confrontation=0.00
+
+[N14-Driver] (arousal=0.93, opinion=-0.23):
+"This is honestly making me lose my mind - everyone keeps throwing around different numbers and examples but I STILL can't get a straight answer on why my electric bill went up 30% this year while everyone's arguing about whether renewables are cheap or expensive! Can someone just tell me what's actually driving MY costs up instead of fighting about Germany?? 😤"
+>> visibility=0.33, confrontation=0.15
+
+[N8-Parent] (arousal=0.93, opinion=-0.28):
+"I'm so tired of feeling like I'm being lied to by EVERYONE - the contrarian keeps showing all these places where bills went up with renewables but then I see other people saying those examples are cherry-picked or missing context... like HOW am I supposed to figure out what's actually true when both sides just throw competing "facts" at each other while my electric bill keeps climbing no matter what?? 😫"
+>> visibility=0.28, confrontation=0.25
+
+[S3-Analyst] (arousal=0.93, opinion=+0.62):
+"Look, I get the frustration with bills, but let's be clear about what's actually happening: renewables ARE driving down wholesale electricity prices - that's why utilities keep choosing them even without subsidies. The disconnect you're seeing is that retail bills include decades of legacy infrastructure costs, recent supply chain inflation, and necessary grid investments that benefit ALL energy sources. Research consistently shows that countries and states with higher renewable penetration have more stable long-term energy costs - Germany's early issues were from poorly designed policies, not renewables themselves."
+>> visibility=0.13, confrontation=0.08
+
+[S4-Pragmatist] (arousal=0.93, opinion=+0.74):
+"Look, I get the frustration about energy costs, but let's check the actual data here. Texas has massive renewable buildout and some of the lowest electricity rates in the US - wind power there is literally undercutting fossil fuels WITHOUT subsidies. The transition costs are real but temporary, while the fuel cost savings from renewables are permanent - research from Lazard and the EIA consistently shows unsubsidized renewables beating coal and gas on price. Yes, we need grid investments, but we'd need those anyway for an aging system, and countries like Denmark have"
+>> visibility=0.10, confrontation=0.00
+
+
+============================== ROUND 47 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.11 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N17-Skeptic] (arousal=0.93, opinion=-0.26):
+"Wait HOLD UP - if renewables are actually cheapest then why is EVERYONE here saying their bills went up?? Like either the math is completely wrong or we're all getting scammed somewhere in between the "cheap" energy and our actual monthly payments! I'm so confused and honestly getting pissed that nobody can explain this basic disconnect! 😡"
+>> visibility=0.60, confrontation=0.40
+
+[N10-Student] (arousal=0.93, opinion=-0.28):
+"Seriously, I'm about to lose my mind here - EVERYONE keeps saying renewables are cheap but my electric bill has gone up like 30% this year and I just want ONE person to explain when I'm actually supposed to see these mythical savings instead of just being told to trust the process while I'm bleeding money every month! 😤"
+>> visibility=0.17, confrontation=0.00
+
+[N18-Curious] (arousal=0.93, opinion=-0.27):
+"EXACTLY - I'm so sick of being told renewables are "cheapest" while my bill keeps climbing! Like either the math is totally wrong or someone is straight up lying to us about where our money is actually going... and honestly at this point I don't even know who to believe anymore because EVERYONE seems to have an agenda! 😡"
+>> visibility=0.34, confrontation=0.25
+
+[N5-Citizen] (arousal=0.93, opinion=-0.27):
+"I'm honestly getting scared that I'm never going to understand this stuff well enough to know who's telling the truth - like everyone sounds so confident but they're saying completely opposite things and meanwhile I'm just sitting here watching my electric bill eat up more of my paycheck every month! 😰 How is a regular person supposed to figure out if we're being scammed or if this is actually going to work out??"
+>> visibility=0.38, confrontation=0.15
+
+[N15-Commuter] (arousal=0.93, opinion=-0.21):
+"I'm so damn frustrated - everyone keeps throwing numbers around but my actual bill keeps going UP and nobody can explain why in plain English! Like are we getting scammed by energy companies using the green transition as cover to jack up prices, or are renewables actually expensive and we're being lied to about the "savings"?? I just want someone to be honest about what's really happening to our bills! 😤"
+>> visibility=0.66, confrontation=0.40
+
+
+============================== ROUND 48 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.09 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"Wake up people! The "researcher" just admitted we're paying for BOTH old AND new infrastructure - that's exactly the SCAM I've been warning you about! They want you to pay twice while promising savings "someday" that never come. This is the biggest wealth transfer from working families to green cronies in history, and they're gaslighting you into thinking your skyrocketing bills are somehow good for you!"
+>> visibility=0.77, confrontation=0.69
+
+[N8-Parent] (arousal=0.93, opinion=-0.26):
+"This is exactly what's driving me crazy - the researcher just said renewables ARE cheaper but then admits we're paying for BOTH old AND new systems?? So basically we get screwed with higher bills during this magical "transition period" that could last who knows how long, while they promise savings are "flowing through" someday... like how is this different from the contrarians saying it's all a shell game? 😤"
+>> visibility=0.32, confrontation=0.20
+
+[N11-Retiree] (arousal=0.93, opinion=-0.23):
+"Okay but then WHY is the researcher saying wholesale prices are down if renewables are cheaper, but my actual bill keeps going UP?? Like I want to believe the science but this "transition period" excuse feels like they're asking me to just trust that my bills will magically drop someday while I'm literally struggling to pay them RIGHT NOW! 😤"
+>> visibility=0.29, confrontation=0.10
+
+[N22-Questioner] (arousal=0.93, opinion=-0.24):
+"Wait hold on - the researcher is saying renewables ARE cheaper but we're paying for old AND new stuff at the same time?? That actually makes some sense but like... how long is this "transition period" supposed to last because I can't keep paying these insane bills forever while we wait for the "savings" to kick in! 😩 Is there ANY timeline for when regular people might actually see relief??"
+>> visibility=0.44, confrontation=0.20
+
+[N23-Uncertain] (arousal=0.93, opinion=-0.22):
+"Look I WANT to believe the researcher about those "wholesale prices" being lower but like... if renewables are so cheap then WHY is literally everyone I know seeing their bills go crazy high?? Either there's some massive disconnect between these studies and reality or someone's pockets are getting lined while we pay through the nose for this "transition" - and honestly I'm starting to think the contrarian folks might be right that we're just getting scammed! 😠"
+>> visibility=0.53, confrontation=0.45
+
+
+============================== ROUND 49 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.09 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N21-Reader] (arousal=0.93, opinion=-0.21):
+"This is exactly why I'm so confused right now! The expert says renewables are cheapest but then admits we're paying "transition costs" and "front-loaded investments" - like how is that different from what the contrarian is saying about us getting stuck with all the bills while they figure this out?? 😤"
+>> visibility=0.36, confrontation=0.10
+
+[N23-Uncertain] (arousal=0.93, opinion=-0.20):
+"So we're basically paying to tear down the old system AND build the new one at the same time?? No wonder my bills are insane - it's like paying rent on two apartments during a move! But how long is this "renovation" supposed to take because I can't keep bleeding money forever while waiting for these magical savings to show up! 😫"
+>> visibility=0.45, confrontation=0.10
+
+[N10-Student] (arousal=0.93, opinion=-0.21):
+"Honestly I'm getting whiplash from all this - the expert says renewables are cheapest but then admits we're still paying for "transition costs" and old infrastructure while the contrarian is screaming we're being scammed... like can SOMEONE just tell me straight up: when will my actual electric bill stop going up every damn month?? 😤"
+>> visibility=0.41, confrontation=0.25
+
+[N7-Consumer] (arousal=0.93, opinion=-0.20):
+"Wait so the Expert is saying we're paying for "decades of fossil fuel infrastructure" while ALSO paying to build new renewable stuff - like we're literally getting double-charged for TWO different energy systems at the same time?? 🤦‍♀️ No wonder nobody can give a straight answer about when our bills actually go down - we're funding EVERYTHING!"
+>> visibility=0.31, confrontation=0.00
+
+
+============================== ROUND 50 ==============================
+Opinion Distribution: Contrarian=1, Neutral=20, Consensus=4
+Avg Opinion: -0.06 | Avg Arousal: 0.93 | Avg Anger: 0.00
+----------------------------------------------------------------------
+[N15-Commuter] (arousal=0.93, opinion=-0.19):
+"This is exactly what I mean!! Everyone's throwing around "cheapest energy ever" while I'm literally stressing about whether I can afford to run my heat this winter - like HOW is it the cheapest if we're all broke paying for it?? Something is seriously not adding up here and I'm tired of being told I'm too dumb to understand why paying more is actually paying less! 😤"
+>> visibility=0.58, confrontation=0.25
+
+[C0-Contrarian] (arousal=0.93, opinion=-0.85):
+"Wake up people! While they're all arguing over whether renewables are "cheap," YOUR bills are skyrocketing because we're paying TRIPLE - once for the unreliable wind/solar that barely works, again for the backup gas plants we still need when the wind stops blowing, and a third time through taxes to subsidize this whole green scam! Meanwhile China is building nuclear plants like crazy while we're stuck with an unstable grid that can't even handle a cold snap without rolling blackouts! 😡"
+>> visibility=0.65, confrontation=0.35
+
+[N18-Curious] (arousal=0.93, opinion=-0.21):
+"Wait hold up - so we're paying subsidies to prop up renewables that are supposedly "cheapest ever" AND we're still paying to keep old power plants running as backup AND our bills are going up?? This literally makes NO sense - like how is this saving us money if we're paying for EVERYTHING at once?! 😤"
+>> visibility=0.43, confrontation=0.10
+
+[N8-Parent] (arousal=0.93, opinion=-0.22):
+"I'm starting to think we're all getting played here - like maybe the whole "cheap vs expensive" argument is designed to distract us while EVERYONE makes money off our confusion?? Because whether it's fossil fuel companies OR renewable companies OR utilities, they all seem to be doing just fine while we're all here arguing and paying more! 😤"
+>> visibility=0.40, confrontation=0.10
+
+[N11-Retiree] (arousal=0.93, opinion=-0.20):
+"This is EXACTLY what I mean! Everyone keeps saying "oh renewables are cheap BUT you have to pay for this and this and this first" - like how is that cheap?? I feel like I'm being told the car is free but I have to buy the engine, wheels, and gas separately! When do we actually get to the part where my damn electric bill goes DOWN instead of hearing about more costs we're supposedly investing in?? 😡"
+>> visibility=0.47, confrontation=0.08
+
+
+======================================================================
+SIMULATION COMPLETE
+======================================================================
+
+INITIAL DISTRIBUTION:
+  Contrarian: 1
+  Neutral: 20
+  Consensus: 4
+
+FINAL DISTRIBUTION:
+  Contrarian: 1
+  Neutral: 20
+  Consensus: 4
+
+CHANGES:
+  Contrarian: +0
+  Neutral: +0
+  Consensus: +0
+
+Total Conversions: 12
+  To Contrarian: 12
+  To Consensus: 0
