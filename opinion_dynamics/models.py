@@ -27,6 +27,96 @@ class AgentRole(Enum):
     NEUTRAL_OBSERVER = "neutral_observer"
 
 
+class PersonalityType(Enum):
+    """
+    Personality types affecting how neutrals process information.
+
+    Based on dual-process theory (Kahneman) and individual differences
+    in persuasion susceptibility (Petty & Cacioppo's ELM).
+    """
+    # Analytical types - process via central route
+    ANALYTICAL = "analytical"       # Demands evidence, resistant to emotional appeals
+
+    # Emotional types - process via peripheral route
+    REACTIVE = "reactive"           # Highly swayed by emotional intensity
+
+    # Social types - influenced by perceived consensus
+    CONFORMIST = "conformist"       # Follows what seems like majority view
+
+    # Low-engagement types
+    DISENGAGED = "disengaged"       # Slow to shift, low attention
+
+    # Balanced types
+    BALANCED = "balanced"           # Weighs both emotional and logical content
+
+
+@dataclass
+class PersonalityTraits:
+    """
+    Traits that modify how an agent processes persuasive content.
+
+    Each trait is a multiplier (1.0 = neutral, >1 = amplifies, <1 = dampens).
+    """
+    # How much emotional content affects opinion
+    emotional_susceptibility: float = 1.0
+
+    # How much logical/evidence-based content affects opinion
+    analytical_weight: float = 1.0
+
+    # How much repeated exposure matters (conformity)
+    social_proof_sensitivity: float = 1.0
+
+    # Overall speed of opinion change (engagement level)
+    change_rate: float = 1.0
+
+    # Resistance to reversing direction (stubbornness)
+    reversal_resistance: float = 1.0
+
+    @classmethod
+    def from_personality(cls, personality: PersonalityType) -> "PersonalityTraits":
+        """Create traits based on personality type."""
+        if personality == PersonalityType.ANALYTICAL:
+            return cls(
+                emotional_susceptibility=0.4,   # Resistant to emotional appeals
+                analytical_weight=1.8,          # Weighs evidence heavily
+                social_proof_sensitivity=0.6,   # Less swayed by crowd
+                change_rate=0.7,                # Slow, deliberate changes
+                reversal_resistance=1.5         # Holds positions once formed
+            )
+        elif personality == PersonalityType.REACTIVE:
+            return cls(
+                emotional_susceptibility=1.8,   # Highly swayed by emotion
+                analytical_weight=0.5,          # Discounts dry arguments
+                social_proof_sensitivity=1.0,   # Average social influence
+                change_rate=1.4,                # Quick to shift
+                reversal_resistance=0.7         # Can flip back easily
+            )
+        elif personality == PersonalityType.CONFORMIST:
+            return cls(
+                emotional_susceptibility=1.0,   # Average emotional response
+                analytical_weight=0.8,          # Some analytical capacity
+                social_proof_sensitivity=2.0,   # Strongly follows crowd
+                change_rate=1.0,                # Average speed
+                reversal_resistance=0.5         # Will follow if crowd shifts
+            )
+        elif personality == PersonalityType.DISENGAGED:
+            return cls(
+                emotional_susceptibility=0.6,   # Muted emotional response
+                analytical_weight=0.6,          # Doesn't engage deeply
+                social_proof_sensitivity=0.8,   # Somewhat follows crowd
+                change_rate=0.4,                # Very slow to change
+                reversal_resistance=1.2         # Inertia-based stability
+            )
+        else:  # BALANCED
+            return cls(
+                emotional_susceptibility=1.0,
+                analytical_weight=1.0,
+                social_proof_sensitivity=1.0,
+                change_rate=1.0,
+                reversal_resistance=1.0
+            )
+
+
 @dataclass
 class EmotionalState:
     """
@@ -139,10 +229,28 @@ class Opinion:
     - Negative: "Nuclear only! Renewables are a scam! Markets are rigged!"
     - Positive: "Balanced mix, trust the market, renewables are viable"
     - Near zero: Genuinely undecided
+
+    Cognitive Investment Model:
+    When an agent shifts their opinion, they invest cognitive effort in:
+    - Evaluating arguments and forming the new position
+    - Justifying the shift to themselves
+    - Potentially expressing the view to others
+
+    This investment creates a "ratchet effect" - reversals require overcoming
+    the sunk cost of previous cognitive work, making opinion changes increasingly
+    irreversible. This matches research showing opinions form slowly and
+    resist reversal once formed.
     """
     position: float              # -1.0 to +1.0
     confidence: float = 0.5      # 0.0=uncertain, 1.0=absolutely certain
     stability: float = 0.3       # Resistance to change (grows over time)
+
+    # Cognitive investment: accumulated effort in current position direction
+    # Higher values make reversals harder (must overcome sunk cost)
+    cognitive_investment: float = 0.0
+
+    # Track the direction of accumulated investment (negative = contrarian, positive = consensus)
+    investment_direction: float = 0.0
 
     # Track position history for trajectory visualization
     position_history: List[float] = field(default_factory=list)
@@ -160,35 +268,94 @@ class Opinion:
         influence: float,
         source_trust: float,
         emotional_impact: float,
-        is_contrarian_source: bool = False
+        is_contrarian_source: bool = False,
+        logical_coherence: float = 0.5,
+        personality_traits: Optional["PersonalityTraits"] = None
     ) -> float:
         """
         Update opinion based on external influence.
+
+        Implements:
+        - Cognitive investment model (opinions become sticky)
+        - Personality-based processing (different people respond differently)
 
         Args:
             influence: Direction and strength of influence (-1 to +1)
             source_trust: Trust in the source (0 to 1)
             emotional_impact: Emotional intensity of the content (0 to 1)
             is_contrarian_source: Whether source is a known contrarian
+            logical_coherence: Quality of argumentation (0 to 1)
+            personality_traits: Agent's personality affecting information processing
 
         Returns:
             The actual change applied (for tracking conversion moments)
         """
-        # Calculate susceptibility: uncertain, unstable opinions change more
+        import math
+
+        # Use default traits if not provided
+        if personality_traits is None:
+            personality_traits = PersonalityTraits()
+
+        # Calculate base susceptibility: uncertain, unstable opinions change more
         susceptibility = (1 - self.confidence * 0.4) * (1 - self.stability * 0.3)
 
+        # === PERSONALITY-MODIFIED INFLUENCE ===
+        # Emotional vs analytical processing based on personality
+        emotional_weight = emotional_impact * personality_traits.emotional_susceptibility
+        analytical_weight = logical_coherence * personality_traits.analytical_weight
+
+        # Combined content effectiveness (normalized)
+        content_effectiveness = (emotional_weight + analytical_weight) / 2.0
+
         # Emotional impact increases susceptibility (less rational evaluation)
-        susceptibility *= (1 + emotional_impact * 0.4)
+        # But analytical personalities resist this effect
+        emotional_susceptibility_boost = emotional_impact * 0.4 * personality_traits.emotional_susceptibility
+        susceptibility *= (1 + emotional_susceptibility_boost)
+
+        # Apply overall change rate from personality
+        susceptibility *= personality_traits.change_rate
 
         # Backlash effect: extremely provocative content can backfire
+        # Analytical types are MORE likely to have backlash to emotional manipulation
         if emotional_impact > 0.8 and is_contrarian_source:
-            # 30% chance of reactance (moving opposite direction)
+            backlash_probability = 0.3 * (2.0 - personality_traits.emotional_susceptibility)
             import random
-            if random.random() < 0.3:
+            if random.random() < backlash_probability:
                 influence = -influence * 0.5
 
-        # Calculate and apply delta
-        delta = influence * source_trust * susceptibility * 0.15
+        # === COGNITIVE INVESTMENT MECHANISM ===
+        # Determine if this influence is a reversal or reinforcement
+        influence_sign = -1 if influence < 0 else (1 if influence > 0 else 0)
+        investment_sign = -1 if self.investment_direction < 0 else (1 if self.investment_direction > 0 else 0)
+
+        if influence_sign != 0 and investment_sign != 0 and influence_sign != investment_sign:
+            # REVERSAL: Moving against accumulated cognitive investment
+            # Personality affects reversal resistance
+            base_resistance = math.exp(-self.cognitive_investment * 2.0)
+            personality_resistance_mod = personality_traits.reversal_resistance
+            reversal_resistance = base_resistance ** personality_resistance_mod
+            effective_influence = influence * reversal_resistance
+
+            # Reversals slowly erode existing investment
+            # Conformists erode faster (will follow crowd)
+            erosion_rate = 0.02 / personality_traits.reversal_resistance
+            self.cognitive_investment = max(0.0, self.cognitive_investment - abs(influence) * erosion_rate)
+        else:
+            # REINFORCEMENT: Moving with the flow, or first movement
+            effective_influence = influence
+
+            # Build cognitive investment proportional to the shift
+            investment_gain = abs(influence) * source_trust * 0.15 * personality_traits.reversal_resistance
+            self.cognitive_investment = min(2.0, self.cognitive_investment + investment_gain)
+
+            # Update investment direction
+            if influence_sign != 0:
+                self.investment_direction = (
+                    self.investment_direction * 0.8 + influence_sign * 0.2
+                )
+
+        # Calculate and apply delta (include content effectiveness)
+        delta = effective_influence * source_trust * susceptibility * content_effectiveness * 0.15
         old_position = self.position
         self.position = max(-1.0, min(1.0, self.position + delta))
 
@@ -325,6 +492,10 @@ class Agent:
     emotional_state: EmotionalState = field(default_factory=EmotionalState)
     behavior_metrics: BehaviorMetrics = field(default_factory=BehaviorMetrics)
 
+    # Personality type (for neutrals - affects information processing)
+    personality: PersonalityType = PersonalityType.BALANCED
+    personality_traits: PersonalityTraits = field(default_factory=PersonalityTraits)
+
     # Memory: recent posts seen (sliding window)
     memory: List[str] = field(default_factory=list)
 
@@ -425,8 +596,8 @@ class SimulationConfig:
     num_neutrals: int = 20
 
     # Simulation parameters
-    num_rounds: int = 50
-    posts_per_round: int = 5
+    num_rounds: int = 100  # Extended for slower opinion dynamics
+    posts_per_round: int = 6
 
     # Amplification weights
     emotion_weight: float = 0.4
@@ -439,7 +610,7 @@ class SimulationConfig:
 
     # API settings
     model: str = "claude-sonnet-4-20250514"
-    max_tokens_per_response: int = 120
+    max_tokens_per_response: int = 80  # ~280 characters, tweet-length
 
     # Debate topic
     debate_topic: str = (

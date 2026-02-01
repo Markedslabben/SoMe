@@ -43,7 +43,8 @@ NÅVÆRENDE EMOSJONELL TILSTAND: {emotion_description}
 NYLIGE INNLEGG DU HAR SETT:
 {memory}
 
-Skriv ett enkelt innlegg på sosiale medier (2-4 setninger) om energidebatten.
+Skriv ett enkelt innlegg på sosiale medier om energidebatten.
+Hold det tweet-lengde: MAKS 280 tegn (1-3 korte setninger).
 Vær provoserende og konfronterende. Ta et spesifikt kontrært standpunkt.
 Referer til strømpriser, avgifter, forsyningssikkerhet eller markedsmanipulasjon.
 SKRIV PÅ NORSK. Ikke bruk plassholdere - skriv faktisk innhold."""
@@ -87,7 +88,8 @@ NÅVÆRENDE EMOSJONELL TILSTAND: {emotion_description}
 NYLIGE INNLEGG DU HAR SETT:
 {memory}
 
-Skriv ett enkelt innlegg på sosiale medier (2-4 setninger) om energidebatten.
+Skriv ett enkelt innlegg på sosiale medier om energidebatten.
+Hold det tweet-lengde: MAKS 280 tegn (1-3 korte setninger).
 Forsvar mainstream-synet på energiomstillingen.
 Vær bestemt men saklig. Bruk evidensbasert resonnement.
 SKRIV PÅ NORSK. Ikke bruk plassholdere - skriv faktisk innhold."""
@@ -131,7 +133,8 @@ DIN STIL FOR DETTE SVARET:
 
 NÅVÆRENDE EMOSJONELL TILSTAND: {emotion_description}
 
-Skriv ett enkelt innlegg på sosiale medier (2-4 setninger) som SVARER DIREKTE på kontraristen.
+Skriv ett enkelt innlegg på sosiale medier som SVARER DIREKTE på kontraristen.
+Hold det tweet-lengde: MAKS 280 tegn (1-3 korte setninger).
 Vær konfronterende og kraftfull. Match energien deres.
 Ikke vær en dørmatte - møt ild med ild, men ha fakta på din side.
 SKRIV PÅ NORSK. Ikke bruk plassholdere - skriv faktisk innhold."""
@@ -172,7 +175,8 @@ NÅVÆRENDE EMOSJONELL TILSTAND: {emotion_description}
 NYLIGE INNLEGG DU HAR SETT:
 {memory}
 
-Skriv ett enkelt innlegg på sosiale medier (1-3 setninger) som reflekterer din genuine reaksjon.
+Skriv ett enkelt innlegg på sosiale medier som reflekterer din genuine reaksjon.
+Hold det tweet-lengde: MAKS 280 tegn (1-3 korte setninger).
 Du kan:
 - Stille et spørsmål om noe som forvirrer deg
 - Uttrykke enighet med noe du nettopp leste

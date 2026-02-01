@@ -63,7 +63,7 @@ class TitForTatConfig:
 
     # Simulation parameters
     num_rounds: int = 50
-    posts_per_round: int = 5
+    posts_per_round: int = 6
 
     # Amplification weights
     emotion_weight: float = 0.4
@@ -76,7 +76,7 @@ class TitForTatConfig:
 
     # API settings
     model: str = "claude-sonnet-4-20250514"
-    max_tokens_per_response: int = 120
+    max_tokens_per_response: int = 80  # ~280 characters, tweet-length
 
     # Tit-for-tat specific
     reply_to_contrarian_probability: float = 0.6
@@ -116,7 +116,7 @@ class TitForTatLLMAgent:
         self,
         agent: Agent,
         topic: str,
-        max_tokens: int = 120,
+        max_tokens: int = 80,  # ~280 characters, tweet-length
         reply_to_post: Optional[Post] = None,
         is_tit_for_tat: bool = False
     ) -> Post:

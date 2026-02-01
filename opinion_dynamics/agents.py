@@ -256,7 +256,7 @@ class LLMAgent:
         self,
         agent: Agent,
         topic: str,
-        max_tokens: int = 120
+        max_tokens: int = 80  # ~280 characters, tweet-length
     ) -> Post:
         """
         Generate a post from an agent based on their state.
@@ -264,7 +264,7 @@ class LLMAgent:
         Args:
             agent: The agent generating the post
             topic: The debate topic
-            max_tokens: Maximum tokens for response
+            max_tokens: Maximum tokens for response (~80 tokens ≈ 280 chars)
 
         Returns:
             Post object with content and analyzed metrics

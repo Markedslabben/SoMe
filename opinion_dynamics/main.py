@@ -42,14 +42,14 @@ def run_experiment(
         num_consensus=4,
         num_neutrals=20,
         num_rounds=num_rounds,
-        posts_per_round=5,
+        posts_per_round=6,
         debate_topic=(
             "The Energy Transition: Should we rely primarily on renewables, nuclear, "
             "or a mix? How should the electricity market be structured? "
             "Are current consumer electricity prices and energy taxes justified?"
         ),
         model="claude-sonnet-4-20250514",
-        max_tokens_per_response=120
+        max_tokens_per_response=80  # ~280 characters, tweet-length
     )
 
     # Initialize and run
@@ -70,26 +70,25 @@ def run_experiment(
     engine = SimulationEngine(config, api_key)
     tracker = engine.run_simulation(verbose=verbose)
 
-    # Generate timestamp
+    # Generate timestamp and create simulation-specific folder
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-    # Create output directory
-    os.makedirs(output_dir, exist_ok=True)
+    sim_dir = f"{output_dir}/sim_{timestamp}"
+    os.makedirs(sim_dir, exist_ok=True)
 
     # Save transcript
-    transcript_path = f"{output_dir}/debate_transcript_{timestamp}.txt"
+    transcript_path = f"{sim_dir}/debate_transcript.txt"
     tracker.save_transcript(transcript_path)
     if verbose:
         print(f"\nTranscript saved: {transcript_path}")
 
     # Save data export
-    data_path = f"{output_dir}/simulation_data_{timestamp}.json"
+    data_path = f"{sim_dir}/simulation_data.json"
     tracker.save_data(data_path)
     if verbose:
         print(f"Data export saved: {data_path}")
 
-    # Generate visualizations
-    viz_files = save_all_visualizations(tracker, output_dir, timestamp)
+    # Generate visualizations (no timestamp in filenames since folder is unique)
+    viz_files = save_all_visualizations(tracker, sim_dir, "")
     if verbose:
         print(f"Visualizations saved: {len(viz_files)} files")
         for f in viz_files:
@@ -159,7 +158,7 @@ def run_experiment(
         print(f"    Interpretation: {bias_analysis['interpretation']}")
         print()
         print("=" * 60)
-        print(f"All results saved to: {output_dir}/")
+        print(f"All results saved to: {sim_dir}/")
         print("=" * 60)
 
     return summary

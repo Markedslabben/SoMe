@@ -15,7 +15,8 @@ import random
 from typing import List, Optional
 from models import (
     Agent, AgentRole, Opinion, EmotionalState, Post,
-    SimulationConfig, ConversionEvent, BehaviorMetrics
+    SimulationConfig, ConversionEvent, BehaviorMetrics,
+    PersonalityType, PersonalityTraits
 )
 from agents import LLMAgent
 from emotions import EmotionalEngine, calculate_response_probability
@@ -109,14 +110,43 @@ class SimulationEngine:
             agent_id += 1
 
         # === NEUTRAL AGENTS (20) ===
-        neutral_names = [
-            "Citizen", "Voter", "Consumer", "Parent", "Worker",
-            "Student", "Retiree", "Homeowner", "Renter", "Driver",
-            "Commuter", "Taxpayer", "Skeptic", "Curious", "Observer",
-            "Listener", "Reader", "Questioner", "Uncertain", "Newcomer"
+        # Names now reflect personality types for clarity
+        neutral_configs = [
+            # Analytical types (20%) - demand evidence, resist emotion
+            ("Skeptic", PersonalityType.ANALYTICAL),
+            ("Engineer", PersonalityType.ANALYTICAL),
+            ("Analyst", PersonalityType.ANALYTICAL),
+            ("Researcher", PersonalityType.ANALYTICAL),
+            # Reactive types (20%) - highly swayed by emotion
+            ("Worried", PersonalityType.REACTIVE),
+            ("Frustrated", PersonalityType.REACTIVE),
+            ("Anxious", PersonalityType.REACTIVE),
+            ("Outraged", PersonalityType.REACTIVE),
+            # Conformist types (20%) - follow perceived majority
+            ("Follower", PersonalityType.CONFORMIST),
+            ("Agreeable", PersonalityType.CONFORMIST),
+            ("Moderate", PersonalityType.CONFORMIST),
+            ("Mainstream", PersonalityType.CONFORMIST),
+            # Disengaged types (20%) - slow to change, low attention
+            ("Casual", PersonalityType.DISENGAGED),
+            ("Busy", PersonalityType.DISENGAGED),
+            ("Lurker", PersonalityType.DISENGAGED),
+            ("Passive", PersonalityType.DISENGAGED),
+            # Balanced types (20%) - weighs both sides
+            ("Curious", PersonalityType.BALANCED),
+            ("OpenMinded", PersonalityType.BALANCED),
+            ("Thoughtful", PersonalityType.BALANCED),
+            ("Undecided", PersonalityType.BALANCED),
         ]
+
         for i in range(self.config.num_neutrals):
-            name = neutral_names[i] if i < len(neutral_names) else f"Neutral_{i}"
+            if i < len(neutral_configs):
+                name, personality = neutral_configs[i]
+            else:
+                # Extra neutrals get random personality
+                name = f"Neutral_{i}"
+                personality = random.choice(list(PersonalityType))
+
             # Slight random variation in starting position
             start_pos = random.uniform(-0.2, 0.2)
 
@@ -136,7 +166,9 @@ class SimulationEngine:
                     anger=0.0,
                     anxiety=0.4          # Uncertain = anxious
                 ),
-                behavior_metrics=BehaviorMetrics()
+                behavior_metrics=BehaviorMetrics(),
+                personality=personality,
+                personality_traits=PersonalityTraits.from_personality(personality)
             ))
             agent_id += 1
 
@@ -286,12 +318,14 @@ class SimulationEngine:
                         agent.get_trust(post.author_id)
                     )
 
-                    # Apply opinion update
+                    # Apply opinion update (personality-aware)
                     delta = agent.opinion.update(
                         influence=influence_dir * influence_str,
                         source_trust=agent.get_trust(post.author_id),
                         emotional_impact=post.emotional_intensity,
-                        is_contrarian_source=is_contrarian
+                        is_contrarian_source=is_contrarian,
+                        logical_coherence=post.logical_coherence,
+                        personality_traits=agent.personality_traits
                     )
 
                     # Track potentially influential post

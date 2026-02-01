@@ -42,7 +42,8 @@ CURRENT EMOTIONAL STATE: {emotion_description}
 RECENT POSTS YOU'VE SEEN:
 {memory}
 
-Write a single social media post (2-4 sentences) about the energy debate.
+Write a single social media post about the energy debate.
+Keep it tweet-length: MAX 280 characters (1-3 short sentences).
 Be provocative and confrontational. Take a specific contrarian position.
 Reference energy prices, taxes, grid stability, or market manipulation.
 Do NOT use placeholders - write actual substantive content."""
@@ -85,7 +86,8 @@ CURRENT EMOTIONAL STATE: {emotion_description}
 RECENT POSTS YOU'VE SEEN:
 {memory}
 
-Write a single social media post (2-4 sentences) about the energy debate.
+Write a single social media post about the energy debate.
+Keep it tweet-length: MAX 280 characters (1-3 short sentences).
 Defend the mainstream view on energy transition.
 Be firm but civil. Use evidence-based reasoning.
 Do NOT use placeholders - write actual substantive content."""
@@ -128,7 +130,8 @@ YOUR STYLE FOR THIS REPLY:
 
 CURRENT EMOTIONAL STATE: {emotion_description}
 
-Write a single social media post (2-4 sentences) that DIRECTLY RESPONDS to the contrarian.
+Write a single social media post that DIRECTLY RESPONDS to the contrarian.
+Keep it tweet-length: MAX 280 characters (1-3 short sentences).
 Be confrontational and forceful. Match their energy.
 Don't be a doormat - fight fire with fire, but keep the facts on your side.
 Do NOT use placeholders - write actual substantive content."""
@@ -169,7 +172,8 @@ CURRENT EMOTIONAL STATE: {emotion_description}
 RECENT POSTS YOU'VE SEEN:
 {memory}
 
-Write a single social media post (1-3 sentences) that reflects your genuine reaction.
+Write a single social media post that reflects your genuine reaction.
+Keep it tweet-length: MAX 280 characters (1-3 short sentences).
 You might:
 - Ask a question about something that confuses you
 - Express agreement with something you just read

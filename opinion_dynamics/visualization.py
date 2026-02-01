@@ -377,14 +377,14 @@ def create_dashboard(tracker: SimulationTracker) -> go.Figure:
     return fig
 
 
-def save_all_visualizations(tracker: SimulationTracker, output_dir: str, timestamp: str) -> List[str]:
+def save_all_visualizations(tracker: SimulationTracker, output_dir: str, timestamp: str = "") -> List[str]:
     """
     Generate and save all visualizations.
 
     Args:
         tracker: SimulationTracker with data
         output_dir: Directory to save files
-        timestamp: Timestamp for filenames
+        timestamp: Optional timestamp suffix for filenames (empty = no suffix)
 
     Returns:
         List of saved file paths
@@ -394,33 +394,36 @@ def save_all_visualizations(tracker: SimulationTracker, output_dir: str, timesta
 
     saved_files = []
 
+    # Build suffix (empty or _timestamp)
+    suffix = f"_{timestamp}" if timestamp else ""
+
     # 1. Opinion trajectories
     fig = create_opinion_trajectories(tracker)
-    path = f"{output_dir}/opinion_trajectories_{timestamp}.html"
+    path = f"{output_dir}/opinion_trajectories{suffix}.html"
     fig.write_html(path)
     saved_files.append(path)
 
     # 2. Behavioral heatmap
     fig = create_behavioral_heatmap(tracker)
-    path = f"{output_dir}/behavioral_heatmap_{timestamp}.html"
+    path = f"{output_dir}/behavioral_heatmap{suffix}.html"
     fig.write_html(path)
     saved_files.append(path)
 
     # 3. Emotional climate
     fig = create_emotional_climate_chart(tracker)
-    path = f"{output_dir}/emotional_climate_{timestamp}.html"
+    path = f"{output_dir}/emotional_climate{suffix}.html"
     fig.write_html(path)
     saved_files.append(path)
 
     # 4. Opinion distribution
     fig = create_opinion_distribution_chart(tracker)
-    path = f"{output_dir}/opinion_distribution_{timestamp}.html"
+    path = f"{output_dir}/opinion_distribution{suffix}.html"
     fig.write_html(path)
     saved_files.append(path)
 
     # 5. Combined dashboard
     fig = create_dashboard(tracker)
-    path = f"{output_dir}/dashboard_{timestamp}.html"
+    path = f"{output_dir}/dashboard{suffix}.html"
     fig.write_html(path)
     saved_files.append(path)
 
