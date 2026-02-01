@@ -154,6 +154,22 @@ class SimulationTracker:
             trajectories[agent_id] = [s.confrontation_avg for s in snapshots]
         return trajectories
 
+    def get_emotional_trajectories(self) -> Dict[str, Dict[str, List[float]]]:
+        """
+        Get emotional state trajectories for all agents.
+
+        Returns:
+            Dict mapping agent_id to dict with 'arousal', 'anger', 'engagement' lists
+        """
+        trajectories = {}
+        for agent_id, snapshots in self.agent_histories.items():
+            trajectories[agent_id] = {
+                'arousal': [s.arousal for s in snapshots],
+                'anger': [s.anger for s in snapshots],
+                'engagement': [s.engagement for s in snapshots]
+            }
+        return trajectories
+
     def generate_transcript(self) -> str:
         """
         Generate full debate transcript as readable text.
@@ -331,6 +347,11 @@ def detect_conversion(
     """
     Check if an agent just converted (crossed opinion threshold).
 
+    Each agent can only convert ONCE per direction. Once they've converted
+    to contrarian, subsequent threshold crossings in that direction are ignored.
+    This prevents the same agent from being counted multiple times due to
+    opinion bouncing around the threshold.
+
     Args:
         agent: The agent to check
         round_num: Current round number
@@ -350,8 +371,9 @@ def detect_conversion(
     if agent.role.name != "NEUTRAL_OBSERVER":
         return None
 
-    # Check if crossed contrarian threshold (-0.3)
-    if prev_pos >= -0.3 and curr_pos < -0.3:
+    # Check if crossed contrarian threshold (-0.3) AND hasn't already converted
+    if prev_pos >= -0.3 and curr_pos < -0.3 and not agent.has_converted_to_contrarian:
+        agent.has_converted_to_contrarian = True  # Mark as converted
         return ConversionEvent(
             round_num=round_num,
             agent_id=agent.id,
@@ -365,8 +387,9 @@ def detect_conversion(
             agent_anger=agent.emotional_state.anger
         )
 
-    # Check if crossed consensus threshold (+0.3)
-    if prev_pos <= 0.3 and curr_pos > 0.3:
+    # Check if crossed consensus threshold (+0.3) AND hasn't already converted
+    if prev_pos <= 0.3 and curr_pos > 0.3 and not agent.has_converted_to_consensus:
+        agent.has_converted_to_consensus = True  # Mark as converted
         return ConversionEvent(
             round_num=round_num,
             agent_id=agent.id,

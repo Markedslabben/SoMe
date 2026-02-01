@@ -451,6 +451,35 @@ The appropriate analogy: LLM agents in social media simulation are comparable to
 
 ---
 
+## Research Literature Support
+
+**BLUF: While this study is exploratory and uses LLM agents rather than human subjects, the core mechanisms identified align strongly with established empirical research. The simulation demonstrates dynamics consistent with peer-reviewed findings, lending theoretical validity to the mechanistic claims.**
+
+### Mechanism-Level Evidence Assessment
+
+| Simulation Finding | Literature Support | Confidence |
+|-------------------|-------------------|------------|
+| Algorithmic amplification of emotional/conflict content | Audit studies confirm engagement algorithms favor anger-inducing content (Brady et al. 2021; Bail et al. 2018) | **Strong** |
+| Exposure → influence without deep persuasion | Illusory truth effect: repetition increases perceived truth independent of accuracy (Hasher et al. 1977; Pennycook et al. 2018) | **Strong** |
+| Minority positions appearing dominant (majority illusion) | Network science demonstrates rare positions can appear common due to visibility/structure (Lerman et al. 2016) | **Strong** |
+| Framing adoption cascades (40% in simulation) | Norm contagion and social learning literature supports linguistic/frame transmission (Centola & Macy 2007) | **Strong** |
+| Non-linear threshold dynamics (Round 46 tipping point) | Complex systems literature supports phase transitions in social systems (Granovetter 1978; Centola 2018) | **Moderate** — threshold values require calibration |
+| Conversion magnitudes (60% conversion) | Directionally valid per persuasion research; specific percentages require human validation | **Moderate** — empirical calibration needed |
+
+### Honest Limitations
+
+This remains an exploratory study with important constraints:
+
+- **LLM agents model linguistic outputs, not human cognition** — agents produce text patterns consistent with human discourse but lack genuine affective states or cognitive processes
+- **Single-issue debate** — energy policy dynamics may not generalize to other domains
+- **Magnitude uncertainty** — the 60% conversion rate and Round 46 tipping point are illustrative, not predictive of specific human outcomes
+
+### Positioning
+
+This study demonstrates that engagement-optimized algorithms create structural conditions consistent with empirically documented mechanisms of opinion influence. The contribution is mechanistic clarity—showing *how* algorithmic amplification, cognitive vulnerabilities, and social dynamics combine—rather than precise behavioral prediction. The mechanisms are literature-supported; the magnitudes require human calibration.
+
+---
+
 ## Conclusion
 
 This experiment demonstrates that engagement-optimized algorithms interact with human cognitive architecture to produce systematic bias favoring emotionally provocative minority positions over reasoned majority positions. The mechanism operates through visibility asymmetry (8.7x advantage), cognitive exploitation (peripheral route processing), and social amplification (spiral of silence, emotional contagion, framing adoption).

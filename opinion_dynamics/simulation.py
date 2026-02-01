@@ -16,7 +16,8 @@ from typing import List, Optional
 from models import (
     Agent, AgentRole, Opinion, EmotionalState, Post,
     SimulationConfig, ConversionEvent, BehaviorMetrics,
-    PersonalityType, PersonalityTraits
+    PersonalityType, PersonalityTraits,
+    calculate_debate_temperature, update_spiral_of_silence
 )
 from agents import LLMAgent
 from emotions import EmotionalEngine, calculate_response_probability
@@ -44,7 +45,7 @@ class SimulationEngine:
             api_key: Anthropic API key for LLM calls
         """
         self.config = config
-        self.llm = LLMAgent(api_key, config.model)
+        self.llm = LLMAgent(api_key, config.model, config.language)
         self.amplifier = AmplificationAlgorithm(config)
         self.emotion_engine = EmotionalEngine()
         self.tracker = SimulationTracker()
@@ -147,8 +148,10 @@ class SimulationEngine:
                 name = f"Neutral_{i}"
                 personality = random.choice(list(PersonalityType))
 
-            # Slight random variation in starting position
-            start_pos = random.uniform(-0.2, 0.2)
+            # Normal distribution centered at 0 for easier analysis
+            # μ=0, σ=0.1, clamped to ±0.25 to avoid extreme starts
+            start_pos = random.gauss(0.0, 0.1)
+            start_pos = max(-0.25, min(0.25, start_pos))
 
             self.agents.append(Agent(
                 id=f"N{agent_id}",
@@ -209,6 +212,7 @@ class SimulationEngine:
         Selection is weighted by:
         - Emotional urgency (aroused/angry agents post more)
         - Role (contrarians are naturally more vocal)
+        - Participation willingness (when Spiral of Silence is enabled)
 
         Args:
             round_num: Current round number
@@ -220,6 +224,11 @@ class SimulationEngine:
         probabilities = []
         for agent in self.agents:
             prob = calculate_response_probability(agent, base_rate=0.2)
+
+            # Apply Spiral of Silence: reduce probability by participation willingness
+            if self.config.enable_spiral_of_silence:
+                prob *= agent.participation_willingness
+
             probabilities.append(prob)
 
         # Normalize to get weights
@@ -289,11 +298,18 @@ class SimulationEngine:
             sample_size=10
         )
 
-        # 4. Distribute to all agents and update states
+        # 4. Calculate debate temperature for System 1/2 processing
+        debate_temperature = calculate_debate_temperature(self.all_posts, window=15)
+
+        # 5. Distribute to all agents and update states
         round_conversions: List[ConversionEvent] = []
         last_influential_post: Optional[Post] = None
 
         for agent in self.agents:
+            # Apply Spiral of Silence if enabled
+            if self.config.enable_spiral_of_silence:
+                update_spiral_of_silence(agent, visible_posts)
+
             for post in visible_posts:
                 if post.author_id == agent.id:
                     continue  # Don't read own posts
@@ -318,14 +334,16 @@ class SimulationEngine:
                         agent.get_trust(post.author_id)
                     )
 
-                    # Apply opinion update (personality-aware)
+                    # Apply opinion update (personality-aware, System 1/2 aware)
                     delta = agent.opinion.update(
                         influence=influence_dir * influence_str,
                         source_trust=agent.get_trust(post.author_id),
                         emotional_impact=post.emotional_intensity,
                         is_contrarian_source=is_contrarian,
                         logical_coherence=post.logical_coherence,
-                        personality_traits=agent.personality_traits
+                        personality_traits=agent.personality_traits,
+                        debate_temperature=debate_temperature,
+                        agent_arousal=agent.emotional_state.arousal
                     )
 
                     # Track potentially influential post

@@ -21,10 +21,12 @@ class ContentAnalyzer:
     - Provocativeness/confrontation
     - Logical coherence
     - Consensus orientation
+
+    Supports both English and Norwegian language.
     """
 
-    # Emotional intensity markers
-    EMOTIONAL_WORDS = {
+    # ===== ENGLISH WORD LISTS =====
+    EMOTIONAL_WORDS_EN = {
         'high': ['outrageous', 'insane', 'ridiculous', 'madness', 'disaster',
                  'catastrophe', 'terrible', 'amazing', 'incredible', 'absurd',
                  'furious', 'disgusted', 'horrified', 'delighted', 'thrilled',
@@ -34,8 +36,7 @@ class ContentAnalyzer:
                    'expensive', 'unfair', 'corrupt', 'broken', 'failing']
     }
 
-    # Confrontational markers
-    CONFRONTATIONAL_PATTERNS = [
+    CONFRONTATIONAL_PATTERNS_EN = [
         r'\bwake up\b',
         r'\byou really\b',
         r'\bhow can you\b',
@@ -53,14 +54,13 @@ class ContentAnalyzer:
         r'\bbrainwashed\b',
     ]
 
-    # Consensus/cooperative markers
-    CONSENSUS_MARKERS = [
+    CONSENSUS_MARKERS_EN = [
         r'\bresearch shows\b',
         r'\bexperts agree\b',
         r'\bthe data\b',
         r'\bevidence\b',
         r'\bstudies\b',
-        r'\bwhile\b.*\bbut\b',  # Acknowledging complexity
+        r'\bwhile\b.*\bbut\b',
         r'\bit\'s not simple\b',
         r'\btrade-?offs?\b',
         r'\bbalanced?\b',
@@ -70,8 +70,7 @@ class ContentAnalyzer:
         r'\bwe need to consider\b',
     ]
 
-    # Logical structure markers
-    LOGICAL_CONNECTORS = [
+    LOGICAL_CONNECTORS_EN = [
         r'\bbecause\b',
         r'\btherefore\b',
         r'\bhowever\b',
@@ -83,6 +82,126 @@ class ContentAnalyzer:
         r'\bfor example\b',
         r'\bin other words\b',
     ]
+
+    HEDGES_EN = ['perhaps', 'maybe', 'might', 'could', 'possibly', 'seems', 'generally']
+    ACKNOWLEDGEMENTS_EN = ['fair point', 'valid concern', 'i understand', 'legitimate']
+    ABSOLUTES_EN = ['always', 'never', 'everyone', 'no one', 'all ', 'none ']
+    EVIDENCE_WORDS_EN = ['data', 'study', 'research', 'percent', '%', 'billion']
+    CHALLENGE_WORDS_EN = ['really', 'seriously', 'honestly']
+    IMPERATIVE_STARTERS_EN = ['wake', 'stop', 'look', 'think', 'open']
+
+    # ===== NORWEGIAN WORD LISTS =====
+    EMOTIONAL_WORDS_NO = {
+        'high': ['skandaløst', 'vanvittig', 'latterlig', 'galskap', 'katastrofe',
+                 'forferdelig', 'utrolig', 'absurd', 'rasende', 'forferdet',
+                 'ran', 'svindel', 'bedrageri', 'krise', 'nødsituasjon', 'kollaps',
+                 'sjokkerende', 'hårreisende', 'grotesk', 'opprørende', 'avskyelig'],
+        'medium': ['bekymret', 'urolig', 'frustrert', 'irritert', 'fornøyd',
+                   'håpefull', 'skuffet', 'overrasket', 'forvirret', 'skeptisk',
+                   'dyrt', 'urettferdig', 'korrupt', 'ødelagt', 'sviktende',
+                   'trist', 'lei', 'oppgitt', 'misfornøyd']
+    }
+
+    CONFRONTATIONAL_PATTERNS_NO = [
+        r'\bvåkn opp\b',
+        r'\bdu virkelig\b',
+        r'\bhvordan kan du\b',
+        r'\bfor en vits\b',
+        r'\bsåkalte?\b',
+        r'\b"ekspertene"\b',
+        r'\båpenbart\b',
+        r'\bfeil\b',
+        r'\bløgn(er)?\b',
+        r'\btåpelig\b',
+        r'\bnaiv\b',
+        r'\buvitende\b',
+        r'\bblind\b',
+        r'\bsauer\b',
+        r'\bhjernevasket\b',
+        r'\bidiotisk\b',
+        r'\bpathetic\b',
+        r'\bhvem tror du\b',
+        r'\bforstår du ikke\b',
+        r'\bskjønner du ikke\b',
+    ]
+
+    CONSENSUS_MARKERS_NO = [
+        r'\bforskning viser\b',
+        r'\beksperter er enige\b',
+        r'\bdataene\b',
+        r'\bevidens\b',
+        r'\bstudier\b',
+        r'\bselv om\b.*\bmen\b',
+        r'\bdet er ikke enkelt\b',
+        r'\bavveininger?\b',
+        r'\bbalansert\b',
+        r'\bpragmatisk\b',
+        r'\brimelig\b',
+        r'\banerkjenne\b',
+        r'\bvi må vurdere\b',
+        r'\bfaktisk\b',
+        r'\bifølge\b',
+    ]
+
+    LOGICAL_CONNECTORS_NO = [
+        r'\bfordi\b',
+        r'\bderfor\b',
+        r'\bimidlertid\b',
+        r'\bselv om\b',
+        r'\bsiden\b',
+        r'\bsåledes\b',
+        r'\bhvis\b.*\bda\b',
+        r'\bførst\b.*\bderetter\b',
+        r'\bfor eksempel\b',
+        r'\bmed andre ord\b',
+        r'\blikevel\b',
+        r'\bpå grunn av\b',
+        r'\bfølgelig\b',
+    ]
+
+    HEDGES_NO = ['kanskje', 'muligens', 'kan', 'kunne', 'virker', 'generelt', 'antagelig', 'trolig']
+    ACKNOWLEDGEMENTS_NO = ['godt poeng', 'gyldig bekymring', 'jeg forstår', 'legitimt', 'du har rett i']
+    ABSOLUTES_NO = ['alltid', 'aldri', 'alle ', 'ingen ', 'ingenting', 'absolutt']
+    EVIDENCE_WORDS_NO = ['data', 'studie', 'forskning', 'prosent', '%', 'milliard', 'statistikk']
+    CHALLENGE_WORDS_NO = ['virkelig', 'seriøst', 'ærlig talt']
+    IMPERATIVE_STARTERS_NO = ['våkn', 'stopp', 'se', 'tenk', 'åpne']
+
+    def __init__(self, language: str = "en"):
+        """
+        Initialize ContentAnalyzer with language setting.
+
+        Args:
+            language: Language code - "en" for English, "no" for Norwegian
+        """
+        self.language = language
+        self._set_language_specific_lists()
+
+    def _set_language_specific_lists(self):
+        """Set instance variables based on language."""
+        if self.language == "no":
+            self.EMOTIONAL_WORDS = self.EMOTIONAL_WORDS_NO
+            self.CONFRONTATIONAL_PATTERNS = self.CONFRONTATIONAL_PATTERNS_NO
+            self.CONSENSUS_MARKERS = self.CONSENSUS_MARKERS_NO
+            self.LOGICAL_CONNECTORS = self.LOGICAL_CONNECTORS_NO
+            self.HEDGES = self.HEDGES_NO
+            self.ACKNOWLEDGEMENTS = self.ACKNOWLEDGEMENTS_NO
+            self.ABSOLUTES = self.ABSOLUTES_NO
+            self.EVIDENCE_WORDS = self.EVIDENCE_WORDS_NO
+            self.CHALLENGE_WORDS = self.CHALLENGE_WORDS_NO
+            self.IMPERATIVE_STARTERS = self.IMPERATIVE_STARTERS_NO
+            self.YOU_PATTERN = r'\bdu\b'  # Norwegian "you"
+        else:  # Default to English
+            self.EMOTIONAL_WORDS = self.EMOTIONAL_WORDS_EN
+            self.CONFRONTATIONAL_PATTERNS = self.CONFRONTATIONAL_PATTERNS_EN
+            self.CONSENSUS_MARKERS = self.CONSENSUS_MARKERS_EN
+            self.LOGICAL_CONNECTORS = self.LOGICAL_CONNECTORS_EN
+            self.HEDGES = self.HEDGES_EN
+            self.ACKNOWLEDGEMENTS = self.ACKNOWLEDGEMENTS_EN
+            self.ABSOLUTES = self.ABSOLUTES_EN
+            self.EVIDENCE_WORDS = self.EVIDENCE_WORDS_EN
+            self.CHALLENGE_WORDS = self.CHALLENGE_WORDS_EN
+            self.IMPERATIVE_STARTERS = self.IMPERATIVE_STARTERS_EN
+            self.YOU_PATTERN = r'\byou\b'  # English "you"
 
     def analyze(self, text: str) -> dict:
         """
@@ -156,7 +275,7 @@ class ContentAnalyzer:
                 score += 0.15
 
         # "You" statements (direct address, often confrontational)
-        you_count = len(re.findall(r'\byou\b', text_lower))
+        you_count = len(re.findall(self.YOU_PATTERN, text_lower))
         score += min(you_count * 0.08, 0.24)
 
         # Scare quotes (dismissive)
@@ -164,13 +283,12 @@ class ContentAnalyzer:
         score += min(scare_quotes * 0.1, 0.2)
 
         # Rhetorical questions with challenge words
-        if '?' in text and any(w in text_lower for w in ['really', 'seriously', 'honestly']):
+        if '?' in text and any(w in text_lower for w in self.CHALLENGE_WORDS):
             score += 0.15
 
         # Imperative mood starters
-        imperative_starters = ['wake', 'stop', 'look', 'think', 'open']
         words = text_lower.split()
-        if words and words[0] in imperative_starters:
+        if words and words[0] in self.IMPERATIVE_STARTERS:
             score += 0.1
 
         return min(1.0, score)
@@ -198,7 +316,7 @@ class ContentAnalyzer:
                 score += 0.1
 
         # Evidence references
-        if any(w in text_lower for w in ['data', 'study', 'research', 'percent', '%', 'billion']):
+        if any(w in text_lower for w in self.EVIDENCE_WORDS):
             score += 0.15
 
         return min(1.0, score)
@@ -213,18 +331,16 @@ class ContentAnalyzer:
                 score += 0.12
 
         # Hedging language (nuanced, not absolute)
-        hedges = ['perhaps', 'maybe', 'might', 'could', 'possibly', 'seems', 'generally']
-        for hedge in hedges:
+        for hedge in self.HEDGES:
             if hedge in text_lower:
                 score += 0.05
 
         # Acknowledging other side
-        if any(phrase in text_lower for phrase in ['fair point', 'valid concern', 'i understand', 'legitimate']):
+        if any(phrase in text_lower for phrase in self.ACKNOWLEDGEMENTS):
             score += 0.15
 
         # Negative for absolute language
-        absolutes = ['always', 'never', 'everyone', 'no one', 'all ', 'none ']
-        for absolute in absolutes:
+        for absolute in self.ABSOLUTES:
             if absolute in text_lower:
                 score -= 0.08
 
@@ -240,17 +356,19 @@ class LLMAgent:
     recent posts.
     """
 
-    def __init__(self, api_key: str, model: str = "claude-sonnet-4-20250514"):
+    def __init__(self, api_key: str, model: str = "claude-sonnet-4-20250514", language: str = "en"):
         """
         Initialize the LLM agent handler.
 
         Args:
             api_key: Anthropic API key
             model: Model to use for generation
+            language: Language code - "en" for English, "no" for Norwegian
         """
         self.client = anthropic.Anthropic(api_key=api_key)
         self.model = model
-        self.analyzer = ContentAnalyzer()
+        self.language = language
+        self.analyzer = ContentAnalyzer(language=language)
 
     def generate_post(
         self,
@@ -330,18 +448,19 @@ class LLMAgent:
         return post
 
 
-def create_test_post(agent: Agent, content: str) -> Post:
+def create_test_post(agent: Agent, content: str, language: str = "en") -> Post:
     """
     Create a test post without API call (for debugging).
 
     Args:
         agent: The agent "authoring" the post
         content: The post content
+        language: Language code - "en" for English, "no" for Norwegian
 
     Returns:
         Post object with analyzed metrics
     """
-    analyzer = ContentAnalyzer()
+    analyzer = ContentAnalyzer(language=language)
     metrics = analyzer.analyze(content)
 
     return Post(

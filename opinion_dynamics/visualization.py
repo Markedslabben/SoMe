@@ -91,8 +91,11 @@ def create_opinion_trajectories(tracker: SimulationTracker) -> go.Figure:
             showlegend=False
         ))
 
+    # Determine actual number of rounds from data
+    num_rounds = len(tracker.round_summaries) if tracker.round_summaries else 0
+
     fig.update_layout(
-        title='Opinion Trajectories Over 50 Rounds',
+        title=f'Opinion Trajectories Over {num_rounds} Rounds',
         xaxis_title='Round',
         yaxis_title='Opinion Position (-1 Contrarian, +1 Consensus)',
         yaxis=dict(range=[-1.1, 1.1]),
@@ -155,6 +158,70 @@ def create_behavioral_heatmap(tracker: SimulationTracker) -> go.Figure:
 
     fig.update_layout(
         title='Behavioral Heatmap: Confrontation Level Over Time',
+        xaxis_title='Round',
+        yaxis_title='Agent (sorted by final opinion)',
+        template='plotly_white',
+        height=600
+    )
+
+    return fig
+
+
+def create_emotional_heatmap(tracker: SimulationTracker) -> go.Figure:
+    """
+    Create heatmap showing emotional intensity (arousal) per agent over time.
+
+    - Rows: Agents (sorted by final opinion)
+    - Columns: Rounds
+    - Color: Arousal level (yellow/red=high, blue=low)
+
+    This complements the confrontation heatmap by showing the internal
+    emotional state rather than the expressed confrontation level.
+    """
+    emotional_trajectories = tracker.get_emotional_trajectories()
+
+    if not emotional_trajectories:
+        fig = go.Figure()
+        fig.add_annotation(text="No data available", xref="paper", yref="paper", x=0.5, y=0.5)
+        return fig
+
+    # Sort agents by final opinion position
+    final_opinions = {}
+    for agent_id, snapshots in tracker.agent_histories.items():
+        if snapshots:
+            final_opinions[agent_id] = snapshots[-1].opinion_position
+
+    sorted_agents = sorted(final_opinions.keys(), key=lambda x: final_opinions[x])
+
+    # Build heatmap data (using arousal as the primary emotional intensity measure)
+    z_data = []
+    agent_labels = []
+
+    for agent_id in sorted_agents:
+        if agent_id in emotional_trajectories:
+            z_data.append(emotional_trajectories[agent_id]['arousal'])
+            final_pos = final_opinions[agent_id]
+            agent_labels.append(f"{agent_id} ({final_pos:+.2f})")
+
+    if not z_data:
+        fig = go.Figure()
+        fig.add_annotation(text="No emotional data", xref="paper", yref="paper", x=0.5, y=0.5)
+        return fig
+
+    num_rounds = len(tracker.round_summaries) if tracker.round_summaries else 0
+    rounds = list(range(len(z_data[0]))) if z_data else []
+
+    fig = go.Figure(data=go.Heatmap(
+        z=z_data,
+        x=rounds,
+        y=agent_labels,
+        colorscale='YlOrRd',  # Yellow-Orange-Red: Yellow=low, Red=high arousal
+        colorbar=dict(title='Emotional<br>Arousal'),
+        hovertemplate='Agent: %{y}<br>Round: %{x}<br>Arousal: %{z:.3f}<extra></extra>'
+    ))
+
+    fig.update_layout(
+        title=f'Emotional Intensity Heatmap: Arousal Level Over {num_rounds} Rounds',
         xaxis_title='Round',
         yaxis_title='Agent (sorted by final opinion)',
         template='plotly_white',
@@ -403,25 +470,31 @@ def save_all_visualizations(tracker: SimulationTracker, output_dir: str, timesta
     fig.write_html(path)
     saved_files.append(path)
 
-    # 2. Behavioral heatmap
+    # 2. Behavioral heatmap (confrontation)
     fig = create_behavioral_heatmap(tracker)
     path = f"{output_dir}/behavioral_heatmap{suffix}.html"
     fig.write_html(path)
     saved_files.append(path)
 
-    # 3. Emotional climate
+    # 3. Emotional intensity heatmap (arousal)
+    fig = create_emotional_heatmap(tracker)
+    path = f"{output_dir}/emotional_heatmap{suffix}.html"
+    fig.write_html(path)
+    saved_files.append(path)
+
+    # 4. Emotional climate (aggregate)
     fig = create_emotional_climate_chart(tracker)
     path = f"{output_dir}/emotional_climate{suffix}.html"
     fig.write_html(path)
     saved_files.append(path)
 
-    # 4. Opinion distribution
+    # 5. Opinion distribution
     fig = create_opinion_distribution_chart(tracker)
     path = f"{output_dir}/opinion_distribution{suffix}.html"
     fig.write_html(path)
     saved_files.append(path)
 
-    # 5. Combined dashboard
+    # 6. Combined dashboard
     fig = create_dashboard(tracker)
     path = f"{output_dir}/dashboard{suffix}.html"
     fig.write_html(path)

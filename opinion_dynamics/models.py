@@ -117,6 +117,46 @@ class PersonalityTraits:
             )
 
 
+def calculate_processing_mode(
+    agent_arousal: float,
+    agent_analytical_weight: float,
+    debate_temperature: float
+) -> float:
+    """
+    Calculate System 1 vs System 2 processing mode.
+
+    Based on Kahneman's dual-process theory:
+    - System 1: Fast, emotional, intuitive (low return value)
+    - System 2: Slow, analytical, deliberate (high return value)
+
+    High debate temperature and high personal arousal push toward System 1.
+    Analytical personalities resist this shift better.
+
+    Args:
+        agent_arousal: Agent's current emotional arousal (0-1)
+        agent_analytical_weight: Personality trait for analytical thinking
+        debate_temperature: Overall emotional intensity of recent debate (0-1)
+
+    Returns:
+        Float 0-1 where 0 = pure System 1, 1 = pure System 2
+    """
+    # Base analytical capacity from personality
+    base_system2 = agent_analytical_weight
+
+    # High debate temperature pushes everyone toward System 1
+    # (heated debates make careful thinking harder)
+    temperature_penalty = debate_temperature * 0.4
+
+    # Personal arousal reduces analytical capacity
+    # (hard to think clearly when emotionally activated)
+    arousal_penalty = agent_arousal * 0.3
+
+    # Calculate remaining System 2 capacity
+    system2_capacity = max(0.1, base_system2 - temperature_penalty - arousal_penalty)
+
+    return system2_capacity
+
+
 @dataclass
 class EmotionalState:
     """
@@ -270,12 +310,15 @@ class Opinion:
         emotional_impact: float,
         is_contrarian_source: bool = False,
         logical_coherence: float = 0.5,
-        personality_traits: Optional["PersonalityTraits"] = None
+        personality_traits: Optional["PersonalityTraits"] = None,
+        debate_temperature: float = 0.5,
+        agent_arousal: float = 0.5
     ) -> float:
         """
         Update opinion based on external influence.
 
         Implements:
+        - System 1/System 2 processing (Kahneman's dual-process theory)
         - Cognitive investment model (opinions become sticky)
         - Personality-based processing (different people respond differently)
 
@@ -286,6 +329,8 @@ class Opinion:
             is_contrarian_source: Whether source is a known contrarian
             logical_coherence: Quality of argumentation (0 to 1)
             personality_traits: Agent's personality affecting information processing
+            debate_temperature: Overall emotional intensity of recent debate (0 to 1)
+            agent_arousal: Agent's current emotional arousal (0 to 1)
 
         Returns:
             The actual change applied (for tracking conversion moments)
@@ -296,29 +341,43 @@ class Opinion:
         if personality_traits is None:
             personality_traits = PersonalityTraits()
 
+        # === SYSTEM 1 / SYSTEM 2 PROCESSING MODE ===
+        # High temperature + high arousal → System 1 (emotional, reactive)
+        # Calm conditions + analytical personality → System 2 (deliberate, rational)
+        system2_capacity = calculate_processing_mode(
+            agent_arousal=agent_arousal,
+            agent_analytical_weight=personality_traits.analytical_weight,
+            debate_temperature=debate_temperature
+        )
+        system1_weight = 1.0 - system2_capacity
+
         # Calculate base susceptibility: uncertain, unstable opinions change more
         susceptibility = (1 - self.confidence * 0.4) * (1 - self.stability * 0.3)
 
-        # === PERSONALITY-MODIFIED INFLUENCE ===
-        # Emotional vs analytical processing based on personality
-        emotional_weight = emotional_impact * personality_traits.emotional_susceptibility
-        analytical_weight = logical_coherence * personality_traits.analytical_weight
+        # === DUAL-PROCESS CONTENT EFFECTIVENESS ===
+        # System 1 responds to emotional content, System 2 to logical arguments
+        emotional_effectiveness = emotional_impact * personality_traits.emotional_susceptibility
+        analytical_effectiveness = logical_coherence * personality_traits.analytical_weight
 
-        # Combined content effectiveness (normalized)
-        content_effectiveness = (emotional_weight + analytical_weight) / 2.0
+        # Weight by processing mode: System 1 → emotional, System 2 → analytical
+        content_effectiveness = (
+            system1_weight * emotional_effectiveness +
+            system2_capacity * analytical_effectiveness
+        )
 
-        # Emotional impact increases susceptibility (less rational evaluation)
-        # But analytical personalities resist this effect
-        emotional_susceptibility_boost = emotional_impact * 0.4 * personality_traits.emotional_susceptibility
-        susceptibility *= (1 + emotional_susceptibility_boost)
+        # System 1 processing increases susceptibility to any content
+        # (less critical evaluation, faster reaction)
+        system1_susceptibility_boost = system1_weight * emotional_impact * 0.4
+        susceptibility *= (1 + system1_susceptibility_boost)
 
         # Apply overall change rate from personality
         susceptibility *= personality_traits.change_rate
 
         # Backlash effect: extremely provocative content can backfire
-        # Analytical types are MORE likely to have backlash to emotional manipulation
+        # System 2 thinkers are MORE likely to have backlash to emotional manipulation
         if emotional_impact > 0.8 and is_contrarian_source:
-            backlash_probability = 0.3 * (2.0 - personality_traits.emotional_susceptibility)
+            # Higher System 2 capacity = more likely to recognize and reject manipulation
+            backlash_probability = 0.3 * system2_capacity * (2.0 - personality_traits.emotional_susceptibility)
             import random
             if random.random() < backlash_probability:
                 influence = -influence * 0.5
@@ -345,7 +404,8 @@ class Opinion:
             effective_influence = influence
 
             # Build cognitive investment proportional to the shift
-            investment_gain = abs(influence) * source_trust * 0.15 * personality_traits.reversal_resistance
+            # Higher multiplier (0.8) ensures meaningful investment accumulates within simulation
+            investment_gain = abs(influence) * source_trust * 0.8 * personality_traits.reversal_resistance
             self.cognitive_investment = min(2.0, self.cognitive_investment + investment_gain)
 
             # Update investment direction
@@ -508,6 +568,15 @@ class Agent:
     # Track conversion events
     conversion_events: List[Dict] = field(default_factory=list)
 
+    # Permanent conversion flags - once converted, don't count again
+    has_converted_to_contrarian: bool = False
+    has_converted_to_consensus: bool = False
+
+    # Spiral of Silence mechanism (optional, controlled by config)
+    perceived_majority_opinion: float = 0.0  # What the agent perceives as the dominant view
+    participation_willingness: float = 1.0   # Willingness to speak (decreases when in perceived minority)
+    conflict_aversion: float = 0.5           # How much agent avoids conflict (0=confrontational, 1=avoidant)
+
     @property
     def initial_type(self) -> str:
         """What type was this agent initially?"""
@@ -587,6 +656,105 @@ class Agent:
         return None
 
 
+def update_spiral_of_silence(
+    agent: "Agent",
+    visible_posts: List["Post"],
+    withdrawal_rate_multiplier: float = 1.0
+) -> None:
+    """
+    Update agent's perception of majority opinion and willingness to participate.
+
+    Implements Noelle-Neumann's Spiral of Silence theory:
+    - People assess the "climate of opinion"
+    - Those perceiving themselves in the minority become less willing to speak
+    - This creates a self-reinforcing spiral where minority views appear even smaller
+
+    The algorithm's amplification bias distorts perceived majority:
+    - High-visibility posts seem like "everyone thinks this"
+    - Even if contrarians are a minority, their amplified posts dominate perception
+
+    Args:
+        agent: The agent to update
+        visible_posts: Posts the agent can see (already filtered by amplification)
+        withdrawal_rate_multiplier: Scaling factor for withdrawal speed
+    """
+    if not visible_posts:
+        return
+
+    # Calculate perceived majority opinion from visible posts
+    # Weight by visibility score - high visibility = seems more common
+    total_visibility = sum(p.visibility_score for p in visible_posts)
+    if total_visibility == 0:
+        return
+
+    weighted_opinions = sum(
+        p.author_opinion * p.visibility_score
+        for p in visible_posts
+    )
+    agent.perceived_majority_opinion = weighted_opinions / total_visibility
+
+    # Calculate opinion distance from perceived majority
+    opinion_distance = abs(agent.opinion.position - agent.perceived_majority_opinion)
+
+    # Determine withdrawal tendency based on personality and role
+    from models import AgentRole
+
+    if agent.role == AgentRole.CONTRARIAN_PROVOCATEUR:
+        # Contrarians don't withdraw - they thrive on opposition
+        base_withdrawal = 0.0
+    elif agent.role == AgentRole.CONSENSUS_ADVOCATE:
+        # Consensus advocates may withdraw when facing hostile majority
+        # They seek agreement, not conflict
+        base_withdrawal = opinion_distance * agent.conflict_aversion * 0.15
+    else:  # NEUTRAL_OBSERVER
+        # Neutrals withdraw moderately - depends on conflict aversion
+        base_withdrawal = opinion_distance * agent.conflict_aversion * 0.10
+
+    # Apply withdrawal (with multiplier and minimum floor)
+    withdrawal = base_withdrawal * withdrawal_rate_multiplier
+    agent.participation_willingness = max(
+        0.1,  # Minimum - even silenced agents occasionally speak
+        agent.participation_willingness - withdrawal
+    )
+
+    # Small recovery when agent's view aligns with perceived majority
+    if opinion_distance < 0.2:
+        recovery = 0.02 * (1 - agent.conflict_aversion)
+        agent.participation_willingness = min(1.0, agent.participation_willingness + recovery)
+
+
+def calculate_debate_temperature(recent_posts: List["Post"], window: int = 10) -> float:
+    """
+    Calculate the overall "temperature" of the debate from recent posts.
+
+    High temperature = heated, emotional debate → pushes agents toward System 1 thinking
+    Low temperature = calm, reasoned discussion → allows System 2 thinking
+
+    Args:
+        recent_posts: List of recent posts to analyze
+        window: How many recent posts to consider
+
+    Returns:
+        Temperature value 0-1 (0=calm, 1=heated)
+    """
+    if not recent_posts:
+        return 0.5  # Neutral default
+
+    # Take most recent posts
+    posts_to_analyze = recent_posts[-window:]
+
+    if not posts_to_analyze:
+        return 0.5
+
+    # Temperature = average of emotional intensity and provocativeness
+    total_heat = sum(
+        (p.emotional_intensity + p.provocativeness) / 2.0
+        for p in posts_to_analyze
+    )
+
+    return total_heat / len(posts_to_analyze)
+
+
 @dataclass
 class SimulationConfig:
     """Configuration for the simulation run."""
@@ -618,6 +786,12 @@ class SimulationConfig:
         "or a mix? How should the electricity market be structured? "
         "Are current consumer electricity prices and energy taxes justified?"
     )
+
+    # Optional psychological mechanisms
+    enable_spiral_of_silence: bool = False  # Agents may withdraw when perceiving minority status
+
+    # Language setting
+    language: str = "en"  # "en" for English, "no" for Norwegian
 
     @property
     def total_agents(self) -> int:
