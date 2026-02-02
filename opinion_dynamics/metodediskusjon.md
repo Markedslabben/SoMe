@@ -238,10 +238,31 @@ LLM-agenter er ikke mennesker. De:
 
 ## Referanser
 
+### Algoritmisk forsterkning og sosiale medier
 - Bail, C. A., et al. (2018). Exposure to opposing views on social media can increase political polarization. PNAS.
+- Bail, C. A. (2021). Breaking the Social Media Prism: How to Make Our Platforms Less Polarizing. Princeton University Press.
 - Brady, W. J., et al. (2017). Emotion shapes the diffusion of moralized content in social networks. PNAS.
-- Brehm, J. W., & Cohen, A. R. (1962). Explorations in Cognitive Dissonance.
-- Festinger, L. (1957). A Theory of Cognitive Dissonance.
-- Kahneman, D. (2011). Thinking, Fast and Slow.
+- Sunstein, C. R. (2017). #Republic: Divided Democracy in the Age of Social Media. Princeton University Press.
+- Zuboff, S. (2019). The Age of Surveillance Capitalism. PublicAffairs.
+
+### Kognitiv prosessering og beslutningsteori
+- Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux.
+- Petty, R. E., & Cacioppo, J. T. (1986). The Elaboration Likelihood Model of Persuasion. Advances in Experimental Social Psychology.
+- Sharot, T., et al. (2011). How unrealistic optimism is maintained in the face of reality. Nature Neuroscience.
+
+### Kognitiv dissonans og holdningspersistens
+- Aronson, E., & Mills, J. (1959). The effect of severity of initiation on liking for a group. Journal of Abnormal and Social Psychology.
+- Brehm, J. W., & Cohen, A. R. (1962). Explorations in Cognitive Dissonance. Wiley.
+- Cialdini, R. B. (2006). Influence: The Psychology of Persuasion (rev. ed.). Harper Business.
+- Festinger, L. (1957). A Theory of Cognitive Dissonance. Stanford University Press.
+- Ross, L., Lepper, M. R., & Hubbard, M. (1975). Perseverance in self-perception and social perception. Journal of Personality and Social Psychology.
+- Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. Organizational Behavior and Human Performance.
+
+### Identitet og motivert resonnering
+- Kahan, D. M., et al. (2012). The polarizing impact of science literacy and numeracy on perceived climate change risks. Nature Climate Change.
+
+### Taushetsspiralen og offentlig mening
 - Noelle-Neumann, E. (1974). The Spiral of Silence: A Theory of Public Opinion. Journal of Communication.
-- Petty, R. E., & Cacioppo, J. T. (1986). The Elaboration Likelihood Model of Persuasion.
+
+### Deliberativt demokrati
+- Habermas, J. (1989). The Structural Transformation of the Public Sphere (orig. 1962). MIT Press.
